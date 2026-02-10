@@ -1,5 +1,5 @@
 [build]
-  command = "npm ci --legacy-peer-deps && npm run generate"
+  command = "npm ci --legacy-peer-deps && npm run generate:classes && npm run build"
   publish = ".output/public"
 
 [build.environment]
