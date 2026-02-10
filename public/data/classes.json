@@ -1,0 +1,330 @@
+[
+  {
+    "category": "Layout",
+    "utilities": [
+      {
+        "name": "DisplayFlex",
+        "property": "display: flex;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "DisplayBlock",
+        "property": "display: block;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "DisplayInline",
+        "property": "display: inline;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "DisplayNone",
+        "property": "display: none;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "DisplayGrid",
+        "property": "display: grid;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Flexbox",
+    "utilities": [
+      {
+        "name": "JustifyContentCenter",
+        "property": "justify-content: center;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "JustifyContentStart",
+        "property": "justify-content: flex-start;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "JustifyContentEnd",
+        "property": "justify-content: flex-end;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "JustifyContentBetween",
+        "property": "justify-content: space-between;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "AlignItemsCenter",
+        "property": "align-items: center;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "AlignItemsStart",
+        "property": "align-items: flex-start;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "FlexDirectionColumn",
+        "property": "flex-direction: column;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Spacing",
+    "utilities": [
+      {
+        "name": "Padding10",
+        "property": "padding: 1rem;",
+        "value": "1rem",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ],
+        "preview": {
+          "type": "box",
+          "value": "1rem"
+        }
+      },
+      {
+        "name": "Padding20",
+        "property": "padding: 2rem;",
+        "value": "2rem",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ],
+        "preview": {
+          "type": "box",
+          "value": "2rem"
+        }
+      },
+      {
+        "name": "Margin10",
+        "property": "margin: 1rem;",
+        "value": "1rem",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ],
+        "preview": {
+          "type": "box",
+          "value": "1rem"
+        }
+      },
+      {
+        "name": "MarginTop10",
+        "property": "margin-top: 1rem;",
+        "value": "1rem",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ],
+        "preview": {
+          "type": "box",
+          "value": "1rem"
+        }
+      },
+      {
+        "name": "MarginBottom10",
+        "property": "margin-bottom: 1rem;",
+        "value": "1rem",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ],
+        "preview": {
+          "type": "box",
+          "value": "1rem"
+        }
+      }
+    ]
+  },
+  {
+    "category": "Typography",
+    "utilities": [
+      {
+        "name": "FontSize16",
+        "property": "font-size: 1rem;",
+        "value": "1rem",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "FontSize32",
+        "property": "font-size: 2rem;",
+        "value": "2rem",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "FontWeightBold",
+        "property": "font-weight: 700;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "TextAlignCenter",
+        "property": "text-align: center;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Colors",
+    "utilities": [
+      {
+        "name": "ColorBlue600",
+        "property": "color: #2563eb;",
+        "value": "#2563eb",
+        "responsive": [],
+        "preview": {
+          "type": "color",
+          "value": "#2563eb"
+        }
+      },
+      {
+        "name": "ColorBlue700",
+        "property": "color: #1d4ed8;",
+        "value": "#1d4ed8",
+        "responsive": [],
+        "preview": {
+          "type": "color",
+          "value": "#1d4ed8"
+        }
+      },
+      {
+        "name": "ColorGray600",
+        "property": "color: #4b5563;",
+        "value": "#4b5563",
+        "responsive": [],
+        "preview": {
+          "type": "color",
+          "value": "#4b5563"
+        }
+      },
+      {
+        "name": "BackgroundColorBlue50",
+        "property": "background-color: #eff6ff;",
+        "value": "#eff6ff",
+        "responsive": [],
+        "preview": {
+          "type": "color",
+          "value": "#eff6ff"
+        }
+      }
+    ]
+  },
+  {
+    "category": "Borders",
+    "utilities": [
+      {
+        "name": "BorderRadius10",
+        "property": "border-radius: 0.625rem;",
+        "value": "0.625rem",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "Border1",
+        "property": "border-width: 1px;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      }
+    ]
+  }
+]
