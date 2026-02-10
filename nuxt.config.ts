@@ -40,8 +40,31 @@ export default defineNuxtConfig({
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
+      meta: [
+        { name: 'theme-color', content: '#ec4899' },
+        { name: 'mobile-web-app-capable', content: 'yes' },
+        { name: 'apple-mobile-web-app-capable', content: 'yes' },
+        { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' },
+        { name: 'msapplication-config', content: '/favicon/browserconfig.xml' },
+      ],
       link: [
+        // Favicon - primary
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        { rel: 'icon', type: 'image/svg+xml', href: '/favicon/favicon.svg' },
+
+        // Apple touch icon
+        { rel: 'apple-touch-icon', href: '/favicon/apple-touch-icon.png', sizes: '180x180' },
+
+        // Chrome/Android icons
+        { rel: 'icon', type: 'image/png', href: '/favicon/favicon-96x96.png', sizes: '96x96' },
+
+        // Web app manifest
+        { rel: 'manifest', href: '/favicon/site.webmanifest' },
+
+        // Preconnect to CDN
+        { rel: 'preconnect', href: 'https://cdn.jsdelivr.net' },
+
+        // PascalCSS stylesheet
         {
           rel: 'stylesheet',
           href: 'https://cdn.jsdelivr.net/gh/gae4it/pascal-css@v3.0.0/dist/pascal-css.min.css',
@@ -54,6 +77,9 @@ export default defineNuxtConfig({
     prerender: {
       crawlLinks: true,
       routes: ['/'],
+    },
+    externals: {
+      inline: ['unhead'],
     },
   },
 
