@@ -67,6 +67,14 @@
 import type { CategoryData } from '~/types/classes'
 import Fuse from 'fuse.js'
 
+type ClassWithCategory = {
+  name: string
+  property: string
+  value?: string
+  responsive?: string[]
+  category: string
+}
+
 useSeoMeta({
   title: 'Documentation - PascalCSS Class Reference',
   description:
@@ -99,7 +107,7 @@ const categories = computed(() => classesData.value || [])
 const fuse = computed(() => {
   if (!categories.value.length) return null
 
-  const allClasses = categories.value.flatMap((cat) =>
+  const allClasses = categories.value.flatMap((cat: CategoryData) =>
     cat.utilities.map((util) => ({
       ...util,
       category: cat.category,
@@ -121,18 +129,18 @@ const filteredClasses = computed(() => {
 
   // Filter by active category
   if (activeCategory.value) {
-    results = results.filter((cat) => cat.category === activeCategory.value)
+    results = results.filter((cat: CategoryData) => cat.category === activeCategory.value)
   }
 
   // Apply fuzzy search
   if (searchQuery.value && fuse.value) {
     const searchResults = fuse.value.search(searchQuery.value)
-    const matchedClasses = searchResults.map((result) => result.item)
+    const matchedClasses = searchResults.map((result) => result.item as ClassWithCategory)
 
     // Group back into categories
     const categoryMap = new Map<string, CategoryData>()
 
-    matchedClasses.forEach((item) => {
+    matchedClasses.forEach((item: ClassWithCategory) => {
       if (!categoryMap.has(item.category)) {
         categoryMap.set(item.category, {
           category: item.category,
