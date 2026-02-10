@@ -27,7 +27,8 @@
                     ? 'bg-green-100 text-green-700 dark:bg-green-900 dark:text-green-300'
                     : 'bg-pascal-100 text-pascal-700 hover:bg-pascal-200 dark:bg-pascal-900 dark:text-pascal-300 dark:hover:bg-pascal-800',
                 ]"
-                @click="copyCode"
+                type="button"
+                @click="() => copyCode()"
               >
                 {{ codeCopied ? 'Copied!' : 'Copy HTML' }}
               </button>

@@ -1,12 +1,12 @@
 <template>
   <button
     class="rounded-lg bg-gray-200 p-2 transition-colors hover:bg-gray-300 dark:bg-gray-800 dark:hover:bg-gray-700"
-    :aria-label="colorMode === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'"
+    :aria-label="colorMode.value === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'"
     @click="toggleDarkMode"
   >
     <!-- Sun Icon (Light Mode) -->
     <svg
-      v-if="colorMode === 'dark'"
+      v-if="colorMode.value === 'dark'"
       class="size-5 text-gray-700 dark:text-gray-300"
       fill="none"
       stroke="currentColor"
