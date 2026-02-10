@@ -1,9 +1,10 @@
 [build]
-  command = "npm run generate"
+  command = "npm ci && npm run generate"
   publish = ".output/public"
 
 [build.environment]
   NODE_VERSION = "20"
+  CI = "true"
 
 [[redirects]]
   from = "/*"
