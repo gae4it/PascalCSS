@@ -1,31 +1,35 @@
 <template>
-  <header class="sticky top-0 z-50 bg-white/80 dark:bg-gray-950/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-800">
-    <nav class="container mx-auto px-4 py-4 flex items-center justify-between">
+  <header
+    class="sticky top-0 z-50 border-b border-gray-200 bg-white/80 backdrop-blur-md dark:border-gray-800 dark:bg-gray-950/80"
+  >
+    <nav class="container mx-auto flex items-center justify-between p-4">
       <NuxtLink to="/" class="flex items-center space-x-2">
-        <div class="text-2xl font-bold bg-gradient-to-r from-pascal-600 to-pascal-400 bg-clip-text text-transparent">
+        <div
+          class="bg-gradient-to-r from-pascal-600 to-pascal-400 bg-clip-text text-2xl font-bold text-transparent"
+        >
           PascalCSS
         </div>
       </NuxtLink>
 
       <!-- Desktop Navigation -->
-      <div class="hidden md:flex items-center space-x-6">
-        <NuxtLink 
-          to="/docs" 
-          class="text-gray-700 dark:text-gray-300 hover:text-pascal-600 dark:hover:text-pascal-400 font-medium transition-colors"
+      <div class="hidden items-center space-x-6 md:flex">
+        <NuxtLink
+          to="/docs"
+          class="font-medium text-gray-700 transition-colors hover:text-pascal-600 dark:text-gray-300 dark:hover:text-pascal-400"
         >
           Documentation
         </NuxtLink>
-        <NuxtLink 
-          to="/playground" 
-          class="text-gray-700 dark:text-gray-300 hover:text-pascal-600 dark:hover:text-pascal-400 font-medium transition-colors"
+        <NuxtLink
+          to="/playground"
+          class="font-medium text-gray-700 transition-colors hover:text-pascal-600 dark:text-gray-300 dark:hover:text-pascal-400"
         >
           Playground
         </NuxtLink>
-        <a 
-          href="https://github.com/gae4it/pascal-css" 
-          target="_blank" 
+        <a
+          href="https://github.com/gae4it/pascal-css"
+          target="_blank"
           rel="noopener noreferrer"
-          class="text-gray-700 dark:text-gray-300 hover:text-pascal-600 dark:hover:text-pascal-400 font-medium transition-colors"
+          class="font-medium text-gray-700 transition-colors hover:text-pascal-600 dark:text-gray-300 dark:hover:text-pascal-400"
         >
           GitHub
         </a>
@@ -33,48 +37,64 @@
       </div>
 
       <!-- Mobile Menu Button -->
-      <div class="md:hidden flex items-center space-x-4">
+      <div class="flex items-center space-x-4 md:hidden">
         <DarkModeToggle />
-        <button 
-          @click="mobileMenuOpen = !mobileMenuOpen"
+        <button
           class="text-gray-700 dark:text-gray-300"
           aria-label="Toggle menu"
+          @click="mobileMenuOpen = !mobileMenuOpen"
         >
-          <svg v-if="!mobileMenuOpen" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          <svg
+            v-if="!mobileMenuOpen"
+            class="size-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
           </svg>
-          <svg v-else class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          <svg v-else class="size-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18L18 6M6 6l12 12"
+            />
           </svg>
         </button>
       </div>
     </nav>
 
     <!-- Mobile Menu -->
-    <div 
+    <div
       v-if="mobileMenuOpen"
-      class="md:hidden border-t border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950"
+      class="border-t border-gray-200 bg-white dark:border-gray-800 dark:bg-gray-950 md:hidden"
     >
-      <div class="container mx-auto px-4 py-4 flex flex-col space-y-4">
-        <NuxtLink 
-          to="/docs" 
+      <div class="container mx-auto flex flex-col space-y-4 p-4">
+        <NuxtLink
+          to="/docs"
+          class="font-medium text-gray-700 transition-colors hover:text-pascal-600 dark:text-gray-300 dark:hover:text-pascal-400"
           @click="mobileMenuOpen = false"
-          class="text-gray-700 dark:text-gray-300 hover:text-pascal-600 dark:hover:text-pascal-400 font-medium transition-colors"
         >
           Documentation
         </NuxtLink>
-        <NuxtLink 
+        <NuxtLink
           to="/playground"
-          @click="mobileMenuOpen = false" 
-          class="text-gray-700 dark:text-gray-300 hover:text-pascal-600 dark:hover:text-pascal-400 font-medium transition-colors"
+          class="font-medium text-gray-700 transition-colors hover:text-pascal-600 dark:text-gray-300 dark:hover:text-pascal-400"
+          @click="mobileMenuOpen = false"
         >
           Playground
         </NuxtLink>
-        <a 
-          href="https://github.com/gae4it/pascal-css" 
-          target="_blank" 
+        <a
+          href="https://github.com/gae4it/pascal-css"
+          target="_blank"
           rel="noopener noreferrer"
-          class="text-gray-700 dark:text-gray-300 hover:text-pascal-600 dark:hover:text-pascal-400 font-medium transition-colors"
+          class="font-medium text-gray-700 transition-colors hover:text-pascal-600 dark:text-gray-300 dark:hover:text-pascal-400"
         >
           GitHub
         </a>

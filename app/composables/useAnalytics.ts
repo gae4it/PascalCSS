@@ -9,12 +9,12 @@ export const useAnalytics = () => {
 
   const acceptCookies = () => {
     consent.value = 'accepted'
-    
+
     // Inject GA4 script dynamically
     if (import.meta.client && consent.value === 'accepted') {
       const config = useRuntimeConfig()
       const gaId = config.public.gaId || 'G-XXXXXXXXXX'
-      
+
       useHead({
         script: [
           {
@@ -22,7 +22,7 @@ export const useAnalytics = () => {
             async: true,
           },
           {
-            children: `
+            innerHTML: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());

@@ -4,35 +4,39 @@
 dist
 .nitro
 
-# Node modules and dependencies
+# Node modules
 node_modules
+
+# Dependencies
 build
 coverage
 
 # Logs
+logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Cache
-.eslintcache
-.turbo
-
-# IDEs
+# IDE
 .idea
 .vscode
-
-# Git
-.git
+*.swp
+*.swo
+*~
 
 # OS
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Cache
+.eslintcache
+.turbo
+.cache
 
 # Environment
 .env
 .env.local
-
-# Auto-generated
-public/data/classes.json
+.env.*.local

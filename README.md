@@ -4,7 +4,8 @@ Official landing page and documentation for PascalCSS - the Zero-Build Utility C
 
 ## � About PascalCSS
 
-PascalCSS is a **static utility-first CSS framework** with **PascalCase naming**. 
+PascalCSS is a **static utility-first CSS framework** with **PascalCase naming**.
+
 - ✅ Zero build tools required
 - ✅ Just one line to add to your HTML
 - ✅ 100% static CSS, no JavaScript
@@ -15,8 +16,12 @@ PascalCSS is a **static utility-first CSS framework** with **PascalCase naming**
 ### Installation
 
 **Option 1: CDN (Recommended)**
+
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/gae4it/pascal-css@v3.0.0/dist/pascal-css.min.css">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/gae4it/pascal-css@v3.0.0/dist/pascal-css.min.css"
+/>
 ```
 
 **Option 2: Local File**

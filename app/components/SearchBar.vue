@@ -3,14 +3,14 @@
     <div class="relative">
       <input
         :value="modelValue"
-        @input="$emit('update:modelValue', ($event.target as HTMLInputElement).value)"
         type="text"
         placeholder="Search classes... (Cmd/Ctrl + K)"
-        class="w-full px-5 py-4 pl-12 pr-4 text-lg bg-white dark:bg-gray-900 border-2 border-gray-300 dark:border-gray-700 rounded-xl focus:ring-2 focus:ring-pascal-500 focus:border-pascal-500 transition-all placeholder-gray-400 dark:placeholder-gray-500 text-gray-900 dark:text-gray-100"
+        class="w-full rounded-xl border-2 border-gray-300 bg-white px-5 py-4 pl-12 pr-4 text-lg text-gray-900 transition-all placeholder:text-gray-400 focus:border-pascal-500 focus:ring-2 focus:ring-pascal-500 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100 dark:placeholder:text-gray-500"
+        @input="$emit('update:modelValue', ($event.target as HTMLInputElement).value)"
         @keydown="handleKeydown"
       />
       <svg
-        class="absolute left-4 top-1/2 -translate-y-1/2 w-6 h-6 text-gray-400"
+        class="absolute left-4 top-1/2 size-6 -translate-y-1/2 text-gray-400"
         fill="none"
         stroke="currentColor"
         viewBox="0 0 24 24"
@@ -23,9 +23,9 @@
         />
       </svg>
     </div>
-    <div class="mt-2 text-sm text-gray-500 dark:text-gray-400 text-right">
-      Press <kbd class="px-2 py-1 bg-gray-200 dark:bg-gray-800 rounded text-xs font-mono">⌘</kbd> + 
-      <kbd class="px-2 py-1 bg-gray-200 dark:bg-gray-800 rounded text-xs font-mono">K</kbd> to focus
+    <div class="mt-2 text-right text-sm text-gray-500 dark:text-gray-400">
+      Press <kbd class="rounded bg-gray-200 px-2 py-1 font-mono text-xs dark:bg-gray-800">⌘</kbd> +
+      <kbd class="rounded bg-gray-200 px-2 py-1 font-mono text-xs dark:bg-gray-800">K</kbd> to focus
     </div>
   </div>
 </template>
@@ -43,7 +43,7 @@ defineEmits<{
 
 const handleKeydown = (e: KeyboardEvent) => {
   if (e.key === 'Escape') {
-    (e.target as HTMLInputElement).blur()
+    ;(e.target as HTMLInputElement).blur()
   }
 }
 
