@@ -1,0 +1,55 @@
+/* Placeholder PascalCSS file */
+/* This should be replaced with the actual PascalCSS library */
+/* from https://github.com/gae4it/pascal-css */
+
+/* Sample classes for development */
+.DisplayFlex { display: flex; }
+.DisplayBlock { display: block; }
+.DisplayNone { display: none; }
+.DisplayGrid { display: grid; }
+
+.JustifyContentCenter { justify-content: center; }
+.JustifyContentBetween { justify-content: space-between; }
+.AlignItemsCenter { align-items: center; }
+.FlexDirectionColumn { flex-direction: column; }
+
+.Padding10 { padding: 1rem; }
+.Padding20 { padding: 2rem; }
+.Margin10 { margin: 1rem; }
+.MarginTop10 { margin-top: 1rem; }
+.MarginBottom10 { margin-bottom: 1rem; }
+
+.FontSize16 { font-size: 1rem; }
+.FontSize32 { font-size: 2rem; }
+.FontWeightBold { font-weight: 700; }
+.TextAlignCenter { text-align: center; }
+
+.ColorBlue600 { color: #2563eb; }
+.ColorBlue700 { color: #1d4ed8; }
+.ColorGray600 { color: #4b5563; }
+
+.BackgroundColorBlue50 { background-color: #eff6ff; }
+
+.BorderRadius10 { border-radius: 0.625rem; }
+.Border1 { border-width: 1px; }
+
+/* Responsive variants (sample) */
+@media (min-width: 640px) {
+  .Sm\:DisplayFlex { display: flex; }
+  .Sm\:Padding20 { padding: 2rem; }
+}
+
+@media (min-width: 768px) {
+  .Md\:DisplayFlex { display: flex; }
+  .Md\:Padding20 { padding: 2rem; }
+}
+
+@media (min-width: 1024px) {
+  .Lg\:DisplayFlex { display: flex; }
+  .Lg\:Padding20 { padding: 2rem; }
+}
+
+@media (min-width: 1280px) {
+  .Xl\:DisplayFlex { display: flex; }
+  .Xl\:Padding20 { padding: 2rem; }
+}
