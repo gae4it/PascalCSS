@@ -10,9 +10,13 @@
     "generate": "npm run generate:classes && nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "format": "prettier --write .",
+    "check": "eslint . --cache --ext .js,.jsx,.ts,.tsx,.vue && prettier --check \"**/*.{js,jsx,ts,tsx,vue,json,css,scss,md,yaml,yml}\" && tsc --noEmit",
+    "fix": "eslint . --cache --fix --ext .js,.jsx,.ts,.tsx,.vue && prettier --write \"**/*.{js,jsx,ts,tsx,vue,json,css,scss,md,yaml,yml}\"",
+    "lint": "eslint . --cache --ext .js,.jsx,.ts,.tsx,.vue",
+    "lint:fix": "eslint . --cache --fix --ext .js,.jsx,.ts,.tsx,.vue",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,vue,json,css,scss,md,yaml,yml}\"",
+    "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,vue,json,css,scss,md,yaml,yml}\"",
+    "type:check": "tsc --noEmit",
     "prepare": "husky install",
     "generate:classes": "node scripts/generate-classes.js"
   },
@@ -32,19 +36,27 @@
   "devDependencies": {
     "@nuxt/eslint": "^1.15.1",
     "@types/node": "^22.9.3",
+    "@typescript-eslint/eslint-plugin": "^8.16.0",
+    "@typescript-eslint/parser": "^8.16.0",
     "eslint": "^9.15.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-tailwindcss": "^3.17.4",
+    "eslint-plugin-vue": "^9.28.0",
     "husky": "^9.1.7",
     "lint-staged": "^15.2.10",
     "prettier": "^3.3.3",
-    "typescript": "^5.7.2"
+    "prettier-plugin-tailwindcss": "^0.5.13",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.16.0"
   },
   "packageManager": "pnpm@9.15.0",
   "lint-staged": {
-    "*.{js,ts,vue}": [
-      "eslint --fix",
+    "*.{js,jsx,ts,tsx,vue}": [
+      "eslint --cache --fix",
       "prettier --write"
     ],
-    "*.{json,md,css}": [
+    "*.{json,css,scss,md,yaml,yml}": [
       "prettier --write"
     ]
   }

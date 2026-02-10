@@ -1,35 +1,39 @@
 <template>
   <aside class="sticky top-24 h-fit">
-    <nav class="bg-white dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-800 p-4">
-      <h3 class="font-semibold text-gray-900 dark:text-gray-100 mb-4 text-sm uppercase tracking-wide">
+    <nav
+      class="rounded-xl border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900"
+    >
+      <h3
+        class="mb-4 text-sm font-semibold uppercase tracking-wide text-gray-900 dark:text-gray-100"
+      >
         Categories
       </h3>
       <ul class="space-y-1">
         <li>
           <button
-            @click="selectCategory(null)"
             :class="[
-              'w-full text-left px-3 py-2 rounded-lg transition-colors text-sm',
+              'w-full rounded-lg px-3 py-2 text-left text-sm transition-colors',
               modelValue === null
-                ? 'bg-pascal-100 dark:bg-pascal-900 text-pascal-700 dark:text-pascal-300 font-medium'
-                : 'text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800'
+                ? 'bg-pascal-100 font-medium text-pascal-700 dark:bg-pascal-900 dark:text-pascal-300'
+                : 'text-gray-600 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-800',
             ]"
+            @click="selectCategory(null)"
           >
             All Classes
           </button>
         </li>
         <li v-for="category in categories" :key="category.category">
           <button
-            @click="selectCategory(category.category)"
             :class="[
-              'w-full text-left px-3 py-2 rounded-lg transition-colors text-sm',
+              'w-full rounded-lg px-3 py-2 text-left text-sm transition-colors',
               modelValue === category.category
-                ? 'bg-pascal-100 dark:bg-pascal-900 text-pascal-700 dark:text-pascal-300 font-medium'
-                : 'text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800'
+                ? 'bg-pascal-100 font-medium text-pascal-700 dark:bg-pascal-900 dark:text-pascal-300'
+                : 'text-gray-600 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-800',
             ]"
+            @click="selectCategory(category.category)"
           >
             {{ category.category }}
-            <span class="text-xs opacity-60 ml-1">({{ category.utilities.length }})</span>
+            <span class="ml-1 text-xs opacity-60">({{ category.utilities.length }})</span>
           </button>
         </li>
       </ul>
@@ -51,7 +55,7 @@ const emit = defineEmits<{
 
 const selectCategory = (category: string | null) => {
   emit('update:modelValue', category)
-  
+
   // Update URL hash
   if (category && import.meta.client) {
     window.location.hash = category.toLowerCase()

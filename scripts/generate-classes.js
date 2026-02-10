@@ -6,7 +6,6 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
-import https from 'https'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -249,9 +248,7 @@ const main = () => {
 
   console.log(`✅ Generated ${outputPath}`)
   console.log(`📊 Total categories: ${classes.length}`)
-  console.log(
-    `📦 Total utilities: ${classes.reduce((sum, cat) => sum + cat.utilities.length, 0)}`
-  )
+  console.log(`📦 Total utilities: ${classes.reduce((sum, cat) => sum + cat.utilities.length, 0)}`)
 }
 
 main()

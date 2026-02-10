@@ -63,12 +63,4 @@ export default defineNuxtConfig({
       console.log('Ensuring classes.json is up-to-date...')
     },
   },
-
-  // SEO Configuration
-  seoMeta: {
-    title: 'PascalCSS - Zero-Build Utility CSS',
-    description: 'Static CSS library with PascalCase naming. No build step, no JavaScript runtime.',
-    ogImage: '/og-image.png',
-    twitterCard: 'summary_large_image',
-  },
 })

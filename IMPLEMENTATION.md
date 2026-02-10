@@ -3,18 +3,21 @@
 ## ✅ Completed
 
 ### 1. **Project Setup**
+
 - ✅ Nuxt 4 + Vue 3 initialized with `compatibilityVersion: 4`
 - ✅ TailwindCSS configured with dark mode support using `@nuxtjs/color-mode`
 - ✅ ESLint + Prettier configured for code quality
 - ✅ Git repository ready with proper `.gitignore`
 
 ### 2. **Layout & Navigation**
+
 - ✅ [AppHeader.vue](app/components/AppHeader.vue) - Sticky navigation with mobile menu
 - ✅ [AppFooter.vue](app/components/AppFooter.vue) - Footer with legal links
 - ✅ [DarkModeToggle.vue](app/components/DarkModeToggle.vue) - Dark/light mode switcher
 - ✅ [default.vue](app/layouts/default.vue) - Main layout wrapper
 
 ### 3. **Pages Created**
+
 - ✅ [index.vue](app/pages/index.vue) - Landing page with hero, features, comparison, and CTAs
 - ✅ [docs.vue](app/pages/docs.vue) - Interactive cheat sheet with fuzzy search
 - ✅ [playground.vue](app/pages/playground.vue) - Live editor + preview
@@ -23,18 +26,21 @@
 - ✅ [404.vue](app/pages/404.vue) - Custom 404 error page
 
 ### 4. **Components**
+
 - ✅ [SearchBar.vue](app/components/SearchBar.vue) - Fuzzy search with Cmd/Ctrl+K shortcut
 - ✅ [DocsSidebar.vue](app/components/DocsSidebar.vue) - Category navigation with deeplinking
 - ✅ [ClassCard.vue](app/components/ClassCard.vue) - Class display with copy-to-clipboard
 - ✅ [CookieConsent.vue](app/components/CookieConsent.vue) - GDPR cookie banner
 
 ### 5. **Analytics & Compliance**
+
 - ✅ [useAnalytics.ts](app/composables/useAnalytics.ts) - GA4 integration with cookie consent
 - ✅ Cookie consent bar - Blocks GA4 until user acceptance
 - ✅ Privacy Policy - Explains data usage and opt-out
 - ✅ Dark mode persistence - Saved via cookie
 
 ### 6. **SEO & Performance**
+
 - ✅ [nuxt.config.ts](nuxt.config.ts) - Configured with `@nuxtjs/sitemap`
 - ✅ [app.vue](app.vue) - Schema.org markup (WebApplication type)
 - ✅ useSeoMeta on all pages - Dynamic titles, descriptions, og: tags
@@ -42,12 +48,14 @@
 - ✅ Dynamic routing with deep-linking support
 
 ### 7. **Data & Scripts**
+
 - ✅ [generate-classes.js](scripts/generate-classes.js) - Parses CSS → generates classes.json
 - ✅ [classes.json](public/data/classes.json) - Sample data with 6 categories, 30+ utilities
 - ✅ [classes.ts](types/classes.ts) - TypeScript types for class data
 - ✅ [pascalcss.css](public/pascalcss.css) - Placeholder CSS (replace with actual library)
 
 ### 8. **Deployment & Configuration**
+
 - ✅ [netlify.toml](netlify.toml) - Build config for SSG on Netlify
 - ✅ [package.json](package.json) - Scripts including `npm run generate` for SSG
 - ✅ [tsconfig.json](tsconfig.json) - Strict TypeScript
@@ -64,7 +72,7 @@
 # Install dependencies
 npm install
 
-# Generate classes.json 
+# Generate classes.json
 npm run generate:classes
 
 # Start dev server
@@ -87,6 +95,7 @@ npm run generate
 ## 📋 Next Steps & TODOs
 
 ### High Priority (Production-Ready)
+
 - [ ] **Replace placeholder CSS**: Update `public/pascalcss.css` with actual PascalCSS library from https://github.com/gae4it/pascal-css
 - [ ] **Update classes.json**: Run `npm run generate:classes` with real CSS parsing (modify `scripts/generate-classes.js`)
 - [ ] **Add GA4 ID**: Set `NUXT_PUBLIC_GA_ID` environment variable in Netlify dashboard
@@ -94,6 +103,7 @@ npm run generate
 - [ ] **Connect GitHub**: Push to GitHub repo and connect Netlify for auto-deploy
 
 ### Medium Priority (UX Polish)
+
 - [ ] Add copy-to-clipboard toast notifications
 - [ ] Implement live playground auto-save notification
 - [ ] Add "Back to top" button on docs page
@@ -102,6 +112,7 @@ npm run generate
 - [ ] Analytics tracking for user interactions (heatmaps, events)
 
 ### Low Priority (Nice-to-Have)
+
 - [ ] Social media share cards by category
 - [ ] Class usage statistics dashboard
 - [ ] Suggested classes based on user search history
@@ -114,6 +125,7 @@ npm run generate
 ## 🔧 Development Guidelines
 
 ### Adding a New Page
+
 ```bash
 # Create new page file in app/pages/
 # Use useSeoMeta() for SEO
@@ -121,6 +133,7 @@ npm run generate
 ```
 
 ### Adding a New Component
+
 ```bash
 # Create in app/components/
 # Auto-imports everywhere (no imports needed)
@@ -128,6 +141,7 @@ npm run generate
 ```
 
 ### Updating Classes Documentation
+
 ```bash
 # Edit scripts/generate-classes.js to parse real CSS
 # Run: npm run generate:classes
@@ -135,6 +149,7 @@ npm run generate
 ```
 
 ### Deploying to Netlify
+
 1. Connect GitHub repo to Netlify
 2. Set build command: `npm run generate`
 3. Set publish directory: `.output/public`
@@ -158,6 +173,7 @@ npm run generate
 ## 🎯 Marketing Copy Status
 
 ### Done ✅
+
 - Hero section headline: "Zero-Build Utility CSS"
 - Subheading: "Because your CSS classes should look like your Components"
 - Features section: 4 key benefits
@@ -165,6 +181,7 @@ npm run generate
 - Legal notice: "Non-commercial study project. No data is sold."
 
 ### To Complete 📝
+
 - Tagline refinements
 - Feature descriptions (add examples)
 - Call-to-action text variations
