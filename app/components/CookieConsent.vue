@@ -67,6 +67,13 @@ const handleNecessaryOnly = () => {
 const handleRejectAll = () => {
   rejectAllCookies()
 }
+
+onMounted(() => {
+  const inlineBanner = document.getElementById('cookie-consent-inline')
+  if (inlineBanner) {
+    inlineBanner.remove()
+  }
+})
 </script>
 
 <style scoped>
