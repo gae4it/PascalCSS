@@ -59,14 +59,9 @@
         </div>
       </div>
 
-      <br />
-      <br />
-      <br />
-      <br />
-
       <!-- Info Box -->
       <div
-        class="mt-6 rounded-xl border border-pascal-200 bg-pascal-50 p-4 dark:border-pascal-800 dark:bg-pascal-950"
+        class="mt-12 rounded-xl border border-pascal-200 bg-pascal-50 p-4 dark:border-pascal-800 dark:bg-pascal-950 md:mt-6"
       >
         <div class="flex items-start gap-3">
           <svg

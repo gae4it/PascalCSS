@@ -3,7 +3,7 @@
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
-    <CookieConsent />
+    <CookieControl locale="en" />
   </div>
 </template>
 
