@@ -15,10 +15,11 @@ export const useAnalytics = () => {
   })
 
   const isConsentGiven = computed(() => consent.value === 'accepted')
-  let scriptInjected = false
+  let ga4Injected = false
+  let goatCounterInjected = false
 
   const injectGA4Script = () => {
-    if (!import.meta.client || scriptInjected) return
+    if (!import.meta.client || ga4Injected) return
 
     const config = useRuntimeConfig()
     const gaId = config.public.gaId || 'G-XXXXXXXXXX'
@@ -40,12 +41,34 @@ export const useAnalytics = () => {
       ],
     })
 
-    scriptInjected = true
+    ga4Injected = true
+  }
+
+  const injectGoatCounterScript = () => {
+    if (!import.meta.client || goatCounterInjected) return
+
+    const config = useRuntimeConfig()
+    const goatCounterCode = config.public.goatCounterCode
+
+    if (!goatCounterCode) return
+
+    useHead({
+      script: [
+        {
+          src: '//gc.zgo.at/count.js',
+          async: true,
+          'data-goatcounter': `https://${goatCounterCode}.goatcounter.com/count`,
+        },
+      ],
+    })
+
+    goatCounterInjected = true
   }
 
   const acceptCookies = () => {
     consent.value = 'accepted'
     injectGA4Script()
+    injectGoatCounterScript()
   }
 
   const declineCookies = () => {
@@ -60,9 +83,10 @@ export const useAnalytics = () => {
     }
   }
 
-  // Auto-init GA4 if consent was already given
+  // Auto-init GA4 and GoatCounter if consent was already given
   if (import.meta.client && consent.value === 'accepted') {
     injectGA4Script()
+    injectGoatCounterScript()
   }
 
   // Track pageviews

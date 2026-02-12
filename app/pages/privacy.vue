@@ -31,6 +31,10 @@
               views, session duration, geographic location)
             </li>
             <li>
+              <strong>GoatCounter:</strong> A privacy-friendly analytics service that collects
+              anonymous visit statistics without using personal data or tracking
+            </li>
+            <li>
               <strong>Cookies:</strong> To remember your cookie consent preference and dark mode
               setting
             </li>
