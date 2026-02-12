@@ -200,13 +200,13 @@ const generateSampleClasses = () => {
           },
         },
         {
-          name: 'BackgroundColorBlue50',
-          property: 'background-color: #eff6ff;',
-          value: '#eff6ff',
+          name: 'BackgroundColorWhite',
+          property: 'background-color: #ffffff;',
+          value: '#ffffff',
           responsive: [],
           preview: {
             type: 'color',
-            value: '#eff6ff',
+            value: '#ffffff',
           },
         },
       ],
