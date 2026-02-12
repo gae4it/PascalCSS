@@ -55,6 +55,21 @@ export default defineNuxtConfig({
         { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' },
         { name: 'msapplication-config', content: '/favicon/browserconfig.xml' },
       ],
+      script: [
+        // Google Analytics (TESTING - in chiaro)
+        {
+          src: 'https://www.googletagmanager.com/gtag/js?id=G-JGLJRGEHL4',
+          async: true,
+        },
+        {
+          children: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-JGLJRGEHL4');
+          `,
+        },
+      ],
       link: [
         // Favicon - primary
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
