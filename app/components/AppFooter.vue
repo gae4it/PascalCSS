@@ -93,9 +93,11 @@
 </template>
 
 <script setup lang="ts">
-const consent = useCookie<'all' | 'necessary' | 'none' | null>('cookie_consent')
+import { useAnalytics } from '~/app/composables/useAnalytics'
+
+const { resetConsent } = useAnalytics()
 
 const resetCookieConsent = () => {
-  consent.value = null
+  resetConsent()
 }
 </script>

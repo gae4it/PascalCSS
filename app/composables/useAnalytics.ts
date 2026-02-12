@@ -6,20 +6,50 @@ declare global {
 }
 
 type GA4EventParams = Record<string, string | number | boolean | string[]>
+type ConsentValue = 'all' | 'necessary' | 'none'
 
 export const useAnalytics = () => {
-  const consent = useCookie<'all' | 'necessary' | 'none' | null>('cookie_consent', {
+  const consentCookie = useCookie<ConsentValue | null>('cookie_consent', {
     maxAge: 60 * 60 * 24 * 365, // 1 year
     sameSite: 'lax',
     default: () => null,
   })
 
+  const consent = useState<ConsentValue | null>('cookie-consent-state', () => null)
+  const isClientReady = useState<boolean>('cookie-consent-ready', () => false)
   const isConsentGiven = computed(() => consent.value === 'all')
-  let ga4Injected = false
-  let goatCounterInjected = false
+  const ga4Injected = useState<boolean>('ga4-injected', () => false)
+  const goatCounterInjected = useState<boolean>('goatcounter-injected', () => false)
+
+  const isValidConsent = (value: unknown): value is ConsentValue =>
+    value === 'all' || value === 'necessary' || value === 'none'
+
+  const readStoredConsent = (): ConsentValue | null => {
+    if (isValidConsent(consentCookie.value)) return consentCookie.value
+
+    if (import.meta.client) {
+      const localValue = window.localStorage.getItem('cookie_consent')
+      if (isValidConsent(localValue)) return localValue
+    }
+
+    return null
+  }
+
+  const writeConsent = (value: ConsentValue | null) => {
+    consent.value = value
+    consentCookie.value = value
+
+    if (import.meta.client) {
+      if (value) {
+        window.localStorage.setItem('cookie_consent', value)
+      } else {
+        window.localStorage.removeItem('cookie_consent')
+      }
+    }
+  }
 
   const injectGA4Script = () => {
-    if (!import.meta.client || ga4Injected) return
+    if (!import.meta.client || ga4Injected.value) return
 
     const config = useRuntimeConfig()
     const gaId = config.public.gaId || 'G-XXXXXXXXXX'
@@ -41,11 +71,11 @@ export const useAnalytics = () => {
       ],
     })
 
-    ga4Injected = true
+    ga4Injected.value = true
   }
 
   const injectGoatCounterScript = () => {
-    if (!import.meta.client || goatCounterInjected) return
+    if (!import.meta.client || goatCounterInjected.value) return
 
     const config = useRuntimeConfig()
     const goatCounterCode = config.public.goatCounterCode
@@ -62,21 +92,25 @@ export const useAnalytics = () => {
       ],
     })
 
-    goatCounterInjected = true
+    goatCounterInjected.value = true
   }
 
   const acceptAllCookies = () => {
-    consent.value = 'all'
+    writeConsent('all')
     injectGA4Script()
     injectGoatCounterScript()
   }
 
   const acceptNecessaryCookies = () => {
-    consent.value = 'necessary'
+    writeConsent('necessary')
   }
 
   const rejectAllCookies = () => {
-    consent.value = 'none'
+    writeConsent('none')
+  }
+
+  const resetConsent = () => {
+    writeConsent(null)
   }
 
   const trackEvent = (eventName: string, eventParams?: GA4EventParams): void => {
@@ -87,19 +121,24 @@ export const useAnalytics = () => {
     }
   }
 
-  // Auto-init GA4 and GoatCounter if consent was already given
-  if (import.meta.client && consent.value === 'all') {
-    injectGA4Script()
-    injectGoatCounterScript()
-  }
+  onMounted(() => {
+    const storedConsent = readStoredConsent()
+    consent.value = storedConsent
+    isClientReady.value = true
+
+    if (storedConsent === 'all') {
+      injectGA4Script()
+      injectGoatCounterScript()
+    }
+  })
 
   // Track pageviews
   const router = useRouter()
-  if (import.meta.client && consent.value === 'all') {
+  if (import.meta.client) {
     watch(
       () => router.currentRoute.value.path,
       () => {
-        if (typeof window !== 'undefined' && window.gtag) {
+        if (consent.value === 'all' && typeof window !== 'undefined' && window.gtag) {
           window.gtag('config', useRuntimeConfig().public.gaId, {
             page_path: router.currentRoute.value.path,
           })
@@ -110,10 +149,12 @@ export const useAnalytics = () => {
 
   return {
     consent,
+    isClientReady,
     isConsentGiven,
     acceptAllCookies,
     acceptNecessaryCookies,
     rejectAllCookies,
+    resetConsent,
     trackEvent,
   }
 }
