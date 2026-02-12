@@ -59,6 +59,11 @@
         </div>
       </div>
 
+      <br />
+      <br />
+      <br />
+      <br />
+
       <!-- Info Box -->
       <div
         class="mt-6 rounded-xl border border-pascal-200 bg-pascal-50 p-4 dark:border-pascal-800 dark:bg-pascal-950"
@@ -108,8 +113,8 @@ useSeoMeta({
 })
 
 const defaultTemplate = `<div class="DisplayFlex JustifyContentCenter AlignItemsCenter" style="min-height: 300px;">
-  <div class="Padding20 BackgroundColorWhite BorderRadius10">
-    <h1 class="FontSize32 ColorBlue700 MarginBottom10">
+  <div class="Padding20 BgWhite BorderRadius10">
+    <h1 class="FontSize32 FcBlue500  MarginBottom10">
       Hello PascalCSS! 👋
     </h1>
     <p class="FontSize16 ColorGray600">
