@@ -1,6 +1,6 @@
 /**
  * Script to parse PascalCSS and generate classes.json
- * Fetches from the official CDN: https://cdn.jsdelivr.net/gh/gae4it/pascal-css@v3.0.0/dist/pascal-css.min.css
+ * Fetches from the official CDN: https://cdn.jsdelivr.net/gh/gae4it/pascal-css@v3.1.0/dist/pascal-css.min.css
  */
 
 import fs from 'fs'

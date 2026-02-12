@@ -20,12 +20,12 @@ PascalCSS is a **static utility-first CSS framework** with **PascalCase naming**
 ```html
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/gae4it/pascal-css@v3.0.0/dist/pascal-css.min.css"
+  href="https://cdn.jsdelivr.net/gh/gae4it/pascal-css@v3.1.0/dist/pascal-css.min.css"
 />
 ```
 
 **Option 2: Local File**
-Download from [releases](https://github.com/gae4it/pascal-css/releases/tag/v3.0.0) and add to your project.
+Download from [releases](https://github.com/gae4it/pascal-css/releases/tag/v3.1.0) and add to your project.
 
 ## 🚀 Development - This Site
 
