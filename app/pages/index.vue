@@ -50,7 +50,7 @@
               <pre
                 class="overflow-x-auto text-sm md:text-base"
               ><code class="font-mono text-gray-800 dark:text-gray-200">&lt;div class="<span class="text-pascal-600">DisplayFlex JustifyContentCenter Padding20</span>"&gt;
-  &lt;h1 class="<span class="text-pascal-600">FontSize32 ColorBlue700</span>"&gt;
+  &lt;h1 class="<span class="text-pascal-600">Fs20 ColorBlue700</span>"&gt;
     Hello PascalCSS!
   &lt;/h1&gt;
 &lt;/div&gt;</code></pre>
@@ -244,7 +244,7 @@
             <pre
               class="overflow-x-auto rounded-lg border border-pascal-200 bg-white p-4 text-sm dark:border-pascal-800 dark:bg-gray-950"
             ><code class="font-mono text-gray-800 dark:text-gray-200">&lt;div class="<span class="text-pascal-600">DisplayFlex JustifyContentCenter Padding20</span>"&gt;
-  &lt;h1 class="<span class="text-pascal-600">FontSize32 ColorBlue700</span>"&gt;
+  &lt;h1 class="<span class="text-pascal-600">Fs20 ColorBlue700</span>"&gt;
     Content
   &lt;/h1&gt;
 &lt;/div&gt;</code></pre>
