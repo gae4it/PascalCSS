@@ -76,7 +76,7 @@
                 class="text-gray-600 transition-colors hover:text-pascal-600 dark:text-gray-400 dark:hover:text-pascal-400"
                 @click="resetCookieConsent"
               >
-                Reset Cookie Consent
+                Cookie Consent
               </button>
             </li>
           </ul>
