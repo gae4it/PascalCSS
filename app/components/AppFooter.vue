@@ -70,15 +70,6 @@
                 Terms of Service
               </NuxtLink>
             </li>
-            <li>
-              <button
-                type="button"
-                class="text-gray-600 transition-colors hover:text-pascal-600 dark:text-gray-400 dark:hover:text-pascal-400"
-                @click="resetCookieConsent"
-              >
-                Cookie Consent
-              </button>
-            </li>
           </ul>
         </div>
       </div>
@@ -91,13 +82,3 @@
     </div>
   </footer>
 </template>
-
-<script setup lang="ts">
-import { useAnalytics } from '~/composables/useAnalytics'
-
-const { resetConsent } = useAnalytics()
-
-const resetCookieConsent = () => {
-  resetConsent()
-}
-</script>
