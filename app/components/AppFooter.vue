@@ -70,6 +70,15 @@
                 Terms of Service
               </NuxtLink>
             </li>
+            <li>
+              <button
+                type="button"
+                class="text-gray-600 transition-colors hover:text-pascal-600 dark:text-gray-400 dark:hover:text-pascal-400"
+                @click="resetCookieConsent"
+              >
+                Reset Cookie Consent
+              </button>
+            </li>
           </ul>
         </div>
       </div>
@@ -82,3 +91,11 @@
     </div>
   </footer>
 </template>
+
+<script setup lang="ts">
+const consent = useCookie<'all' | 'necessary' | 'none' | null>('cookie_consent')
+
+const resetCookieConsent = () => {
+  consent.value = null
+}
+</script>
