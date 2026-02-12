@@ -10,8 +10,8 @@
             <div class="flex-1">
               <h3 class="mb-2 font-semibold text-gray-900 dark:text-gray-100">Cookie Consent</h3>
               <p class="text-sm text-gray-600 dark:text-gray-400">
-                We use Google Analytics to understand how you use our site. Your data is never sold.
-                Read our
+                We use Google Analytics 4 and GoatCounter for anonymous visit statistics to improve
+                the site. Your data is never sold. Read our
                 <NuxtLink
                   to="/privacy"
                   class="text-pascal-600 hover:underline dark:text-pascal-400"
