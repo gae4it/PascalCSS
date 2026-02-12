@@ -2,7 +2,7 @@
   <Teleport to="body">
     <Transition name="slide-up">
       <div
-        v-if="consent === null"
+        v-if="isConsentMissing"
         class="fixed inset-x-0 bottom-0 z-50 border-t border-gray-200 bg-white shadow-2xl dark:border-gray-800 dark:bg-gray-900"
       >
         <div class="container mx-auto px-4 py-6">
@@ -54,6 +54,9 @@
 import { useAnalytics } from '~/app/composables/useAnalytics'
 
 const { consent, acceptAllCookies, acceptNecessaryCookies, rejectAllCookies } = useAnalytics()
+const isConsentMissing = computed(
+  () => consent.value !== 'all' && consent.value !== 'necessary' && consent.value !== 'none'
+)
 
 const handleAcceptAll = () => {
   acceptAllCookies()
