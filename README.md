@@ -11,7 +11,7 @@ PascalCSS is a **static utility-first CSS framework** with **PascalCase naming**
 - ✅ 100% static CSS, no JavaScript
 - ✅ Component-style class names (e.g., `DisplayFlex`, `Padding20`, `ColorBlue700`)
 
-**Official Release v3.0.0**: [github.com/gae4it/pascal-css](https://github.com/gae4it/pascal-css)
+**Official Release v3.2.0**: [github.com/gae4it/pascal-css](https://github.com/gae4it/pascal-css)
 
 ### Installation
 
@@ -20,12 +20,12 @@ PascalCSS is a **static utility-first CSS framework** with **PascalCase naming**
 ```html
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/gae4it/pascal-css@v3.1.0/dist/pascal-css.min.css"
+  href="https://cdn.jsdelivr.net/gh/gae4it/pascal-css@v3.2.0/dist/pascal-css.min.css"
 />
 ```
 
 **Option 2: Local File**
-Download from [releases](https://github.com/gae4it/pascal-css/releases/tag/v3.1.0) and add to your project.
+Download from [releases](https://github.com/gae4it/pascal-css/releases/tag/v3.2.0) and add to your project.
 
 ## 🚀 Development - This Site
 
@@ -46,7 +46,7 @@ npm run generate
 ## 🏗️ Tech Stack
 
 - **Framework:** Nuxt 4 + Vue 3
-- **Styling:** TailwindCSS + PascalCSS (v3.0.0 from jsDelivr CDN)
+- **Styling:** TailwindCSS + PascalCSS (v3.2.0 from jsDelivr CDN)
 - **Search:** Fuse.js (fuzzy search)
 - **Deployment:** Netlify
 - **SEO:** Sitemap, Meta tags, Schema.org

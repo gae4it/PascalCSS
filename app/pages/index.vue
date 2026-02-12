@@ -285,7 +285,7 @@
           >
             <code class="font-mono text-sm text-gray-800 dark:text-gray-200"
               >&lt;link rel="stylesheet"
-              href="https://cdn.jsdelivr.net/gh/gae4it/pascal-css@v3.1.0/dist/pascal-css.min.css"&gt;</code
+              href="https://cdn.jsdelivr.net/gh/gae4it/pascal-css@v3.2.0/dist/pascal-css.min.css"&gt;</code
             >
           </div>
           <p class="text-sm text-gray-500 dark:text-gray-400">
