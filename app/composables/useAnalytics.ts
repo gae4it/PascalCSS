@@ -8,13 +8,13 @@ declare global {
 type GA4EventParams = Record<string, string | number | boolean | string[]>
 
 export const useAnalytics = () => {
-  const consent = useCookie<'accepted' | 'declined' | null>('cookie-consent', {
+  const consent = useCookie<'all' | 'necessary' | 'none' | null>('cookie_consent', {
     maxAge: 60 * 60 * 24 * 365, // 1 year
     sameSite: 'lax',
     default: () => null,
   })
 
-  const isConsentGiven = computed(() => consent.value === 'accepted')
+  const isConsentGiven = computed(() => consent.value === 'all')
   let ga4Injected = false
   let goatCounterInjected = false
 
@@ -65,18 +65,22 @@ export const useAnalytics = () => {
     goatCounterInjected = true
   }
 
-  const acceptCookies = () => {
-    consent.value = 'accepted'
+  const acceptAllCookies = () => {
+    consent.value = 'all'
     injectGA4Script()
     injectGoatCounterScript()
   }
 
-  const declineCookies = () => {
-    consent.value = 'declined'
+  const acceptNecessaryCookies = () => {
+    consent.value = 'necessary'
+  }
+
+  const rejectAllCookies = () => {
+    consent.value = 'none'
   }
 
   const trackEvent = (eventName: string, eventParams?: GA4EventParams): void => {
-    if (!import.meta.client || consent.value !== 'accepted') return
+    if (!import.meta.client || consent.value !== 'all') return
 
     if (typeof window !== 'undefined' && window.gtag) {
       window.gtag('event', eventName, eventParams)
@@ -84,14 +88,14 @@ export const useAnalytics = () => {
   }
 
   // Auto-init GA4 and GoatCounter if consent was already given
-  if (import.meta.client && consent.value === 'accepted') {
+  if (import.meta.client && consent.value === 'all') {
     injectGA4Script()
     injectGoatCounterScript()
   }
 
   // Track pageviews
   const router = useRouter()
-  if (import.meta.client && consent.value === 'accepted') {
+  if (import.meta.client && consent.value === 'all') {
     watch(
       () => router.currentRoute.value.path,
       () => {
@@ -107,8 +111,9 @@ export const useAnalytics = () => {
   return {
     consent,
     isConsentGiven,
-    acceptCookies,
-    declineCookies,
+    acceptAllCookies,
+    acceptNecessaryCookies,
+    rejectAllCookies,
     trackEvent,
   }
 }

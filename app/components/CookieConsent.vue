@@ -11,7 +11,8 @@
               <h3 class="mb-2 font-semibold text-gray-900 dark:text-gray-100">Cookie Consent</h3>
               <p class="text-sm text-gray-600 dark:text-gray-400">
                 We use Google Analytics 4 and GoatCounter for anonymous visit statistics to improve
-                the site. Your data is never sold. Read our
+                the site. Your data is never sold. You can accept all cookies, only necessary ones,
+                or reject everything. Read our
                 <NuxtLink
                   to="/privacy"
                   class="text-pascal-600 hover:underline dark:text-pascal-400"
@@ -22,18 +23,24 @@
               </p>
             </div>
 
-            <div class="flex shrink-0 items-center gap-3">
+            <div class="flex shrink-0 flex-wrap items-center gap-3">
               <button
                 class="rounded-lg px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800"
-                @click="handleDecline"
+                @click="handleRejectAll"
               >
-                Decline
+                Reject All
+              </button>
+              <button
+                class="rounded-lg border border-gray-200 px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-100 dark:border-gray-700 dark:text-gray-300 dark:hover:bg-gray-800"
+                @click="handleNecessaryOnly"
+              >
+                Necessary Only
               </button>
               <button
                 class="rounded-lg bg-pascal-600 px-6 py-2 text-sm font-medium text-white shadow-sm transition-colors hover:bg-pascal-700"
-                @click="handleAccept"
+                @click="handleAcceptAll"
               >
-                Accept
+                Accept All
               </button>
             </div>
           </div>
@@ -46,14 +53,18 @@
 <script setup lang="ts">
 import { useAnalytics } from '~/app/composables/useAnalytics'
 
-const { consent, acceptCookies, declineCookies } = useAnalytics()
+const { consent, acceptAllCookies, acceptNecessaryCookies, rejectAllCookies } = useAnalytics()
 
-const handleAccept = () => {
-  acceptCookies()
+const handleAcceptAll = () => {
+  acceptAllCookies()
 }
 
-const handleDecline = () => {
-  declineCookies()
+const handleNecessaryOnly = () => {
+  acceptNecessaryCookies()
+}
+
+const handleRejectAll = () => {
+  rejectAllCookies()
 }
 </script>
 
