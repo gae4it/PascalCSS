@@ -69,6 +69,12 @@ export default defineNuxtConfig({
             gtag('config', 'G-JGLJRGEHL4');
           `,
         },
+        // GoatCounter (TESTING - in chiaro)
+        {
+          src: '//gc.zgo.at/count.js',
+          async: true,
+          'data-goatcounter': 'https://pascalcss.goatcounter.com/count',
+        },
       ],
       link: [
         // Favicon - primary
