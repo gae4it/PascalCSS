@@ -29,6 +29,14 @@ export default defineNuxtConfig({
     fallback: 'light',
   },
 
+  runtimeConfig: {
+    public: {
+      gaId: process.env.NUXT_PUBLIC_GA_ID || 'G-JGLJRGEHL4',
+      cronitorClientKey: process.env.NUXT_PUBLIC_CRONITOR_CLIENT_KEY || '',
+      goatCounterCode: process.env.NUXT_PUBLIC_GOATCOUNTER_CODE || '',
+    },
+  },
+
   tailwindcss: {
     cssPath: '~/assets/css/tailwind.css',
     configPath: 'tailwind.config.ts',

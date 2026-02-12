@@ -53,21 +53,27 @@ export const useAnalytics = () => {
   }
 
   const trackEvent = (eventName: string, eventParams?: GA4EventParams): void => {
-    if (!import.meta.client || consent.value !== 'accepted') return
+    // TESTING: Track always (consent check disabled temporarily)
+    // if (!import.meta.client || consent.value !== 'accepted') return
+    if (!import.meta.client) return
 
     if (typeof window !== 'undefined' && window.gtag) {
       window.gtag('event', eventName, eventParams)
     }
   }
 
+  // TESTING: Load GA4 always (consent check disabled temporarily)
   // Auto-init GA4 if consent was already given
-  if (import.meta.client && consent.value === 'accepted') {
+  // if (import.meta.client && consent.value === 'accepted') {
+  if (import.meta.client) {
     injectGA4Script()
   }
 
   // Track pageviews
   const router = useRouter()
-  if (import.meta.client && consent.value === 'accepted') {
+  // TESTING: Track always (consent check disabled temporarily)
+  // if (import.meta.client && consent.value === 'accepted') {
+  if (import.meta.client) {
     watch(
       () => router.currentRoute.value.path,
       () => {
