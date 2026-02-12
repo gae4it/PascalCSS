@@ -109,10 +109,10 @@ useSeoMeta({
 
 const defaultTemplate = `<div class="DisplayFlex JustifyContentCenter AlignItemsCenter" style="min-height: 300px;">
   <div class="Padding20 BgWhite BorderRadius10">
-    <h1 class="FontSize32 FcBlue500  MarginBottom10">
+    <h1 class="Fs20 FcBlue500  MarginBottom10">
       Hello PascalCSS! 👋
     </h1>
-    <p class="FontSize16 ColorGray600">
+    <p class="Fs8 ColorGray600">
       Edit the HTML on the left to see changes here.
     </p>
   </div>
