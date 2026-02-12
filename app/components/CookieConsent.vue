@@ -46,7 +46,7 @@
 </template>
 
 <script setup lang="ts">
-import { useAnalytics } from '~/app/composables/useAnalytics'
+import { useAnalytics } from '~/composables/useAnalytics'
 
 const { consent, isClientReady, acceptAllCookies, acceptNecessaryCookies, rejectAllCookies } =
   useAnalytics()

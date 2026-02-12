@@ -1,6 +1,6 @@
 /**
  * Script to parse PascalCSS and generate classes.json
- * Fetches from the official CDN: https://cdn.jsdelivr.net/gh/gae4it/pascal-css@v3.1.0/dist/pascal-css.min.css
+ * Uses the local v3.2.0 release file for stable, offline generation.
  */
 
 import fs from 'fs'
@@ -10,231 +10,171 @@ import { fileURLToPath } from 'url'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
-// TODO: Fetch and parse real PascalCSS from CDN
-// For now, generate expanded sample structure based on v3.0.0 release
-const generateSampleClasses = () => {
-  return [
-    {
-      category: 'Layout',
-      utilities: [
-        {
-          name: 'DisplayFlex',
-          property: 'display: flex;',
-          responsive: ['Sm:', 'Md:', 'Lg:', 'Xl:'],
-        },
-        {
-          name: 'DisplayBlock',
-          property: 'display: block;',
-          responsive: ['Sm:', 'Md:', 'Lg:', 'Xl:'],
-        },
-        {
-          name: 'DisplayInline',
-          property: 'display: inline;',
-          responsive: ['Sm:', 'Md:', 'Lg:', 'Xl:'],
-        },
-        {
-          name: 'DisplayNone',
-          property: 'display: none;',
-          responsive: ['Sm:', 'Md:', 'Lg:', 'Xl:'],
-        },
-        {
-          name: 'DisplayGrid',
-          property: 'display: grid;',
-          responsive: ['Sm:', 'Md:', 'Lg:', 'Xl:'],
-        },
-      ],
-    },
-    {
-      category: 'Flexbox',
-      utilities: [
-        {
-          name: 'JustifyContentCenter',
-          property: 'justify-content: center;',
-          responsive: ['Sm:', 'Md:', 'Lg:', 'Xl:'],
-        },
-        {
-          name: 'JustifyContentStart',
-          property: 'justify-content: flex-start;',
-          responsive: ['Sm:', 'Md:', 'Lg:', 'Xl:'],
-        },
-        {
-          name: 'JustifyContentEnd',
-          property: 'justify-content: flex-end;',
-          responsive: ['Sm:', 'Md:', 'Lg:', 'Xl:'],
-        },
-        {
-          name: 'JustifyContentBetween',
-          property: 'justify-content: space-between;',
-          responsive: ['Sm:', 'Md:', 'Lg:', 'Xl:'],
-        },
-        {
-          name: 'AlignItemsCenter',
-          property: 'align-items: center;',
-          responsive: ['Sm:', 'Md:', 'Lg:', 'Xl:'],
-        },
-        {
-          name: 'AlignItemsStart',
-          property: 'align-items: flex-start;',
-          responsive: ['Sm:', 'Md:', 'Lg:', 'Xl:'],
-        },
-        {
-          name: 'FlexDirectionColumn',
-          property: 'flex-direction: column;',
-          responsive: ['Sm:', 'Md:', 'Lg:', 'Xl:'],
-        },
-      ],
-    },
-    {
-      category: 'Spacing',
-      utilities: [
-        {
-          name: 'Padding10',
-          property: 'padding: 1rem;',
-          value: '1rem',
-          responsive: ['Sm:', 'Md:', 'Lg:', 'Xl:'],
-          preview: {
-            type: 'box',
-            value: '1rem',
-          },
-        },
-        {
-          name: 'Padding20',
-          property: 'padding: 2rem;',
-          value: '2rem',
-          responsive: ['Sm:', 'Md:', 'Lg:', 'Xl:'],
-          preview: {
-            type: 'box',
-            value: '2rem',
-          },
-        },
-        {
-          name: 'Margin10',
-          property: 'margin: 1rem;',
-          value: '1rem',
-          responsive: ['Sm:', 'Md:', 'Lg:', 'Xl:'],
-          preview: {
-            type: 'box',
-            value: '1rem',
-          },
-        },
-        {
-          name: 'MarginTop10',
-          property: 'margin-top: 1rem;',
-          value: '1rem',
-          responsive: ['Sm:', 'Md:', 'Lg:', 'Xl:'],
-          preview: {
-            type: 'box',
-            value: '1rem',
-          },
-        },
-        {
-          name: 'MarginBottom10',
-          property: 'margin-bottom: 1rem;',
-          value: '1rem',
-          responsive: ['Sm:', 'Md:', 'Lg:', 'Xl:'],
-          preview: {
-            type: 'box',
-            value: '1rem',
-          },
-        },
-      ],
-    },
-    {
-      category: 'Typography',
-      utilities: [
-        {
-          name: 'FontSize16',
-          property: 'font-size: 1rem;',
-          value: '1rem',
-          responsive: ['Sm:', 'Md:', 'Lg:', 'Xl:'],
-        },
-        {
-          name: 'FontSize32',
-          property: 'font-size: 2rem;',
-          value: '2rem',
-          responsive: ['Sm:', 'Md:', 'Lg:', 'Xl:'],
-        },
-        {
-          name: 'FontWeightBold',
-          property: 'font-weight: 700;',
-          responsive: ['Sm:', 'Md:', 'Lg:', 'Xl:'],
-        },
-        {
-          name: 'TextAlignCenter',
-          property: 'text-align: center;',
-          responsive: ['Sm:', 'Md:', 'Lg:', 'Xl:'],
-        },
-      ],
-    },
-    {
-      category: 'Colors',
-      utilities: [
-        {
-          name: 'ColorBlue600',
-          property: 'color: #2563eb;',
-          value: '#2563eb',
-          responsive: [],
-          preview: {
-            type: 'color',
-            value: '#2563eb',
-          },
-        },
-        {
-          name: 'ColorBlue700',
-          property: 'color: #1d4ed8;',
-          value: '#1d4ed8',
-          responsive: [],
-          preview: {
-            type: 'color',
-            value: '#1d4ed8',
-          },
-        },
-        {
-          name: 'ColorGray600',
-          property: 'color: #4b5563;',
-          value: '#4b5563',
-          responsive: [],
-          preview: {
-            type: 'color',
-            value: '#4b5563',
-          },
-        },
-        {
-          name: 'BackgroundColorWhite',
-          property: 'background-color: #ffffff;',
-          value: '#ffffff',
-          responsive: [],
-          preview: {
-            type: 'color',
-            value: '#ffffff',
-          },
-        },
-      ],
-    },
-    {
-      category: 'Borders',
-      utilities: [
-        {
-          name: 'BorderRadius10',
-          property: 'border-radius: 0.625rem;',
-          value: '0.625rem',
-          responsive: ['Sm:', 'Md:', 'Lg:', 'Xl:'],
-        },
-        {
-          name: 'Border1',
-          property: 'border-width: 1px;',
-          responsive: ['Sm:', 'Md:', 'Lg:', 'Xl:'],
-        },
-      ],
-    },
-  ]
+const CSS_PATH = path.join(__dirname, '../release/pascal-css_v3.2.0.css')
+const EXCLUDED_CATEGORIES = new Set([
+  'CONTAINER QUERIES (Modern CSS - v3.0)',
+  'RESPONSIVE LAYOUT ENGINE',
+])
+
+const normalizeCategoryName = (raw) => {
+  const cleaned = raw.replace(/\s+/g, ' ').trim()
+  return cleaned || 'Misc'
+}
+
+const extractCategories = (css) => {
+  const headerRegex = /\/\*\s*={5,}[\s\S]*?\*\//g
+  const categories = []
+
+  for (const match of css.matchAll(headerRegex)) {
+    const block = match[0]
+    const lines = block.split('\n').map((line) =>
+      line
+        .replace(/^\s*\/?\*+/, '')
+        .replace(/\*\/\s*$/, '')
+        .trim()
+    )
+    const nameLine = lines.find((line) => line && !/=/.test(line))
+    if (nameLine) {
+      categories.push({ name: normalizeCategoryName(nameLine), index: match.index ?? 0 })
+    }
+  }
+
+  return categories
+}
+
+const normalizeDeclarations = (body) => {
+  const cleaned = body
+    .replace(/\/\*[\s\S]*?\*\//g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+  const declarations = cleaned
+    .split(';')
+    .map((decl) => decl.trim())
+    .filter(Boolean)
+  if (!declarations.length) return ''
+  return declarations.map((decl) => `${decl};`).join(' ')
+}
+
+const splitClassName = (rawName) => {
+  const unescaped = rawName.replace(/\\:/g, ':')
+  if (unescaped.includes(':')) {
+    const [prefix, base] = unescaped.split(':')
+    return { baseName: base, prefix: `${prefix}:` }
+  }
+  return { baseName: unescaped, prefix: null }
+}
+
+const findCategoryForIndex = (index, categories) => {
+  let current = categories[0]?.name ?? 'Misc'
+  for (const category of categories) {
+    if (category.index <= index) {
+      current = category.name
+    } else {
+      break
+    }
+  }
+  return current
+}
+
+const generateClassesFromCss = (css) => {
+  const categories = extractCategories(css)
+  const classRegex = /\.([A-Za-z0-9\\:_-]+)\s*\{([\s\S]*?)\}/g
+  const categoryMap = new Map()
+  const utilityIndex = new Map()
+  const pendingResponsive = new Map()
+
+  const ensureCategory = (categoryName) => {
+    if (!categoryMap.has(categoryName)) {
+      categoryMap.set(categoryName, new Map())
+    }
+    return categoryMap.get(categoryName)
+  }
+
+  const addResponsive = (utility, prefix) => {
+    if (!prefix) return
+    if (!utility.responsive.includes(prefix)) {
+      utility.responsive.push(prefix)
+    }
+  }
+
+  for (const match of css.matchAll(classRegex)) {
+    const rawName = match[1]
+    const body = match[2]
+    const classIndex = match.index ?? 0
+    const categoryName = findCategoryForIndex(classIndex, categories)
+    const { baseName, prefix } = splitClassName(rawName)
+    if (!baseName) continue
+
+    const property = normalizeDeclarations(body)
+
+    if (prefix && utilityIndex.has(baseName)) {
+      const existing = utilityIndex.get(baseName)
+      if (property && !existing.property.includes(property)) {
+        existing.property = existing.property ? `${existing.property} ${property}` : property
+      }
+      addResponsive(existing, prefix)
+      continue
+    }
+
+    if (prefix && !utilityIndex.has(baseName)) {
+      if (!pendingResponsive.has(baseName)) {
+        pendingResponsive.set(baseName, new Set())
+      }
+      pendingResponsive.get(baseName).add(prefix)
+    }
+
+    const utilities = ensureCategory(categoryName)
+    const existing = utilities.get(baseName)
+
+    if (existing) {
+      if (property && !existing.property.includes(property)) {
+        existing.property = existing.property ? `${existing.property} ${property}` : property
+      }
+      addResponsive(existing, prefix)
+    } else {
+      const utility = {
+        name: baseName,
+        property: property,
+        responsive: [],
+      }
+      addResponsive(utility, prefix)
+
+      if (pendingResponsive.has(baseName)) {
+        for (const pendingPrefix of pendingResponsive.get(baseName)) {
+          addResponsive(utility, pendingPrefix)
+        }
+      }
+
+      utilities.set(baseName, utility)
+      utilityIndex.set(baseName, utility)
+    }
+  }
+
+  const output = []
+  for (const category of categories) {
+    if (EXCLUDED_CATEGORIES.has(category.name)) continue
+    const utilities = categoryMap.get(category.name)
+    if (!utilities || utilities.size === 0) continue
+    output.push({
+      category: category.name,
+      utilities: Array.from(utilities.values()),
+    })
+  }
+
+  return output
 }
 
 // Main execution
 const main = () => {
   console.log('🚀 Generating classes.json...')
 
-  const classes = generateSampleClasses()
+  if (!fs.existsSync(CSS_PATH)) {
+    console.error(`❌ CSS file not found: ${CSS_PATH}`)
+    process.exit(1)
+  }
+
+  const css = fs.readFileSync(CSS_PATH, 'utf-8')
+  const classes = generateClassesFromCss(css)
   const outputPath = path.join(__dirname, '../public/data/classes.json')
 
   // Ensure directory exists

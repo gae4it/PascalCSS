@@ -1,247 +1,1121 @@
 [
   {
-    "category": "Layout",
+    "category": "FONT SIZE",
     "utilities": [
       {
-        "name": "DisplayFlex",
-        "property": "display: flex;",
-        "responsive": [
-          "Sm:",
-          "Md:",
-          "Lg:",
-          "Xl:"
-        ]
+        "name": "Fs07",
+        "property": "font-size: 0.5rem; line-height: 1.4; font-weight: 400; font-size: 0.7rem;",
+        "responsive": []
       },
+      {
+        "name": "Fs08",
+        "property": "font-size: 0.6rem; line-height: 1.4; font-weight: 400; font-size: 0.8rem;",
+        "responsive": []
+      },
+      {
+        "name": "Fs09",
+        "property": "font-size: 0.7rem; line-height: 1.4; font-weight: 400; font-size: 0.9rem;",
+        "responsive": []
+      },
+      {
+        "name": "Fs10",
+        "property": "font-size: 0.8rem; line-height: 1.4; font-weight: 400; font-size: 1rem;",
+        "responsive": []
+      },
+      {
+        "name": "Fs11",
+        "property": "font-size: 0.9rem; line-height: 1.4; font-weight: 400; font-size: 1.1rem;",
+        "responsive": []
+      },
+      {
+        "name": "Fs12",
+        "property": "font-size: 1rem; line-height: 1.4; font-weight: 400; font-size: 1.2rem;",
+        "responsive": []
+      },
+      {
+        "name": "Fs13",
+        "property": "font-size: 1.1rem; line-height: 1.4; font-weight: 400; font-size: 1.3rem;",
+        "responsive": []
+      },
+      {
+        "name": "Fs14",
+        "property": "font-size: 1.2rem; line-height: 1.3; font-weight: 400; font-size: 1.4rem;",
+        "responsive": []
+      },
+      {
+        "name": "Fs15",
+        "property": "font-size: 1.3rem; line-height: 1.3; font-weight: 400; font-size: 1.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "Fs16",
+        "property": "font-size: 1.4rem; line-height: 1.3; font-weight: 400; font-size: 1.6rem;",
+        "responsive": []
+      },
+      {
+        "name": "Fs17",
+        "property": "font-size: 1.5rem; line-height: 1.3; font-weight: 400; font-size: 1.7rem;",
+        "responsive": []
+      },
+      {
+        "name": "Fs18",
+        "property": "font-size: 1.6rem; line-height: 1.3; font-weight: 400; font-size: 1.8rem;",
+        "responsive": []
+      },
+      {
+        "name": "Fs19",
+        "property": "font-size: 1.7rem; line-height: 1.3; font-weight: 400; font-size: 1.9rem;",
+        "responsive": []
+      },
+      {
+        "name": "Fs20",
+        "property": "font-size: 1.8rem; line-height: 1.3; font-weight: 400; font-size: 2rem;",
+        "responsive": []
+      },
+      {
+        "name": "Fs21",
+        "property": "font-size: 1.9rem; line-height: 1.2; font-weight: 400; font-size: 2.1rem;",
+        "responsive": []
+      },
+      {
+        "name": "Fs22",
+        "property": "font-size: 2rem; line-height: 1.2; font-weight: 400; font-size: 2.2rem;",
+        "responsive": []
+      },
+      {
+        "name": "Fs23",
+        "property": "font-size: 2.1rem; line-height: 1.2; font-weight: 400; font-size: 2.3rem;",
+        "responsive": []
+      },
+      {
+        "name": "Fs24",
+        "property": "font-size: 2.2rem; line-height: 1.2; font-weight: 400; font-size: 2.4rem;",
+        "responsive": []
+      },
+      {
+        "name": "Fs25",
+        "property": "font-size: 2.3rem; line-height: 1.2; font-weight: 400; font-size: 2.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "Fs26",
+        "property": "font-size: 2.4rem; line-height: 1.2; font-weight: 400; font-size: 2.6rem;",
+        "responsive": []
+      },
+      {
+        "name": "Fs27",
+        "property": "font-size: 2.5rem; line-height: 1.2; font-weight: 400; font-size: 2.7rem;",
+        "responsive": []
+      },
+      {
+        "name": "Fs28",
+        "property": "font-size: 2.6rem; line-height: 1.2; font-weight: 400; font-size: 2.875rem;",
+        "responsive": []
+      },
+      {
+        "name": "Fs29",
+        "property": "font-size: 2.7rem; line-height: 1.2; font-weight: 400; font-size: 2.9rem;",
+        "responsive": []
+      },
+      {
+        "name": "Fs30",
+        "property": "font-size: 2.8rem; line-height: 1.2; font-weight: 400; font-size: 3rem;",
+        "responsive": []
+      },
+      {
+        "name": "Fs33",
+        "property": "font-size: 3rem; line-height: 1.2; font-weight: 400; font-size: 3.3rem;",
+        "responsive": []
+      },
+      {
+        "name": "Fs35",
+        "property": "font-size: 3.2rem; line-height: 1.2; font-weight: 400; font-size: 3.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "Fs40",
+        "property": "font-size: 3.5rem; line-height: 1.15; font-weight: 400; font-size: 4rem;",
+        "responsive": []
+      },
+      {
+        "name": "Fs50",
+        "property": "font-size: 4.5rem; line-height: 1.1; font-weight: 400; font-size: 5rem;",
+        "responsive": []
+      },
+      {
+        "name": "Fs60",
+        "property": "font-size: 5.5rem; line-height: 1.1; font-weight: 400; font-size: 6rem;",
+        "responsive": []
+      },
+      {
+        "name": "Fs70",
+        "property": "font-size: 6.5rem; line-height: 1.1; font-weight: 400; font-size: 7rem;",
+        "responsive": []
+      }
+    ]
+  },
+  {
+    "category": "LINE HEIGHT",
+    "utilities": [
+      {
+        "name": "LineHeight05",
+        "property": "line-height: 0.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "LineHeight10",
+        "property": "line-height: 1rem;",
+        "responsive": []
+      },
+      {
+        "name": "LineHeight15",
+        "property": "line-height: 1.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "LineHeight20",
+        "property": "line-height: 2rem;",
+        "responsive": []
+      },
+      {
+        "name": "LineHeight25",
+        "property": "line-height: 2.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "LineHeight30",
+        "property": "line-height: 3rem;",
+        "responsive": []
+      },
+      {
+        "name": "LineHeight35",
+        "property": "line-height: 3.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "LineHeight40",
+        "property": "line-height: 4rem;",
+        "responsive": []
+      }
+    ]
+  },
+  {
+    "category": "DISPLAY",
+    "utilities": [
       {
         "name": "DisplayBlock",
         "property": "display: block;",
         "responsive": [
+          "Co:",
           "Sm:",
-          "Md:",
-          "Lg:",
-          "Xl:"
+          "Md:"
         ]
       },
       {
         "name": "DisplayInline",
         "property": "display: inline;",
+        "responsive": []
+      },
+      {
+        "name": "DisplayInlineBlock",
+        "property": "display: inline-block;",
+        "responsive": []
+      },
+      {
+        "name": "DisplayFlex",
+        "property": "display: flex;",
         "responsive": [
+          "Co:",
+          "Sm:",
+          "Md:",
+          "Lg:"
+        ]
+      },
+      {
+        "name": "DisplayInlineFlex",
+        "property": "display: inline-flex;",
+        "responsive": []
+      },
+      {
+        "name": "DisplayGrid",
+        "property": "display: grid;",
+        "responsive": [
+          "Co:",
           "Sm:",
           "Md:",
           "Lg:",
           "Xl:"
         ]
+      },
+      {
+        "name": "DisplayInlineGrid",
+        "property": "display: inline-grid;",
+        "responsive": []
       },
       {
         "name": "DisplayNone",
         "property": "display: none;",
         "responsive": [
           "Sm:",
-          "Md:",
-          "Lg:",
-          "Xl:"
-        ]
-      },
-      {
-        "name": "DisplayGrid",
-        "property": "display: grid;",
-        "responsive": [
-          "Sm:",
-          "Md:",
-          "Lg:",
-          "Xl:"
+          "Md:"
         ]
       }
     ]
   },
   {
-    "category": "Flexbox",
+    "category": "FLEX & GRID",
     "utilities": [
       {
-        "name": "JustifyContentCenter",
-        "property": "justify-content: center;",
+        "name": "FlexDirectionRow",
+        "property": "flex-direction: row;",
         "responsive": [
+          "Co:",
           "Sm:",
-          "Md:",
-          "Lg:",
-          "Xl:"
+          "Md:"
         ]
       },
       {
-        "name": "JustifyContentStart",
-        "property": "justify-content: flex-start;",
-        "responsive": [
-          "Sm:",
-          "Md:",
-          "Lg:",
-          "Xl:"
-        ]
-      },
-      {
-        "name": "JustifyContentEnd",
-        "property": "justify-content: flex-end;",
-        "responsive": [
-          "Sm:",
-          "Md:",
-          "Lg:",
-          "Xl:"
-        ]
-      },
-      {
-        "name": "JustifyContentBetween",
-        "property": "justify-content: space-between;",
-        "responsive": [
-          "Sm:",
-          "Md:",
-          "Lg:",
-          "Xl:"
-        ]
-      },
-      {
-        "name": "AlignItemsCenter",
-        "property": "align-items: center;",
-        "responsive": [
-          "Sm:",
-          "Md:",
-          "Lg:",
-          "Xl:"
-        ]
-      },
-      {
-        "name": "AlignItemsStart",
-        "property": "align-items: flex-start;",
-        "responsive": [
-          "Sm:",
-          "Md:",
-          "Lg:",
-          "Xl:"
-        ]
+        "name": "FlexDirectionRowReverse",
+        "property": "flex-direction: row-reverse;",
+        "responsive": []
       },
       {
         "name": "FlexDirectionColumn",
         "property": "flex-direction: column;",
         "responsive": [
+          "Co:",
           "Sm:",
+          "Md:"
+        ]
+      },
+      {
+        "name": "FlexDirectionColumnReverse",
+        "property": "flex-direction: column-reverse;",
+        "responsive": []
+      },
+      {
+        "name": "FlexWrap",
+        "property": "flex-wrap: wrap;",
+        "responsive": [
+          "Sm:"
+        ]
+      },
+      {
+        "name": "FlexNoWrap",
+        "property": "flex-wrap: nowrap;",
+        "responsive": []
+      },
+      {
+        "name": "FlexWrapReverse",
+        "property": "flex-wrap: wrap-reverse;",
+        "responsive": []
+      },
+      {
+        "name": "FlexGrow0",
+        "property": "flex-grow: 0;",
+        "responsive": []
+      },
+      {
+        "name": "FlexGrow1",
+        "property": "flex-grow: 1;",
+        "responsive": []
+      },
+      {
+        "name": "FlexGrow2",
+        "property": "flex-grow: 2;",
+        "responsive": []
+      },
+      {
+        "name": "FlexGrow3",
+        "property": "flex-grow: 3;",
+        "responsive": []
+      },
+      {
+        "name": "FlexShrink0",
+        "property": "flex-shrink: 0;",
+        "responsive": []
+      },
+      {
+        "name": "FlexShrink1",
+        "property": "flex-shrink: 1;",
+        "responsive": []
+      },
+      {
+        "name": "FlexShrink2",
+        "property": "flex-shrink: 2;",
+        "responsive": []
+      },
+      {
+        "name": "FlexShrink3",
+        "property": "flex-shrink: 3;",
+        "responsive": []
+      },
+      {
+        "name": "FlexBasisAuto",
+        "property": "flex-basis: auto;",
+        "responsive": []
+      },
+      {
+        "name": "FlexBasis0",
+        "property": "flex-basis: 0;",
+        "responsive": []
+      },
+      {
+        "name": "FlexBasis25",
+        "property": "flex-basis: 25%;",
+        "responsive": []
+      },
+      {
+        "name": "FlexBasis50",
+        "property": "flex-basis: 50%;",
+        "responsive": []
+      },
+      {
+        "name": "FlexBasis100",
+        "property": "flex-basis: 100%;",
+        "responsive": []
+      },
+      {
+        "name": "FlexOrderFirst",
+        "property": "order: -1;",
+        "responsive": []
+      },
+      {
+        "name": "FlexOrder0",
+        "property": "order: 0;",
+        "responsive": []
+      },
+      {
+        "name": "FlexOrder1",
+        "property": "order: 1;",
+        "responsive": []
+      },
+      {
+        "name": "FlexOrder2",
+        "property": "order: 2;",
+        "responsive": []
+      },
+      {
+        "name": "FlexOrder3",
+        "property": "order: 3;",
+        "responsive": []
+      },
+      {
+        "name": "FlexOrderLast",
+        "property": "order: 9999;",
+        "responsive": []
+      },
+      {
+        "name": "JustifyContentStart",
+        "property": "justify-content: flex-start;",
+        "responsive": []
+      },
+      {
+        "name": "JustifyContentEnd",
+        "property": "justify-content: flex-end;",
+        "responsive": [
+          "Lg:"
+        ]
+      },
+      {
+        "name": "JustifyContentCenter",
+        "property": "justify-content: center;",
+        "responsive": [
+          "Md:"
+        ]
+      },
+      {
+        "name": "JustifyContentSpaceBetween",
+        "property": "justify-content: space-between;",
+        "responsive": [
+          "Md:"
+        ]
+      },
+      {
+        "name": "JustifyContentSpaceAround",
+        "property": "justify-content: space-around;",
+        "responsive": []
+      },
+      {
+        "name": "JustifyContentSpaceEvenly",
+        "property": "justify-content: space-evenly;",
+        "responsive": []
+      },
+      {
+        "name": "AlignItemsStart",
+        "property": "align-items: flex-start;",
+        "responsive": []
+      },
+      {
+        "name": "AlignItemsEnd",
+        "property": "align-items: flex-end;",
+        "responsive": []
+      },
+      {
+        "name": "AlignItemsCenter",
+        "property": "align-items: center;",
+        "responsive": []
+      },
+      {
+        "name": "AlignItemsStretch",
+        "property": "align-items: stretch;",
+        "responsive": []
+      },
+      {
+        "name": "AlignItemsBaseline",
+        "property": "align-items: baseline;",
+        "responsive": []
+      },
+      {
+        "name": "JustifyItemsAuto",
+        "property": "justify-items: auto;",
+        "responsive": []
+      },
+      {
+        "name": "JustifyItemsStart",
+        "property": "justify-items: start;",
+        "responsive": []
+      },
+      {
+        "name": "JustifyItemsEnd",
+        "property": "justify-items: end;",
+        "responsive": []
+      },
+      {
+        "name": "JustifyItemsCenter",
+        "property": "justify-items: center;",
+        "responsive": []
+      },
+      {
+        "name": "JustifyItemsStretch",
+        "property": "justify-items: stretch;",
+        "responsive": []
+      },
+      {
+        "name": "AlignContentStart",
+        "property": "align-content: flex-start;",
+        "responsive": []
+      },
+      {
+        "name": "AlignContentEnd",
+        "property": "align-content: flex-end;",
+        "responsive": []
+      },
+      {
+        "name": "AlignContentCenter",
+        "property": "align-content: center;",
+        "responsive": []
+      },
+      {
+        "name": "AlignContentStretch",
+        "property": "align-content: stretch;",
+        "responsive": []
+      },
+      {
+        "name": "AlignContentSpaceBetween",
+        "property": "align-content: space-between;",
+        "responsive": []
+      },
+      {
+        "name": "AlignContentSpaceAround",
+        "property": "align-content: space-around;",
+        "responsive": []
+      },
+      {
+        "name": "AlignSelfAuto",
+        "property": "align-self: auto;",
+        "responsive": []
+      },
+      {
+        "name": "AlignSelfStart",
+        "property": "align-self: flex-start;",
+        "responsive": []
+      },
+      {
+        "name": "AlignSelfEnd",
+        "property": "align-self: flex-end;",
+        "responsive": []
+      },
+      {
+        "name": "AlignSelfCenter",
+        "property": "align-self: center;",
+        "responsive": []
+      },
+      {
+        "name": "AlignSelfStretch",
+        "property": "align-self: stretch;",
+        "responsive": []
+      },
+      {
+        "name": "AlignSelfBaseline",
+        "property": "align-self: baseline;",
+        "responsive": []
+      },
+      {
+        "name": "JustifySelfAuto",
+        "property": "justify-self: auto;",
+        "responsive": []
+      },
+      {
+        "name": "JustifySelfStart",
+        "property": "justify-self: start;",
+        "responsive": []
+      },
+      {
+        "name": "JustifySelfEnd",
+        "property": "justify-self: end;",
+        "responsive": []
+      },
+      {
+        "name": "JustifySelfCenter",
+        "property": "justify-self: center;",
+        "responsive": []
+      },
+      {
+        "name": "JustifySelfStretch",
+        "property": "justify-self: stretch;",
+        "responsive": []
+      },
+      {
+        "name": "GridTemplateColumns1",
+        "property": "grid-template-columns: repeat(1, 1fr);",
+        "responsive": [
+          "Co:",
+          "Sm:"
+        ]
+      },
+      {
+        "name": "GridTemplateColumns2",
+        "property": "grid-template-columns: repeat(2, 1fr);",
+        "responsive": [
+          "Co:",
+          "Sm:",
+          "Md:"
+        ]
+      },
+      {
+        "name": "GridTemplateColumns3",
+        "property": "grid-template-columns: repeat(3, 1fr);",
+        "responsive": [
+          "Co:",
           "Md:",
+          "Lg:"
+        ]
+      },
+      {
+        "name": "GridTemplateColumns4",
+        "property": "grid-template-columns: repeat(4, 1fr);",
+        "responsive": [
           "Lg:",
           "Xl:"
         ]
+      },
+      {
+        "name": "GridTemplateColumns5",
+        "property": "grid-template-columns: repeat(5, 1fr);",
+        "responsive": []
+      },
+      {
+        "name": "GridTemplateColumns6",
+        "property": "grid-template-columns: repeat(6, 1fr);",
+        "responsive": [
+          "Xl:"
+        ]
+      },
+      {
+        "name": "GridTemplateColumns7",
+        "property": "grid-template-columns: repeat(7, 1fr);",
+        "responsive": []
+      },
+      {
+        "name": "GridTemplateColumns8",
+        "property": "grid-template-columns: repeat(8, 1fr);",
+        "responsive": []
+      },
+      {
+        "name": "GridTemplateColumns9",
+        "property": "grid-template-columns: repeat(9, 1fr);",
+        "responsive": []
+      },
+      {
+        "name": "GridTemplateColumns10",
+        "property": "grid-template-columns: repeat(10, 1fr);",
+        "responsive": []
+      },
+      {
+        "name": "GridTemplateColumns11",
+        "property": "grid-template-columns: repeat(11, 1fr);",
+        "responsive": []
+      },
+      {
+        "name": "GridTemplateColumns12",
+        "property": "grid-template-columns: repeat(12, 1fr);",
+        "responsive": []
+      },
+      {
+        "name": "GridTemplateRows1",
+        "property": "grid-template-rows: repeat(1, 1fr);",
+        "responsive": []
+      },
+      {
+        "name": "GridTemplateRows2",
+        "property": "grid-template-rows: repeat(2, 1fr);",
+        "responsive": []
+      },
+      {
+        "name": "GridTemplateRows3",
+        "property": "grid-template-rows: repeat(3, 1fr);",
+        "responsive": []
+      },
+      {
+        "name": "GridTemplateRows4",
+        "property": "grid-template-rows: repeat(4, 1fr);",
+        "responsive": []
+      },
+      {
+        "name": "GridTemplateRows5",
+        "property": "grid-template-rows: repeat(5, 1fr);",
+        "responsive": []
+      },
+      {
+        "name": "GridTemplateRows6",
+        "property": "grid-template-rows: repeat(6, 1fr);",
+        "responsive": []
+      },
+      {
+        "name": "GridAutoFlowRow",
+        "property": "grid-auto-flow: row;",
+        "responsive": []
+      },
+      {
+        "name": "GridAutoFlowColumn",
+        "property": "grid-auto-flow: column;",
+        "responsive": []
+      },
+      {
+        "name": "GridAutoFlowDense",
+        "property": "grid-auto-flow: dense;",
+        "responsive": []
+      },
+      {
+        "name": "GridAutoFlowRowDense",
+        "property": "grid-auto-flow: row dense;",
+        "responsive": []
+      },
+      {
+        "name": "GridAutoFlowColumnDense",
+        "property": "grid-auto-flow: column dense;",
+        "responsive": []
+      },
+      {
+        "name": "GridAutoColumnsMin",
+        "property": "grid-auto-columns: min-content;",
+        "responsive": []
+      },
+      {
+        "name": "GridAutoColumnsMax",
+        "property": "grid-auto-columns: max-content;",
+        "responsive": []
+      },
+      {
+        "name": "GridAutoColumnsFr",
+        "property": "grid-auto-columns: 1fr;",
+        "responsive": []
+      },
+      {
+        "name": "GridAutoRowsMin",
+        "property": "grid-auto-rows: min-content;",
+        "responsive": []
+      },
+      {
+        "name": "GridAutoRowsMax",
+        "property": "grid-auto-rows: max-content;",
+        "responsive": []
+      },
+      {
+        "name": "GridAutoRowsFr",
+        "property": "grid-auto-rows: 1fr;",
+        "responsive": []
+      },
+      {
+        "name": "GridColStart1",
+        "property": "grid-column-start: 1;",
+        "responsive": []
+      },
+      {
+        "name": "GridColStart2",
+        "property": "grid-column-start: 2;",
+        "responsive": []
+      },
+      {
+        "name": "GridColStart3",
+        "property": "grid-column-start: 3;",
+        "responsive": []
+      },
+      {
+        "name": "GridColStart4",
+        "property": "grid-column-start: 4;",
+        "responsive": []
+      },
+      {
+        "name": "GridColStart5",
+        "property": "grid-column-start: 5;",
+        "responsive": []
+      },
+      {
+        "name": "GridColStart6",
+        "property": "grid-column-start: 6;",
+        "responsive": []
+      },
+      {
+        "name": "GridColStart7",
+        "property": "grid-column-start: 7;",
+        "responsive": []
+      },
+      {
+        "name": "GridColStart8",
+        "property": "grid-column-start: 8;",
+        "responsive": []
+      },
+      {
+        "name": "GridColStart9",
+        "property": "grid-column-start: 9;",
+        "responsive": []
+      },
+      {
+        "name": "GridColStart10",
+        "property": "grid-column-start: 10;",
+        "responsive": []
+      },
+      {
+        "name": "GridColStart11",
+        "property": "grid-column-start: 11;",
+        "responsive": []
+      },
+      {
+        "name": "GridColStart12",
+        "property": "grid-column-start: 12;",
+        "responsive": []
+      },
+      {
+        "name": "GridColEnd1",
+        "property": "grid-column-end: 1;",
+        "responsive": []
+      },
+      {
+        "name": "GridColEnd2",
+        "property": "grid-column-end: 2;",
+        "responsive": []
+      },
+      {
+        "name": "GridColEnd3",
+        "property": "grid-column-end: 3;",
+        "responsive": []
+      },
+      {
+        "name": "GridColEnd4",
+        "property": "grid-column-end: 4;",
+        "responsive": []
+      },
+      {
+        "name": "GridColEnd5",
+        "property": "grid-column-end: 5;",
+        "responsive": []
+      },
+      {
+        "name": "GridColEnd6",
+        "property": "grid-column-end: 6;",
+        "responsive": []
+      },
+      {
+        "name": "GridColEnd7",
+        "property": "grid-column-end: 7;",
+        "responsive": []
+      },
+      {
+        "name": "GridColEnd8",
+        "property": "grid-column-end: 8;",
+        "responsive": []
+      },
+      {
+        "name": "GridColEnd9",
+        "property": "grid-column-end: 9;",
+        "responsive": []
+      },
+      {
+        "name": "GridColEnd10",
+        "property": "grid-column-end: 10;",
+        "responsive": []
+      },
+      {
+        "name": "GridColEnd11",
+        "property": "grid-column-end: 11;",
+        "responsive": []
+      },
+      {
+        "name": "GridColEnd12",
+        "property": "grid-column-end: 12;",
+        "responsive": []
+      },
+      {
+        "name": "GridRowStart1",
+        "property": "grid-row-start: 1;",
+        "responsive": []
+      },
+      {
+        "name": "GridRowStart2",
+        "property": "grid-row-start: 2;",
+        "responsive": []
+      },
+      {
+        "name": "GridRowStart3",
+        "property": "grid-row-start: 3;",
+        "responsive": []
+      },
+      {
+        "name": "GridRowStart4",
+        "property": "grid-row-start: 4;",
+        "responsive": []
+      },
+      {
+        "name": "GridRowStart5",
+        "property": "grid-row-start: 5;",
+        "responsive": []
+      },
+      {
+        "name": "GridRowStart6",
+        "property": "grid-row-start: 6;",
+        "responsive": []
+      },
+      {
+        "name": "GridRowEnd1",
+        "property": "grid-row-end: 1;",
+        "responsive": []
+      },
+      {
+        "name": "GridRowEnd2",
+        "property": "grid-row-end: 2;",
+        "responsive": []
+      },
+      {
+        "name": "GridRowEnd3",
+        "property": "grid-row-end: 3;",
+        "responsive": []
+      },
+      {
+        "name": "GridRowEnd4",
+        "property": "grid-row-end: 4;",
+        "responsive": []
+      },
+      {
+        "name": "GridRowEnd5",
+        "property": "grid-row-end: 5;",
+        "responsive": []
+      },
+      {
+        "name": "GridRowEnd6",
+        "property": "grid-row-end: 6;",
+        "responsive": []
+      },
+      {
+        "name": "PlaceContentStart",
+        "property": "place-content: start;",
+        "responsive": []
+      },
+      {
+        "name": "PlaceContentEnd",
+        "property": "place-content: end;",
+        "responsive": []
+      },
+      {
+        "name": "PlaceContentCenter",
+        "property": "place-content: center;",
+        "responsive": []
+      },
+      {
+        "name": "PlaceContentStretch",
+        "property": "place-content: stretch;",
+        "responsive": []
+      },
+      {
+        "name": "PlaceContentBetween",
+        "property": "place-content: space-between;",
+        "responsive": []
+      },
+      {
+        "name": "PlaceContentAround",
+        "property": "place-content: space-around;",
+        "responsive": []
+      },
+      {
+        "name": "PlaceContentEvenly",
+        "property": "place-content: space-evenly;",
+        "responsive": []
+      },
+      {
+        "name": "PlaceItemsStart",
+        "property": "place-items: start;",
+        "responsive": []
+      },
+      {
+        "name": "PlaceItemsEnd",
+        "property": "place-items: end;",
+        "responsive": []
+      },
+      {
+        "name": "PlaceItemsCenter",
+        "property": "place-items: center;",
+        "responsive": []
+      },
+      {
+        "name": "PlaceItemsStretch",
+        "property": "place-items: stretch;",
+        "responsive": []
+      },
+      {
+        "name": "Gap0",
+        "property": "gap: 0;",
+        "responsive": []
+      },
+      {
+        "name": "Gap01",
+        "property": "gap: .1rem;",
+        "responsive": []
+      },
+      {
+        "name": "Gap02",
+        "property": "gap: .2rem;",
+        "responsive": []
+      },
+      {
+        "name": "Gap05",
+        "property": "gap: .5rem;",
+        "responsive": []
+      },
+      {
+        "name": "Gap10",
+        "property": "gap: 1rem;",
+        "responsive": [
+          "Co:"
+        ]
+      },
+      {
+        "name": "Gap15",
+        "property": "gap: 1.5rem;",
+        "responsive": [
+          "Co:",
+          "Md:"
+        ]
+      },
+      {
+        "name": "Gap20",
+        "property": "gap: 2rem;",
+        "responsive": [
+          "Co:",
+          "Lg:"
+        ]
+      },
+      {
+        "name": "Gap25",
+        "property": "gap: 2.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "Gap30",
+        "property": "gap: 3rem;",
+        "responsive": []
+      },
+      {
+        "name": "Gap40",
+        "property": "gap: 4rem;",
+        "responsive": []
+      },
+      {
+        "name": "Gap50",
+        "property": "gap: 5rem;",
+        "responsive": []
+      },
+      {
+        "name": "ColumnGap01",
+        "property": "-moz-column-gap: .1rem; column-gap: .1rem;",
+        "responsive": []
+      },
+      {
+        "name": "ColumnGap05",
+        "property": "-moz-column-gap: .5rem; column-gap: .5rem;",
+        "responsive": []
+      },
+      {
+        "name": "ColumnGap10",
+        "property": "-moz-column-gap: 1rem; column-gap: 1rem;",
+        "responsive": []
+      },
+      {
+        "name": "ColumnGap20",
+        "property": "-moz-column-gap: 2rem; column-gap: 2rem;",
+        "responsive": []
+      },
+      {
+        "name": "ColumnGap30",
+        "property": "-moz-column-gap: 3rem; column-gap: 3rem;",
+        "responsive": []
+      },
+      {
+        "name": "ColumnGap40",
+        "property": "-moz-column-gap: 4rem; column-gap: 4rem;",
+        "responsive": []
+      },
+      {
+        "name": "ColumnGap50",
+        "property": "-moz-column-gap: 5rem; column-gap: 5rem;",
+        "responsive": []
+      },
+      {
+        "name": "RowGap01",
+        "property": "row-gap: .1rem;",
+        "responsive": []
+      },
+      {
+        "name": "RowGap05",
+        "property": "row-gap: .5rem;",
+        "responsive": []
+      },
+      {
+        "name": "RowGap10",
+        "property": "row-gap: 1rem;",
+        "responsive": []
+      },
+      {
+        "name": "RowGap20",
+        "property": "row-gap: 2rem;",
+        "responsive": []
+      },
+      {
+        "name": "RowGap30",
+        "property": "row-gap: 3rem;",
+        "responsive": []
+      },
+      {
+        "name": "RowGap40",
+        "property": "row-gap: 4rem;",
+        "responsive": []
+      },
+      {
+        "name": "RowGap50",
+        "property": "row-gap: 5rem;",
+        "responsive": []
       }
     ]
   },
   {
-    "category": "Spacing",
+    "category": "TEXT",
     "utilities": [
       {
-        "name": "Padding10",
-        "property": "padding: 1rem;",
-        "value": "1rem",
+        "name": "TextAlignLeft",
+        "property": "text-align: left;",
         "responsive": [
           "Sm:",
-          "Md:",
-          "Lg:",
-          "Xl:"
-        ],
-        "preview": {
-          "type": "box",
-          "value": "1rem"
-        }
-      },
-      {
-        "name": "Padding20",
-        "property": "padding: 2rem;",
-        "value": "2rem",
-        "responsive": [
-          "Sm:",
-          "Md:",
-          "Lg:",
-          "Xl:"
-        ],
-        "preview": {
-          "type": "box",
-          "value": "2rem"
-        }
-      },
-      {
-        "name": "Margin10",
-        "property": "margin: 1rem;",
-        "value": "1rem",
-        "responsive": [
-          "Sm:",
-          "Md:",
-          "Lg:",
-          "Xl:"
-        ],
-        "preview": {
-          "type": "box",
-          "value": "1rem"
-        }
-      },
-      {
-        "name": "MarginTop10",
-        "property": "margin-top: 1rem;",
-        "value": "1rem",
-        "responsive": [
-          "Sm:",
-          "Md:",
-          "Lg:",
-          "Xl:"
-        ],
-        "preview": {
-          "type": "box",
-          "value": "1rem"
-        }
-      },
-      {
-        "name": "MarginBottom10",
-        "property": "margin-bottom: 1rem;",
-        "value": "1rem",
-        "responsive": [
-          "Sm:",
-          "Md:",
-          "Lg:",
-          "Xl:"
-        ],
-        "preview": {
-          "type": "box",
-          "value": "1rem"
-        }
-      }
-    ]
-  },
-  {
-    "category": "Typography",
-    "utilities": [
-      {
-        "name": "FontSize16",
-        "property": "font-size: 1rem;",
-        "value": "1rem",
-        "responsive": [
-          "Sm:",
-          "Md:",
-          "Lg:",
-          "Xl:"
-        ]
-      },
-      {
-        "name": "FontSize32",
-        "property": "font-size: 2rem;",
-        "value": "2rem",
-        "responsive": [
-          "Sm:",
-          "Md:",
-          "Lg:",
-          "Xl:"
-        ]
-      },
-      {
-        "name": "FontWeightBold",
-        "property": "font-weight: 700;",
-        "responsive": [
-          "Sm:",
-          "Md:",
-          "Lg:",
-          "Xl:"
+          "Md:"
         ]
       },
       {
@@ -249,65 +1123,2864 @@
         "property": "text-align: center;",
         "responsive": [
           "Sm:",
+          "Md:"
+        ]
+      },
+      {
+        "name": "TextAlignRight",
+        "property": "text-align: right;",
+        "responsive": []
+      },
+      {
+        "name": "Fw300",
+        "property": "font-weight: 300;",
+        "responsive": []
+      },
+      {
+        "name": "Fw400",
+        "property": "font-weight: 400;",
+        "responsive": []
+      },
+      {
+        "name": "Fw500",
+        "property": "font-weight: 500;",
+        "responsive": []
+      },
+      {
+        "name": "Fw600",
+        "property": "font-weight: 600;",
+        "responsive": []
+      },
+      {
+        "name": "Fw700",
+        "property": "font-weight: 700;",
+        "responsive": []
+      },
+      {
+        "name": "FwBold",
+        "property": "font-weight: bold;",
+        "responsive": []
+      },
+      {
+        "name": "TextTransformUppercase",
+        "property": "text-transform: uppercase;",
+        "responsive": []
+      },
+      {
+        "name": "TextTransformLowercase",
+        "property": "text-transform: lowercase;",
+        "responsive": []
+      },
+      {
+        "name": "TextTransformCapitalize",
+        "property": "text-transform: capitalize;",
+        "responsive": []
+      }
+    ]
+  },
+  {
+    "category": "PADDING",
+    "utilities": [
+      {
+        "name": "Padding0",
+        "property": "padding: 0rem;",
+        "responsive": []
+      },
+      {
+        "name": "Padding01",
+        "property": "padding: .1rem;",
+        "responsive": []
+      },
+      {
+        "name": "Padding02",
+        "property": "padding: .2rem;",
+        "responsive": []
+      },
+      {
+        "name": "Padding03",
+        "property": "padding: .3rem;",
+        "responsive": []
+      },
+      {
+        "name": "Padding05",
+        "property": "padding: .5rem;",
+        "responsive": []
+      },
+      {
+        "name": "Padding10",
+        "property": "padding: 1rem;",
+        "responsive": [
+          "Co:",
+          "Sm:"
+        ]
+      },
+      {
+        "name": "Padding15",
+        "property": "padding: 1.5rem;",
+        "responsive": [
+          "Co:",
+          "Md:"
+        ]
+      },
+      {
+        "name": "Padding20",
+        "property": "padding: 2rem;",
+        "responsive": [
+          "Co:",
+          "Sm:"
+        ]
+      },
+      {
+        "name": "Padding25",
+        "property": "padding: 2.5rem;",
+        "responsive": [
           "Md:",
           "Lg:",
           "Xl:"
         ]
+      },
+      {
+        "name": "Padding30",
+        "property": "padding: 3rem;",
+        "responsive": []
+      },
+      {
+        "name": "Padding35",
+        "property": "padding: 3.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "Padding40",
+        "property": "padding: 4rem;",
+        "responsive": []
+      },
+      {
+        "name": "Padding45",
+        "property": "padding: 4.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "Padding50",
+        "property": "padding: 5rem;",
+        "responsive": []
+      },
+      {
+        "name": "Padding55",
+        "property": "padding: 5.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "Padding60",
+        "property": "padding: 6rem;",
+        "responsive": []
+      },
+      {
+        "name": "Padding65",
+        "property": "padding: 6.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "Padding70",
+        "property": "padding: 7rem;",
+        "responsive": []
+      },
+      {
+        "name": "Padding75",
+        "property": "padding: 7.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "Padding80",
+        "property": "padding: 8rem;",
+        "responsive": []
+      },
+      {
+        "name": "Padding85",
+        "property": "padding: 8.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "Padding90",
+        "property": "padding: 9rem;",
+        "responsive": []
+      },
+      {
+        "name": "Padding95",
+        "property": "padding: 9.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "Padding100",
+        "property": "padding: 10rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingT0",
+        "property": "padding-top: 0rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingT01",
+        "property": "padding-top: .1rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingT02",
+        "property": "padding-top: .2rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingT03",
+        "property": "padding-top: .3rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingT5",
+        "property": "padding-top: .5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingT10",
+        "property": "padding-top: 1rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingT15",
+        "property": "padding-top: 1.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingT20",
+        "property": "padding-top: 2rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingT25",
+        "property": "padding-top: 2.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingT30",
+        "property": "padding-top: 3rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingT35",
+        "property": "padding-top: 3.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingT40",
+        "property": "padding-top: 4rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingT45",
+        "property": "padding-top: 4.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingT50",
+        "property": "padding-top: 5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingT55",
+        "property": "padding-top: 5.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingT60",
+        "property": "padding-top: 6rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingT65",
+        "property": "padding-top: 6.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingT70",
+        "property": "padding-top: 7rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingT75",
+        "property": "padding-top: 7.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingT80",
+        "property": "padding-top: 8rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingT85",
+        "property": "padding-top: 8.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingT90",
+        "property": "padding-top: 9rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingT95",
+        "property": "padding-top: 9.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingT100",
+        "property": "padding-top: 10rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingB0",
+        "property": "padding-bottom: 0rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingB01",
+        "property": "padding-bottom: .1rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingB02",
+        "property": "padding-bottom: .2rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingB03",
+        "property": "padding-bottom: .3rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingB05",
+        "property": "padding-bottom: .5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingB10",
+        "property": "padding-bottom: 1rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingB15",
+        "property": "padding-bottom: 1.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingB20",
+        "property": "padding-bottom: 2rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingB25",
+        "property": "padding-bottom: 2.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingB30",
+        "property": "padding-bottom: 3rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingB35",
+        "property": "padding-bottom: 3.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingB40",
+        "property": "padding-bottom: 4rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingB45",
+        "property": "padding-bottom: 4.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingB50",
+        "property": "padding-bottom: 5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingB55",
+        "property": "padding-bottom: 5.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingB60",
+        "property": "padding-bottom: 6rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingB65",
+        "property": "padding-bottom: 6.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingB70",
+        "property": "padding-bottom: 7rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingB75",
+        "property": "padding-bottom: 7.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingB80",
+        "property": "padding-bottom: 8rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingB85",
+        "property": "padding-bottom: 8.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingB90",
+        "property": "padding-bottom: 9rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingB95",
+        "property": "padding-bottom: 9.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingB100",
+        "property": "padding-bottom: 10rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingL0",
+        "property": "padding-left: 0rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingL01",
+        "property": "padding-left: .1rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingL02",
+        "property": "padding-left: .2rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingL03",
+        "property": "padding-left: .3rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingL05",
+        "property": "padding-left: .5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingL10",
+        "property": "padding-left: 1rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingL15",
+        "property": "padding-left: 1.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingL20",
+        "property": "padding-left: 2rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingL25",
+        "property": "padding-left: 2.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingL30",
+        "property": "padding-left: 3rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingL35",
+        "property": "padding-left: 3.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingL40",
+        "property": "padding-left: 4rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingL45",
+        "property": "padding-left: 4.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingL50",
+        "property": "padding-left: 5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingL55",
+        "property": "padding-left: 5.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingL60",
+        "property": "padding-left: 6rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingL65",
+        "property": "padding-left: 6.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingL70",
+        "property": "padding-left: 7rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingL75",
+        "property": "padding-left: 7.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingL80",
+        "property": "padding-left: 8rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingL85",
+        "property": "padding-left: 8.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingL90",
+        "property": "padding-left: 9rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingL95",
+        "property": "padding-left: 9.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingL100",
+        "property": "padding-left: 10rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingR0",
+        "property": "padding-right: 0rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingR01",
+        "property": "padding-right: .1rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingR02",
+        "property": "padding-right: .2rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingR03",
+        "property": "padding-right: .3rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingR05",
+        "property": "padding-right: .5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingR10",
+        "property": "padding-right: 1rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingR15",
+        "property": "padding-right: 1.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingR20",
+        "property": "padding-right: 2rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingR25",
+        "property": "padding-right: 2.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingR30",
+        "property": "padding-right: 3rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingR35",
+        "property": "padding-right: 3.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingR40",
+        "property": "padding-right: 4rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingR45",
+        "property": "padding-right: 4.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingR50",
+        "property": "padding-right: 5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingR55",
+        "property": "padding-right: 5.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingR60",
+        "property": "padding-right: 6rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingR65",
+        "property": "padding-right: 6.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingR70",
+        "property": "padding-right: 7rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingR75",
+        "property": "padding-right: 7.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingR80",
+        "property": "padding-right: 8rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingR85",
+        "property": "padding-right: 8.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingR90",
+        "property": "padding-right: 9rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingR95",
+        "property": "padding-right: 9.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingR100",
+        "property": "padding-right: 10rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingY0",
+        "property": "padding-top: 0rem; padding-bottom: 0rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingY01",
+        "property": "padding-top: .1rem; padding-bottom: .1rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingY02",
+        "property": "padding-top: .2rem; padding-bottom: .2rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingY03",
+        "property": "padding-top: .3rem; padding-bottom: .3rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingY05",
+        "property": "padding-top: .5rem; padding-bottom: .5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingY10",
+        "property": "padding-top: 1rem; padding-bottom: 1rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingY15",
+        "property": "padding-top: 1.5rem; padding-bottom: 1.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingY20",
+        "property": "padding-top: 2rem; padding-bottom: 2rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingY25",
+        "property": "padding-top: 2.5rem; padding-bottom: 2.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingY30",
+        "property": "padding-top: 3rem; padding-bottom: 3rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingY35",
+        "property": "padding-top: 3.5rem; padding-bottom: 3.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingY40",
+        "property": "padding-top: 4rem; padding-bottom: 4rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingY45",
+        "property": "padding-top: 4.5rem; padding-bottom: 4.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingY50",
+        "property": "padding-top: 5rem; padding-bottom: 5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingY55",
+        "property": "padding-top: 5.5rem; padding-bottom: 5.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingY60",
+        "property": "padding-top: 6rem; padding-bottom: 6rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingY65",
+        "property": "padding-top: 6.5rem; padding-bottom: 6.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingY70",
+        "property": "padding-top: 7rem; padding-bottom: 7rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingY75",
+        "property": "padding-top: 7.5rem; padding-bottom: 7.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingY80",
+        "property": "padding-top: 8rem; padding-bottom: 8rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingY85",
+        "property": "padding-top: 8.5rem; padding-bottom: 8.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingY90",
+        "property": "padding-top: 9rem; padding-bottom: 9rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingY95",
+        "property": "padding-top: 9.5rem; padding-bottom: 9.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingY100",
+        "property": "padding-top: 10rem; padding-bottom: 10rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingX0",
+        "property": "padding-left: 0rem; padding-right: 0rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingX01",
+        "property": "padding-left: .1rem; padding-right: .1rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingX02",
+        "property": "padding-left: .2rem; padding-right: .2rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingX03",
+        "property": "padding-left: .3rem; padding-right: .3rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingX05",
+        "property": "padding-left: .5rem; padding-right: .5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingX10",
+        "property": "padding-left: 1rem; padding-right: 1rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingX15",
+        "property": "padding-left: 1.5rem; padding-right: 1.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingX20",
+        "property": "padding-left: 2rem; padding-right: 2rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingX25",
+        "property": "padding-left: 2.5rem; padding-right: 2.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingX30",
+        "property": "padding-left: 3rem; padding-right: 3rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingX35",
+        "property": "padding-left: 3.5rem; padding-right: 3.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingX40",
+        "property": "padding-left: 4rem; padding-right: 4rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingX45",
+        "property": "padding-left: 4.5rem; padding-right: 4.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingX50",
+        "property": "padding-left: 5rem; padding-right: 5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingX55",
+        "property": "padding-left: 5.5rem; padding-right: 5.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingX60",
+        "property": "padding-left: 6rem; padding-right: 6rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingX65",
+        "property": "padding-left: 6.5rem; padding-right: 6.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingX70",
+        "property": "padding-left: 7rem; padding-right: 7rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingX75",
+        "property": "padding-left: 7.5rem; padding-right: 7.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingX80",
+        "property": "padding-left: 8rem; padding-right: 8rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingX85",
+        "property": "padding-left: 8.5rem; padding-right: 8.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingX90",
+        "property": "padding-left: 9rem; padding-right: 9rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingX95",
+        "property": "padding-left: 9.5rem; padding-right: 9.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "PaddingX100",
+        "property": "padding-left: 10rem; padding-right: 10rem;",
+        "responsive": []
       }
     ]
   },
   {
-    "category": "Colors",
+    "category": "MARGIN",
     "utilities": [
       {
-        "name": "ColorBlue600",
-        "property": "color: #2563eb;",
-        "value": "#2563eb",
-        "responsive": [],
-        "preview": {
-          "type": "color",
-          "value": "#2563eb"
-        }
+        "name": "Margin0",
+        "property": "margin: 0rem;",
+        "responsive": []
       },
       {
-        "name": "ColorBlue700",
-        "property": "color: #1d4ed8;",
-        "value": "#1d4ed8",
-        "responsive": [],
-        "preview": {
-          "type": "color",
-          "value": "#1d4ed8"
-        }
+        "name": "Margin01",
+        "property": "margin: .1rem;",
+        "responsive": []
       },
       {
-        "name": "ColorGray600",
-        "property": "color: #4b5563;",
-        "value": "#4b5563",
-        "responsive": [],
-        "preview": {
-          "type": "color",
-          "value": "#4b5563"
-        }
+        "name": "Margin02",
+        "property": "margin: .2rem;",
+        "responsive": []
       },
       {
-        "name": "BackgroundColorWhite",
-        "property": "background-color: #ffffff;",
-        "value": "#ffffff",
-        "responsive": [],
-        "preview": {
-          "type": "color",
-          "value": "#ffffff"
-        }
+        "name": "Margin03",
+        "property": "margin: .3rem;",
+        "responsive": []
+      },
+      {
+        "name": "Margin05",
+        "property": "margin: .5rem;",
+        "responsive": []
+      },
+      {
+        "name": "Margin10",
+        "property": "margin: 1rem;",
+        "responsive": [
+          "Sm:"
+        ]
+      },
+      {
+        "name": "Margin15",
+        "property": "margin: 1.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "Margin20",
+        "property": "margin: 2rem;",
+        "responsive": [
+          "Sm:"
+        ]
+      },
+      {
+        "name": "Margin25",
+        "property": "margin: 2.5rem;",
+        "responsive": [
+          "Lg:"
+        ]
+      },
+      {
+        "name": "Margin30",
+        "property": "margin: 3rem;",
+        "responsive": []
+      },
+      {
+        "name": "Margin35",
+        "property": "margin: 3.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "Margin40",
+        "property": "margin: 4rem;",
+        "responsive": []
+      },
+      {
+        "name": "Margin45",
+        "property": "margin: 4.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "Margin50",
+        "property": "margin: 5rem;",
+        "responsive": []
+      },
+      {
+        "name": "Margin55",
+        "property": "margin: 5.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "Margin60",
+        "property": "margin: 6rem;",
+        "responsive": []
+      },
+      {
+        "name": "Margin65",
+        "property": "margin: 6.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "Margin70",
+        "property": "margin: 7rem;",
+        "responsive": []
+      },
+      {
+        "name": "Margin75",
+        "property": "margin: 7.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "Margin80",
+        "property": "margin: 8rem;",
+        "responsive": []
+      },
+      {
+        "name": "Margin85",
+        "property": "margin: 8.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "Margin90",
+        "property": "margin: 9rem;",
+        "responsive": []
+      },
+      {
+        "name": "Margin95",
+        "property": "margin: 9.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "Margin100",
+        "property": "margin: 10rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginT0",
+        "property": "margin-top: 0rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginT01",
+        "property": "margin-top: .1rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginT02",
+        "property": "margin-top: .2rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginT03",
+        "property": "margin-top: .3rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginT5",
+        "property": "margin-top: .5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginT10",
+        "property": "margin-top: 1rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginT15",
+        "property": "margin-top: 1.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginT20",
+        "property": "margin-top: 2rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginT25",
+        "property": "margin-top: 2.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginT30",
+        "property": "margin-top: 3rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginT35",
+        "property": "margin-top: 3.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginT40",
+        "property": "margin-top: 4rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginT45",
+        "property": "margin-top: 4.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginT50",
+        "property": "margin-top: 5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginT55",
+        "property": "margin-top: 5.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginT60",
+        "property": "margin-top: 6rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginT65",
+        "property": "margin-top: 6.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginT70",
+        "property": "margin-top: 7rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginT75",
+        "property": "margin-top: 7.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginT80",
+        "property": "margin-top: 8rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginT85",
+        "property": "margin-top: 8.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginT90",
+        "property": "margin-top: 9rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginT95",
+        "property": "margin-top: 9.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginT100",
+        "property": "margin-top: 10rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginB0",
+        "property": "margin-bottom: 0rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginB01",
+        "property": "margin-bottom: .1rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginB02",
+        "property": "margin-bottom: .2rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginB03",
+        "property": "margin-bottom: .3rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginB05",
+        "property": "margin-bottom: .5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginB10",
+        "property": "margin-bottom: 1rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginB15",
+        "property": "margin-bottom: 1.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginB20",
+        "property": "margin-bottom: 2rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginB25",
+        "property": "margin-bottom: 2.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginB30",
+        "property": "margin-bottom: 3rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginB35",
+        "property": "margin-bottom: 3.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginB40",
+        "property": "margin-bottom: 4rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginB45",
+        "property": "margin-bottom: 4.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginB50",
+        "property": "margin-bottom: 5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginB55",
+        "property": "margin-bottom: 5.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginB60",
+        "property": "margin-bottom: 6rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginB65",
+        "property": "margin-bottom: 6.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginB70",
+        "property": "margin-bottom: 7rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginB75",
+        "property": "margin-bottom: 7.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginB80",
+        "property": "margin-bottom: 8rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginB85",
+        "property": "margin-bottom: 8.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginB90",
+        "property": "margin-bottom: 9rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginB95",
+        "property": "margin-bottom: 9.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginB100",
+        "property": "margin-bottom: 10rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginL0",
+        "property": "margin-left: 0rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginL01",
+        "property": "margin-left: .1rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginL02",
+        "property": "margin-left: .2rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginL03",
+        "property": "margin-left: .3rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginL05",
+        "property": "margin-left: .5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginL10",
+        "property": "margin-left: 1rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginL15",
+        "property": "margin-left: 1.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginL20",
+        "property": "margin-left: 2rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginL25",
+        "property": "margin-left: 2.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginL30",
+        "property": "margin-left: 3rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginL35",
+        "property": "margin-left: 3.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginL40",
+        "property": "margin-left: 4rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginL45",
+        "property": "margin-left: 4.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginL50",
+        "property": "margin-left: 5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginL55",
+        "property": "margin-left: 5.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginL60",
+        "property": "margin-left: 6rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginL65",
+        "property": "margin-left: 6.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginL70",
+        "property": "margin-left: 7rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginL75",
+        "property": "margin-left: 7.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginL80",
+        "property": "margin-left: 8rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginL85",
+        "property": "margin-left: 8.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginL90",
+        "property": "margin-left: 9rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginL95",
+        "property": "margin-left: 9.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginL100",
+        "property": "margin-left: 10rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginR0",
+        "property": "margin-right: 0rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginR01",
+        "property": "margin-right: .1rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginR02",
+        "property": "margin-right: .2rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginR03",
+        "property": "margin-right: .3rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginR05",
+        "property": "margin-right: .5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginR10",
+        "property": "margin-right: 1rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginR15",
+        "property": "margin-right: 1.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginR20",
+        "property": "margin-right: 2rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginR25",
+        "property": "margin-right: 2.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginR30",
+        "property": "margin-right: 3rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginR35",
+        "property": "margin-right: 3.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginR40",
+        "property": "margin-right: 4rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginR45",
+        "property": "margin-right: 4.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginR50",
+        "property": "margin-right: 5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginR55",
+        "property": "margin-right: 5.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginR60",
+        "property": "margin-right: 6rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginR65",
+        "property": "margin-right: 6.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginR70",
+        "property": "margin-right: 7rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginR75",
+        "property": "margin-right: 7.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginR80",
+        "property": "margin-right: 8rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginR85",
+        "property": "margin-right: 8.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginR90",
+        "property": "margin-right: 9rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginR95",
+        "property": "margin-right: 9.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginR100",
+        "property": "margin-right: 10rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginY0",
+        "property": "margin-top: 0rem; margin-bottom: 0rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginY01",
+        "property": "margin-top: .1rem; margin-bottom: .1rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginY02",
+        "property": "margin-top: .2rem; margin-bottom: .2rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginY03",
+        "property": "margin-top: .3rem; margin-bottom: .3rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginY05",
+        "property": "margin-top: .5rem; margin-bottom: .5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginY10",
+        "property": "margin-top: 1rem; margin-bottom: 1rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginY15",
+        "property": "margin-top: 1.5rem; margin-bottom: 1.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginY20",
+        "property": "margin-top: 2rem; margin-bottom: 2rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginY25",
+        "property": "margin-top: 2.5rem; margin-bottom: 2.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginY30",
+        "property": "margin-top: 3rem; margin-bottom: 3rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginY35",
+        "property": "margin-top: 3.5rem; margin-bottom: 3.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginY40",
+        "property": "margin-top: 4rem; margin-bottom: 4rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginY45",
+        "property": "margin-top: 4.5rem; margin-bottom: 4.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginY50",
+        "property": "margin-top: 5rem; margin-bottom: 5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginY55",
+        "property": "margin-top: 5.5rem; margin-bottom: 5.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginY60",
+        "property": "margin-top: 6rem; margin-bottom: 6rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginY65",
+        "property": "margin-top: 6.5rem; margin-bottom: 6.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginY70",
+        "property": "margin-top: 7rem; margin-bottom: 7rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginY75",
+        "property": "margin-top: 7.5rem; margin-bottom: 7.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginY80",
+        "property": "margin-top: 8rem; margin-bottom: 8rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginY85",
+        "property": "margin-top: 8.5rem; margin-bottom: 8.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginY90",
+        "property": "margin-top: 9rem; margin-bottom: 9rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginY95",
+        "property": "margin-top: 9.5rem; margin-bottom: 9.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginY100",
+        "property": "margin-top: 10rem; margin-bottom: 10rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginX0",
+        "property": "margin-left: 0rem; margin-right: 0rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginX01",
+        "property": "margin-left: .1rem; margin-right: .1rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginX02",
+        "property": "margin-left: .2rem; margin-right: .2rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginX03",
+        "property": "margin-left: .3rem; margin-right: .3rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginX05",
+        "property": "margin-left: .5rem; margin-right: .5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginX10",
+        "property": "margin-left: 1rem; margin-right: 1rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginX15",
+        "property": "margin-left: 1.5rem; margin-right: 1.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginX20",
+        "property": "margin-left: 2rem; margin-right: 2rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginX25",
+        "property": "margin-left: 2.5rem; margin-right: 2.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginX30",
+        "property": "margin-left: 3rem; margin-right: 3rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginX35",
+        "property": "margin-left: 3.5rem; margin-right: 3.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginX40",
+        "property": "margin-left: 4rem; margin-right: 4rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginX45",
+        "property": "margin-left: 4.5rem; margin-right: 4.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginX50",
+        "property": "margin-left: 5rem; margin-right: 5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginX55",
+        "property": "margin-left: 5.5rem; margin-right: 5.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginX60",
+        "property": "margin-left: 6rem; margin-right: 6rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginX65",
+        "property": "margin-left: 6.5rem; margin-right: 6.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginX70",
+        "property": "margin-left: 7rem; margin-right: 7rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginX75",
+        "property": "margin-left: 7.5rem; margin-right: 7.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginX80",
+        "property": "margin-left: 8rem; margin-right: 8rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginX85",
+        "property": "margin-left: 8.5rem; margin-right: 8.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginX90",
+        "property": "margin-left: 9rem; margin-right: 9rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginX95",
+        "property": "margin-left: 9.5rem; margin-right: 9.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginX100",
+        "property": "margin-left: 10rem; margin-right: 10rem;",
+        "responsive": []
+      },
+      {
+        "name": "MarginLeftAuto",
+        "property": "margin-left: auto;",
+        "responsive": []
+      },
+      {
+        "name": "MarginRightAuto",
+        "property": "margin-right: auto;",
+        "responsive": []
+      },
+      {
+        "name": "MarginTopAuto",
+        "property": "margin-top: auto;",
+        "responsive": []
+      },
+      {
+        "name": "MarginBottomAuto",
+        "property": "margin-bottom: auto;",
+        "responsive": []
       }
     ]
   },
   {
-    "category": "Borders",
+    "category": "SIZE",
     "utilities": [
+      {
+        "name": "Width0",
+        "property": "width: 0%;",
+        "responsive": []
+      },
+      {
+        "name": "Width5",
+        "property": "width: 5%;",
+        "responsive": []
+      },
+      {
+        "name": "Width10",
+        "property": "width: 10%;",
+        "responsive": []
+      },
+      {
+        "name": "Width15",
+        "property": "width: 15%;",
+        "responsive": []
+      },
+      {
+        "name": "Width20",
+        "property": "width: 20%;",
+        "responsive": []
+      },
+      {
+        "name": "Width25",
+        "property": "width: 25%;",
+        "responsive": [
+          "Xl:"
+        ]
+      },
+      {
+        "name": "Width30",
+        "property": "width: 30%;",
+        "responsive": []
+      },
+      {
+        "name": "Width33",
+        "property": "width: 33.333%; width: 33.33%;",
+        "responsive": [
+          "Lg:"
+        ]
+      },
+      {
+        "name": "Width35",
+        "property": "width: 35%;",
+        "responsive": []
+      },
+      {
+        "name": "Width40",
+        "property": "width: 40%;",
+        "responsive": []
+      },
+      {
+        "name": "Width45",
+        "property": "width: 45%;",
+        "responsive": []
+      },
+      {
+        "name": "Width50",
+        "property": "width: 50%;",
+        "responsive": [
+          "Md:"
+        ]
+      },
+      {
+        "name": "Width55",
+        "property": "width: 55%;",
+        "responsive": []
+      },
+      {
+        "name": "Width60",
+        "property": "width: 60%;",
+        "responsive": []
+      },
+      {
+        "name": "Width66",
+        "property": "width: 66.666%;",
+        "responsive": []
+      },
+      {
+        "name": "Width70",
+        "property": "width: 70%;",
+        "responsive": []
+      },
+      {
+        "name": "Width75",
+        "property": "width: 75%;",
+        "responsive": []
+      },
+      {
+        "name": "Width80",
+        "property": "width: 80%;",
+        "responsive": []
+      },
+      {
+        "name": "Width85",
+        "property": "width: 85%;",
+        "responsive": []
+      },
+      {
+        "name": "Width90",
+        "property": "width: 90%;",
+        "responsive": []
+      },
+      {
+        "name": "Width95",
+        "property": "width: 95%;",
+        "responsive": []
+      },
+      {
+        "name": "Width100",
+        "property": "width: 100%;",
+        "responsive": [
+          "Sm:"
+        ]
+      },
+      {
+        "name": "WidthAuto",
+        "property": "width: auto;",
+        "responsive": []
+      },
+      {
+        "name": "Height0",
+        "property": "height: 0%;",
+        "responsive": []
+      },
+      {
+        "name": "Height5",
+        "property": "height: 5%;",
+        "responsive": []
+      },
+      {
+        "name": "Height10",
+        "property": "height: 10%;",
+        "responsive": []
+      },
+      {
+        "name": "Height15",
+        "property": "height: 15%;",
+        "responsive": []
+      },
+      {
+        "name": "Height20",
+        "property": "height: 20%;",
+        "responsive": []
+      },
+      {
+        "name": "Height25",
+        "property": "height: 25%;",
+        "responsive": []
+      },
+      {
+        "name": "Height30",
+        "property": "height: 30%;",
+        "responsive": []
+      },
+      {
+        "name": "Height33",
+        "property": "height: 33.333%;",
+        "responsive": []
+      },
+      {
+        "name": "Height35",
+        "property": "height: 35%;",
+        "responsive": []
+      },
+      {
+        "name": "Height40",
+        "property": "height: 40%;",
+        "responsive": []
+      },
+      {
+        "name": "Height45",
+        "property": "height: 45%;",
+        "responsive": []
+      },
+      {
+        "name": "Height50",
+        "property": "height: 50%;",
+        "responsive": []
+      },
+      {
+        "name": "Height55",
+        "property": "height: 55%;",
+        "responsive": []
+      },
+      {
+        "name": "Height60",
+        "property": "height: 60%;",
+        "responsive": []
+      },
+      {
+        "name": "Height66",
+        "property": "height: 66.666%;",
+        "responsive": []
+      },
+      {
+        "name": "Height70",
+        "property": "height: 70%;",
+        "responsive": []
+      },
+      {
+        "name": "Height75",
+        "property": "height: 75%;",
+        "responsive": []
+      },
+      {
+        "name": "Height80",
+        "property": "height: 80%;",
+        "responsive": []
+      },
+      {
+        "name": "Height85",
+        "property": "height: 85%;",
+        "responsive": []
+      },
+      {
+        "name": "Height90",
+        "property": "height: 90%;",
+        "responsive": []
+      },
+      {
+        "name": "Height95",
+        "property": "height: 95%;",
+        "responsive": []
+      },
+      {
+        "name": "Height100",
+        "property": "height: 100%;",
+        "responsive": []
+      },
+      {
+        "name": "Height25vh",
+        "property": "height: 25vh;",
+        "responsive": []
+      },
+      {
+        "name": "Height50vh",
+        "property": "height: 50vh;",
+        "responsive": []
+      },
+      {
+        "name": "Height75vh",
+        "property": "height: 75vh;",
+        "responsive": []
+      },
+      {
+        "name": "Height100vh",
+        "property": "height: 100vh;",
+        "responsive": []
+      },
+      {
+        "name": "HeightAuto",
+        "property": "height: auto;",
+        "responsive": []
+      },
+      {
+        "name": "MinWidth0",
+        "property": "min-width: 0%;",
+        "responsive": []
+      },
+      {
+        "name": "MinWidth5",
+        "property": "min-width: 5%;",
+        "responsive": []
+      },
+      {
+        "name": "MinWidth10",
+        "property": "min-width: 10%;",
+        "responsive": []
+      },
+      {
+        "name": "MinWidth15",
+        "property": "min-width: 15%;",
+        "responsive": []
+      },
+      {
+        "name": "MinWidth20",
+        "property": "min-width: 20%;",
+        "responsive": []
+      },
+      {
+        "name": "MinWidth25",
+        "property": "min-width: 25%;",
+        "responsive": []
+      },
+      {
+        "name": "MinWidth30",
+        "property": "min-width: 30%;",
+        "responsive": []
+      },
+      {
+        "name": "MinWidth33",
+        "property": "min-width: 33.333%;",
+        "responsive": []
+      },
+      {
+        "name": "MinWidth35",
+        "property": "min-width: 35%;",
+        "responsive": []
+      },
+      {
+        "name": "MinWidth40",
+        "property": "min-width: 40%;",
+        "responsive": []
+      },
+      {
+        "name": "MinWidth45",
+        "property": "min-width: 45%;",
+        "responsive": []
+      },
+      {
+        "name": "MinWidth50",
+        "property": "min-width: 50%;",
+        "responsive": []
+      },
+      {
+        "name": "MinWidth55",
+        "property": "min-width: 55%;",
+        "responsive": []
+      },
+      {
+        "name": "MinWidth60",
+        "property": "min-width: 60%;",
+        "responsive": []
+      },
+      {
+        "name": "MinWidth66",
+        "property": "min-width: 66.666%;",
+        "responsive": []
+      },
+      {
+        "name": "MinWidth70",
+        "property": "min-width: 70%;",
+        "responsive": []
+      },
+      {
+        "name": "MinWidth75",
+        "property": "min-width: 75%;",
+        "responsive": []
+      },
+      {
+        "name": "MinWidth80",
+        "property": "min-width: 80%;",
+        "responsive": []
+      },
+      {
+        "name": "MinWidth85",
+        "property": "min-width: 85%;",
+        "responsive": []
+      },
+      {
+        "name": "MinWidth90",
+        "property": "min-width: 90%;",
+        "responsive": []
+      },
+      {
+        "name": "MinWidth95",
+        "property": "min-width: 95%;",
+        "responsive": []
+      },
+      {
+        "name": "MinWidth100",
+        "property": "min-width: 100%;",
+        "responsive": []
+      },
+      {
+        "name": "MinWidthAuto",
+        "property": "min-width: auto;",
+        "responsive": []
+      },
+      {
+        "name": "MaxWidth0",
+        "property": "max-width: 0%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxWidth5",
+        "property": "max-width: 5%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxWidth10",
+        "property": "max-width: 10%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxWidth15",
+        "property": "max-width: 15%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxWidth20",
+        "property": "max-width: 20%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxWidth25",
+        "property": "max-width: 25%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxWidth30",
+        "property": "max-width: 30%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxWidth33",
+        "property": "max-width: 33.333%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxWidth35",
+        "property": "max-width: 35%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxWidth40",
+        "property": "max-width: 40%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxWidth45",
+        "property": "max-width: 45%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxWidth50",
+        "property": "max-width: 50%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxWidth55",
+        "property": "max-width: 55%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxWidth60",
+        "property": "max-width: 60%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxWidth66",
+        "property": "max-width: 66.666%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxWidth70",
+        "property": "max-width: 70%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxWidth75",
+        "property": "max-width: 75%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxWidth80",
+        "property": "max-width: 80%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxWidth85",
+        "property": "max-width: 85%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxWidth90",
+        "property": "max-width: 90%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxWidth95",
+        "property": "max-width: 95%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxWidth100",
+        "property": "max-width: 100%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxWidthAuto",
+        "property": "max-width: auto;",
+        "responsive": []
+      },
+      {
+        "name": "MinHeight0",
+        "property": "min-height: 0%;",
+        "responsive": []
+      },
+      {
+        "name": "MinHeight5",
+        "property": "min-height: 5%;",
+        "responsive": []
+      },
+      {
+        "name": "MinHeight10",
+        "property": "min-height: 10%;",
+        "responsive": []
+      },
+      {
+        "name": "MinHeight15",
+        "property": "min-height: 15%;",
+        "responsive": []
+      },
+      {
+        "name": "MinHeight20",
+        "property": "min-height: 20%;",
+        "responsive": []
+      },
+      {
+        "name": "MinHeight25",
+        "property": "min-height: 25%;",
+        "responsive": []
+      },
+      {
+        "name": "MinHeight30",
+        "property": "min-height: 30%;",
+        "responsive": []
+      },
+      {
+        "name": "MinHeight33",
+        "property": "min-height: 33.333%;",
+        "responsive": []
+      },
+      {
+        "name": "MinHeight35",
+        "property": "min-height: 35%;",
+        "responsive": []
+      },
+      {
+        "name": "MinHeight40",
+        "property": "min-height: 40%;",
+        "responsive": []
+      },
+      {
+        "name": "MinHeight45",
+        "property": "min-height: 45%;",
+        "responsive": []
+      },
+      {
+        "name": "MinHeight50",
+        "property": "min-height: 50%;",
+        "responsive": []
+      },
+      {
+        "name": "MinHeight55",
+        "property": "min-height: 55%;",
+        "responsive": []
+      },
+      {
+        "name": "MinHeight60",
+        "property": "min-height: 60%;",
+        "responsive": []
+      },
+      {
+        "name": "MinHeight66",
+        "property": "min-height: 66.666%;",
+        "responsive": []
+      },
+      {
+        "name": "MinHeight70",
+        "property": "min-height: 70%;",
+        "responsive": []
+      },
+      {
+        "name": "MinHeight75",
+        "property": "min-height: 75%;",
+        "responsive": []
+      },
+      {
+        "name": "MinHeight80",
+        "property": "min-height: 80%;",
+        "responsive": []
+      },
+      {
+        "name": "MinHeight85",
+        "property": "min-height: 85%;",
+        "responsive": []
+      },
+      {
+        "name": "MinHeight90",
+        "property": "min-height: 90%;",
+        "responsive": []
+      },
+      {
+        "name": "MinHeight95",
+        "property": "min-height: 95%;",
+        "responsive": []
+      },
+      {
+        "name": "MinHeight100",
+        "property": "min-height: 100%;",
+        "responsive": []
+      },
+      {
+        "name": "MinHeight50vh",
+        "property": "min-height: 50vh;",
+        "responsive": []
+      },
+      {
+        "name": "MinHeight100vh",
+        "property": "min-height: 100vh;",
+        "responsive": []
+      },
+      {
+        "name": "MinHeightAuto",
+        "property": "min-height: auto;",
+        "responsive": []
+      },
+      {
+        "name": "MaxHeight0",
+        "property": "max-height: 0%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxHeight5",
+        "property": "max-height: 5%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxHeight10",
+        "property": "max-height: 10%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxHeight15",
+        "property": "max-height: 15%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxHeight20",
+        "property": "max-height: 20%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxHeight25",
+        "property": "max-height: 25%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxHeight30",
+        "property": "max-height: 30%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxHeight33",
+        "property": "max-height: 33.333%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxHeight35",
+        "property": "max-height: 35%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxHeight40",
+        "property": "max-height: 40%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxHeight45",
+        "property": "max-height: 45%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxHeight50",
+        "property": "max-height: 50%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxHeight55",
+        "property": "max-height: 55%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxHeight60",
+        "property": "max-height: 60%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxHeight66",
+        "property": "max-height: 66.666%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxHeight70",
+        "property": "max-height: 70%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxHeight75",
+        "property": "max-height: 75%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxHeight80",
+        "property": "max-height: 80%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxHeight85",
+        "property": "max-height: 85%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxHeight90",
+        "property": "max-height: 90%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxHeight95",
+        "property": "max-height: 95%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxHeight100",
+        "property": "max-height: 100%;",
+        "responsive": []
+      },
+      {
+        "name": "MaxHeight50vh",
+        "property": "max-height: 50vh;",
+        "responsive": []
+      },
+      {
+        "name": "MaxHeight100vh",
+        "property": "max-height: 100vh;",
+        "responsive": []
+      },
+      {
+        "name": "MaxHeightAuto",
+        "property": "max-height: auto;",
+        "responsive": []
+      }
+    ]
+  },
+  {
+    "category": "BORDER RADIUS",
+    "utilities": [
+      {
+        "name": "BorderRadius0",
+        "property": "border-radius: 0;",
+        "responsive": []
+      },
+      {
+        "name": "BorderRadius01",
+        "property": "border-radius: .1rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderRadius02",
+        "property": "border-radius: .2rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderRadius03",
+        "property": "border-radius: .3rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderRadius05",
+        "property": "border-radius: .5rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderRadius07",
+        "property": "border-radius: .7rem;",
+        "responsive": []
+      },
       {
         "name": "BorderRadius10",
-        "property": "border-radius: 0.625rem;",
-        "value": "0.625rem",
+        "property": "border-radius: 1rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderRadius15",
+        "property": "border-radius: 1.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderRadius20",
+        "property": "border-radius: 2rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderRadius25",
+        "property": "border-radius: 2.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderRadius30",
+        "property": "border-radius: 3rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderRadiusFull",
+        "property": "border-radius: 9999px;",
+        "responsive": []
+      },
+      {
+        "name": "BorderTL0",
+        "property": "border-top-left-radius: 0;",
+        "responsive": []
+      },
+      {
+        "name": "BorderTL01",
+        "property": "border-top-left-radius: .1rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderTL02",
+        "property": "border-top-left-radius: .2rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderTL03",
+        "property": "border-top-left-radius: .3rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderTL05",
+        "property": "border-top-left-radius: .5rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderTL07",
+        "property": "border-top-left-radius: .7rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderTL10",
+        "property": "border-top-left-radius: 1rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderTL15",
+        "property": "border-top-left-radius: 1.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderTL20",
+        "property": "border-top-left-radius: 2rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderTL25",
+        "property": "border-top-left-radius: 2.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderTL30",
+        "property": "border-top-left-radius: 3rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderTLFull",
+        "property": "border-top-left-radius: 9999px;",
+        "responsive": []
+      },
+      {
+        "name": "BorderTR0",
+        "property": "border-top-right-radius: 0;",
+        "responsive": []
+      },
+      {
+        "name": "BorderTR01",
+        "property": "border-top-right-radius: .1rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderTR02",
+        "property": "border-top-right-radius: .2rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderTR03",
+        "property": "border-top-right-radius: .3rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderTR05",
+        "property": "border-top-right-radius: .5rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderTR07",
+        "property": "border-top-right-radius: .7rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderTR10",
+        "property": "border-top-right-radius: 1rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderTR15",
+        "property": "border-top-right-radius: 1.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderTR20",
+        "property": "border-top-right-radius: 2rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderTR25",
+        "property": "border-top-right-radius: 2.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderTR30",
+        "property": "border-top-right-radius: 3rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderTRFull",
+        "property": "border-top-right-radius: 9999px;",
+        "responsive": []
+      },
+      {
+        "name": "BorderBL0",
+        "property": "border-bottom-left-radius: 0;",
+        "responsive": []
+      },
+      {
+        "name": "BorderBL01",
+        "property": "border-bottom-left-radius: .1rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderBL02",
+        "property": "border-bottom-left-radius: .2rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderBL03",
+        "property": "border-bottom-left-radius: .3rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderBL05",
+        "property": "border-bottom-left-radius: .5rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderBL07",
+        "property": "border-bottom-left-radius: .7rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderBL10",
+        "property": "border-bottom-left-radius: 1rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderBL15",
+        "property": "border-bottom-left-radius: 1.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderBL20",
+        "property": "border-bottom-left-radius: 2rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderBL25",
+        "property": "border-bottom-left-radius: 2.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderBL30",
+        "property": "border-bottom-left-radius: 3rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderBLFull",
+        "property": "border-bottom-left-radius: 9999px;",
+        "responsive": []
+      },
+      {
+        "name": "BorderBR0",
+        "property": "border-bottom-right-radius: 0;",
+        "responsive": []
+      },
+      {
+        "name": "BorderBR01",
+        "property": "border-bottom-right-radius: .1rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderBR02",
+        "property": "border-bottom-right-radius: .2rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderBR03",
+        "property": "border-bottom-right-radius: .3rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderBR05",
+        "property": "border-bottom-right-radius: .5rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderBR07",
+        "property": "border-bottom-right-radius: .7rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderBR10",
+        "property": "border-bottom-right-radius: 1rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderBR15",
+        "property": "border-bottom-right-radius: 1.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderBR20",
+        "property": "border-bottom-right-radius: 2rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderBR25",
+        "property": "border-bottom-right-radius: 2.5rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderBR30",
+        "property": "border-bottom-right-radius: 3rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderBRFull",
+        "property": "border-bottom-right-radius: 9999px;",
+        "responsive": []
+      },
+      {
+        "name": "BorderNone",
+        "property": "border: none;",
+        "responsive": []
+      }
+    ]
+  },
+  {
+    "category": "POSITION",
+    "utilities": [
+      {
+        "name": "PositionRelative",
+        "property": "position: relative;",
+        "responsive": []
+      },
+      {
+        "name": "PositionAbsolute",
+        "property": "position: absolute;",
+        "responsive": []
+      },
+      {
+        "name": "PositionFixed",
+        "property": "position: fixed;",
+        "responsive": []
+      },
+      {
+        "name": "PositionSticky",
+        "property": "position: sticky;",
         "responsive": [
           "Sm:",
           "Md:",
@@ -316,14 +3989,1921 @@
         ]
       },
       {
-        "name": "Border1",
-        "property": "border-width: 1px;",
+        "name": "PositionStatic",
+        "property": "position: static;",
         "responsive": [
           "Sm:",
           "Md:",
           "Lg:",
           "Xl:"
         ]
+      },
+      {
+        "name": "Top0",
+        "property": "top: 0;",
+        "responsive": []
+      },
+      {
+        "name": "Left0",
+        "property": "left: 0;",
+        "responsive": []
+      },
+      {
+        "name": "Right0",
+        "property": "right: 0;",
+        "responsive": []
+      },
+      {
+        "name": "Bottom0",
+        "property": "bottom: 0;",
+        "responsive": []
+      },
+      {
+        "name": "TopAuto",
+        "property": "top: auto;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "LeftAuto",
+        "property": "left: auto;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "RightAuto",
+        "property": "right: auto;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "BottomAuto",
+        "property": "bottom: auto;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "Inset0",
+        "property": "top: 0; right: 0; bottom: 0; left: 0;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "InsetX0",
+        "property": "left: 0; right: 0;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "InsetY0",
+        "property": "top: 0; bottom: 0;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "COLORS",
+    "utilities": [
+      {
+        "name": "FcWhite",
+        "property": "color: var(--color-white);",
+        "responsive": []
+      },
+      {
+        "name": "FcBlack",
+        "property": "color: var(--color-black);",
+        "responsive": []
+      },
+      {
+        "name": "FcGray50",
+        "property": "color: var(--color-gray-50);",
+        "responsive": []
+      },
+      {
+        "name": "FcGray100",
+        "property": "color: var(--color-gray-100);",
+        "responsive": []
+      },
+      {
+        "name": "FcGray300",
+        "property": "color: var(--color-gray-300);",
+        "responsive": []
+      },
+      {
+        "name": "FcGray500",
+        "property": "color: var(--color-gray-500);",
+        "responsive": []
+      },
+      {
+        "name": "FcGray700",
+        "property": "color: var(--color-gray-700);",
+        "responsive": []
+      },
+      {
+        "name": "FcGray900",
+        "property": "color: var(--color-gray-900);",
+        "responsive": []
+      },
+      {
+        "name": "FcRed50",
+        "property": "color: var(--color-red-50);",
+        "responsive": []
+      },
+      {
+        "name": "FcRed100",
+        "property": "color: var(--color-red-100);",
+        "responsive": []
+      },
+      {
+        "name": "FcRed300",
+        "property": "color: var(--color-red-300);",
+        "responsive": []
+      },
+      {
+        "name": "FcRed500",
+        "property": "color: var(--color-red-500);",
+        "responsive": []
+      },
+      {
+        "name": "FcRed700",
+        "property": "color: var(--color-red-700);",
+        "responsive": []
+      },
+      {
+        "name": "FcRed900",
+        "property": "color: var(--color-red-900);",
+        "responsive": []
+      },
+      {
+        "name": "FcOrange50",
+        "property": "color: var(--color-orange-50);",
+        "responsive": []
+      },
+      {
+        "name": "FcOrange100",
+        "property": "color: var(--color-orange-100);",
+        "responsive": []
+      },
+      {
+        "name": "FcOrange300",
+        "property": "color: var(--color-orange-300);",
+        "responsive": []
+      },
+      {
+        "name": "FcOrange500",
+        "property": "color: var(--color-orange-500);",
+        "responsive": []
+      },
+      {
+        "name": "FcOrange700",
+        "property": "color: var(--color-orange-700);",
+        "responsive": []
+      },
+      {
+        "name": "FcOrange900",
+        "property": "color: var(--color-orange-900);",
+        "responsive": []
+      },
+      {
+        "name": "FcYellow50",
+        "property": "color: var(--color-yellow-50);",
+        "responsive": []
+      },
+      {
+        "name": "FcYellow100",
+        "property": "color: var(--color-yellow-100);",
+        "responsive": []
+      },
+      {
+        "name": "FcYellow300",
+        "property": "color: var(--color-yellow-300);",
+        "responsive": []
+      },
+      {
+        "name": "FcYellow500",
+        "property": "color: var(--color-yellow-500);",
+        "responsive": []
+      },
+      {
+        "name": "FcYellow700",
+        "property": "color: var(--color-yellow-700);",
+        "responsive": []
+      },
+      {
+        "name": "FcYellow900",
+        "property": "color: var(--color-yellow-900);",
+        "responsive": []
+      },
+      {
+        "name": "FcGreen50",
+        "property": "color: var(--color-green-50);",
+        "responsive": []
+      },
+      {
+        "name": "FcGreen100",
+        "property": "color: var(--color-green-100);",
+        "responsive": []
+      },
+      {
+        "name": "FcGreen300",
+        "property": "color: var(--color-green-300);",
+        "responsive": []
+      },
+      {
+        "name": "FcGreen500",
+        "property": "color: var(--color-green-500);",
+        "responsive": []
+      },
+      {
+        "name": "FcGreen700",
+        "property": "color: var(--color-green-700);",
+        "responsive": []
+      },
+      {
+        "name": "FcGreen900",
+        "property": "color: var(--color-green-900);",
+        "responsive": []
+      },
+      {
+        "name": "FcTeal50",
+        "property": "color: var(--color-teal-50);",
+        "responsive": []
+      },
+      {
+        "name": "FcTeal100",
+        "property": "color: var(--color-teal-100);",
+        "responsive": []
+      },
+      {
+        "name": "FcTeal300",
+        "property": "color: var(--color-teal-300);",
+        "responsive": []
+      },
+      {
+        "name": "FcTeal500",
+        "property": "color: var(--color-teal-500);",
+        "responsive": []
+      },
+      {
+        "name": "FcTeal700",
+        "property": "color: var(--color-teal-700);",
+        "responsive": []
+      },
+      {
+        "name": "FcTeal900",
+        "property": "color: var(--color-teal-900);",
+        "responsive": []
+      },
+      {
+        "name": "FcCyan50",
+        "property": "color: var(--color-cyan-50);",
+        "responsive": []
+      },
+      {
+        "name": "FcCyan100",
+        "property": "color: var(--color-cyan-100);",
+        "responsive": []
+      },
+      {
+        "name": "FcCyan300",
+        "property": "color: var(--color-cyan-300);",
+        "responsive": []
+      },
+      {
+        "name": "FcCyan500",
+        "property": "color: var(--color-cyan-500);",
+        "responsive": []
+      },
+      {
+        "name": "FcCyan700",
+        "property": "color: var(--color-cyan-700);",
+        "responsive": []
+      },
+      {
+        "name": "FcCyan900",
+        "property": "color: var(--color-cyan-900);",
+        "responsive": []
+      },
+      {
+        "name": "FcBlue50",
+        "property": "color: var(--color-blue-50);",
+        "responsive": []
+      },
+      {
+        "name": "FcBlue100",
+        "property": "color: var(--color-blue-100);",
+        "responsive": []
+      },
+      {
+        "name": "FcBlue300",
+        "property": "color: var(--color-blue-300);",
+        "responsive": []
+      },
+      {
+        "name": "FcBlue500",
+        "property": "color: var(--color-blue-500);",
+        "responsive": []
+      },
+      {
+        "name": "FcBlue700",
+        "property": "color: var(--color-blue-700);",
+        "responsive": []
+      },
+      {
+        "name": "FcBlue900",
+        "property": "color: var(--color-blue-900);",
+        "responsive": []
+      },
+      {
+        "name": "FcPurple50",
+        "property": "color: var(--color-purple-50);",
+        "responsive": []
+      },
+      {
+        "name": "FcPurple100",
+        "property": "color: var(--color-purple-100);",
+        "responsive": []
+      },
+      {
+        "name": "FcPurple300",
+        "property": "color: var(--color-purple-300);",
+        "responsive": []
+      },
+      {
+        "name": "FcPurple500",
+        "property": "color: var(--color-purple-500);",
+        "responsive": []
+      },
+      {
+        "name": "FcPurple700",
+        "property": "color: var(--color-purple-700);",
+        "responsive": []
+      },
+      {
+        "name": "FcPurple900",
+        "property": "color: var(--color-purple-900);",
+        "responsive": []
+      },
+      {
+        "name": "FcPink50",
+        "property": "color: var(--color-pink-50);",
+        "responsive": []
+      },
+      {
+        "name": "FcPink100",
+        "property": "color: var(--color-pink-100);",
+        "responsive": []
+      },
+      {
+        "name": "FcPink300",
+        "property": "color: var(--color-pink-300);",
+        "responsive": []
+      },
+      {
+        "name": "FcPink500",
+        "property": "color: var(--color-pink-500);",
+        "responsive": []
+      },
+      {
+        "name": "FcPink700",
+        "property": "color: var(--color-pink-700);",
+        "responsive": []
+      },
+      {
+        "name": "FcPink900",
+        "property": "color: var(--color-pink-900);",
+        "responsive": []
+      },
+      {
+        "name": "FcPrimary",
+        "property": "color: var(--color-primary);",
+        "responsive": []
+      },
+      {
+        "name": "FcSuccess",
+        "property": "color: var(--color-success);",
+        "responsive": []
+      },
+      {
+        "name": "FcWarning",
+        "property": "color: var(--color-warning);",
+        "responsive": []
+      },
+      {
+        "name": "FcError",
+        "property": "color: var(--color-error);",
+        "responsive": []
+      },
+      {
+        "name": "FcInfo",
+        "property": "color: var(--color-info);",
+        "responsive": []
+      }
+    ]
+  },
+  {
+    "category": "BACKGROUND",
+    "utilities": [
+      {
+        "name": "BgWhite",
+        "property": "background-color: var(--color-white);",
+        "responsive": []
+      },
+      {
+        "name": "BgBlack",
+        "property": "background-color: var(--color-black);",
+        "responsive": []
+      },
+      {
+        "name": "BgGray50",
+        "property": "background-color: var(--color-gray-50);",
+        "responsive": []
+      },
+      {
+        "name": "BgGray100",
+        "property": "background-color: var(--color-gray-100);",
+        "responsive": []
+      },
+      {
+        "name": "BgGray300",
+        "property": "background-color: var(--color-gray-300);",
+        "responsive": []
+      },
+      {
+        "name": "BgGray500",
+        "property": "background-color: var(--color-gray-500);",
+        "responsive": []
+      },
+      {
+        "name": "BgGray700",
+        "property": "background-color: var(--color-gray-700);",
+        "responsive": []
+      },
+      {
+        "name": "BgGray900",
+        "property": "background-color: var(--color-gray-900);",
+        "responsive": []
+      },
+      {
+        "name": "BgRed50",
+        "property": "background-color: var(--color-red-50);",
+        "responsive": []
+      },
+      {
+        "name": "BgRed100",
+        "property": "background-color: var(--color-red-100);",
+        "responsive": []
+      },
+      {
+        "name": "BgRed300",
+        "property": "background-color: var(--color-red-300);",
+        "responsive": []
+      },
+      {
+        "name": "BgRed500",
+        "property": "background-color: var(--color-red-500);",
+        "responsive": []
+      },
+      {
+        "name": "BgRed700",
+        "property": "background-color: var(--color-red-700);",
+        "responsive": []
+      },
+      {
+        "name": "BgRed900",
+        "property": "background-color: var(--color-red-900);",
+        "responsive": []
+      },
+      {
+        "name": "BgOrange50",
+        "property": "background-color: var(--color-orange-50);",
+        "responsive": []
+      },
+      {
+        "name": "BgOrange100",
+        "property": "background-color: var(--color-orange-100);",
+        "responsive": []
+      },
+      {
+        "name": "BgOrange300",
+        "property": "background-color: var(--color-orange-300);",
+        "responsive": []
+      },
+      {
+        "name": "BgOrange500",
+        "property": "background-color: var(--color-orange-500);",
+        "responsive": []
+      },
+      {
+        "name": "BgOrange700",
+        "property": "background-color: var(--color-orange-700);",
+        "responsive": []
+      },
+      {
+        "name": "BgOrange900",
+        "property": "background-color: var(--color-orange-900);",
+        "responsive": []
+      },
+      {
+        "name": "BgYellow50",
+        "property": "background-color: var(--color-yellow-50);",
+        "responsive": []
+      },
+      {
+        "name": "BgYellow100",
+        "property": "background-color: var(--color-yellow-100);",
+        "responsive": []
+      },
+      {
+        "name": "BgYellow300",
+        "property": "background-color: var(--color-yellow-300);",
+        "responsive": []
+      },
+      {
+        "name": "BgYellow500",
+        "property": "background-color: var(--color-yellow-500);",
+        "responsive": []
+      },
+      {
+        "name": "BgYellow700",
+        "property": "background-color: var(--color-yellow-700);",
+        "responsive": []
+      },
+      {
+        "name": "BgYellow900",
+        "property": "background-color: var(--color-yellow-900);",
+        "responsive": []
+      },
+      {
+        "name": "BgGreen50",
+        "property": "background-color: var(--color-green-50);",
+        "responsive": []
+      },
+      {
+        "name": "BgGreen100",
+        "property": "background-color: var(--color-green-100);",
+        "responsive": []
+      },
+      {
+        "name": "BgGreen300",
+        "property": "background-color: var(--color-green-300);",
+        "responsive": []
+      },
+      {
+        "name": "BgGreen500",
+        "property": "background-color: var(--color-green-500);",
+        "responsive": []
+      },
+      {
+        "name": "BgGreen700",
+        "property": "background-color: var(--color-green-700);",
+        "responsive": []
+      },
+      {
+        "name": "BgGreen900",
+        "property": "background-color: var(--color-green-900);",
+        "responsive": []
+      },
+      {
+        "name": "BgTeal50",
+        "property": "background-color: var(--color-teal-50);",
+        "responsive": []
+      },
+      {
+        "name": "BgTeal100",
+        "property": "background-color: var(--color-teal-100);",
+        "responsive": []
+      },
+      {
+        "name": "BgTeal300",
+        "property": "background-color: var(--color-teal-300);",
+        "responsive": []
+      },
+      {
+        "name": "BgTeal500",
+        "property": "background-color: var(--color-teal-500);",
+        "responsive": []
+      },
+      {
+        "name": "BgTeal700",
+        "property": "background-color: var(--color-teal-700);",
+        "responsive": []
+      },
+      {
+        "name": "BgTeal900",
+        "property": "background-color: var(--color-teal-900);",
+        "responsive": []
+      },
+      {
+        "name": "BgCyan50",
+        "property": "background-color: var(--color-cyan-50);",
+        "responsive": []
+      },
+      {
+        "name": "BgCyan100",
+        "property": "background-color: var(--color-cyan-100);",
+        "responsive": []
+      },
+      {
+        "name": "BgCyan300",
+        "property": "background-color: var(--color-cyan-300);",
+        "responsive": []
+      },
+      {
+        "name": "BgCyan500",
+        "property": "background-color: var(--color-cyan-500);",
+        "responsive": []
+      },
+      {
+        "name": "BgCyan700",
+        "property": "background-color: var(--color-cyan-700);",
+        "responsive": []
+      },
+      {
+        "name": "BgCyan900",
+        "property": "background-color: var(--color-cyan-900);",
+        "responsive": []
+      },
+      {
+        "name": "BgBlue50",
+        "property": "background-color: var(--color-blue-50);",
+        "responsive": []
+      },
+      {
+        "name": "BgBlue100",
+        "property": "background-color: var(--color-blue-100);",
+        "responsive": []
+      },
+      {
+        "name": "BgBlue300",
+        "property": "background-color: var(--color-blue-300);",
+        "responsive": []
+      },
+      {
+        "name": "BgBlue500",
+        "property": "background-color: var(--color-blue-500);",
+        "responsive": []
+      },
+      {
+        "name": "BgBlue700",
+        "property": "background-color: var(--color-blue-700);",
+        "responsive": []
+      },
+      {
+        "name": "BgBlue900",
+        "property": "background-color: var(--color-blue-900);",
+        "responsive": []
+      },
+      {
+        "name": "BgPurple50",
+        "property": "background-color: var(--color-purple-50);",
+        "responsive": []
+      },
+      {
+        "name": "BgPurple100",
+        "property": "background-color: var(--color-purple-100);",
+        "responsive": []
+      },
+      {
+        "name": "BgPurple300",
+        "property": "background-color: var(--color-purple-300);",
+        "responsive": []
+      },
+      {
+        "name": "BgPurple500",
+        "property": "background-color: var(--color-purple-500);",
+        "responsive": []
+      },
+      {
+        "name": "BgPurple700",
+        "property": "background-color: var(--color-purple-700);",
+        "responsive": []
+      },
+      {
+        "name": "BgPurple900",
+        "property": "background-color: var(--color-purple-900);",
+        "responsive": []
+      },
+      {
+        "name": "BgPink50",
+        "property": "background-color: var(--color-pink-50);",
+        "responsive": []
+      },
+      {
+        "name": "BgPink100",
+        "property": "background-color: var(--color-pink-100);",
+        "responsive": []
+      },
+      {
+        "name": "BgPink300",
+        "property": "background-color: var(--color-pink-300);",
+        "responsive": []
+      },
+      {
+        "name": "BgPink500",
+        "property": "background-color: var(--color-pink-500);",
+        "responsive": []
+      },
+      {
+        "name": "BgPink700",
+        "property": "background-color: var(--color-pink-700);",
+        "responsive": []
+      },
+      {
+        "name": "BgPink900",
+        "property": "background-color: var(--color-pink-900);",
+        "responsive": []
+      },
+      {
+        "name": "BgPrimary",
+        "property": "background-color: var(--color-primary);",
+        "responsive": []
+      },
+      {
+        "name": "BgSuccess",
+        "property": "background-color: var(--color-success);",
+        "responsive": []
+      },
+      {
+        "name": "BgWarning",
+        "property": "background-color: var(--color-warning);",
+        "responsive": []
+      },
+      {
+        "name": "BgError",
+        "property": "background-color: var(--color-error);",
+        "responsive": []
+      },
+      {
+        "name": "BgInfo",
+        "property": "background-color: var(--color-info);",
+        "responsive": []
+      }
+    ]
+  },
+  {
+    "category": "BORDER COLOR",
+    "utilities": [
+      {
+        "name": "BcWhite",
+        "property": "border-color: var(--color-white);",
+        "responsive": []
+      },
+      {
+        "name": "BcBlack",
+        "property": "border-color: var(--color-black);",
+        "responsive": []
+      },
+      {
+        "name": "BcGray50",
+        "property": "border-color: var(--color-gray-50);",
+        "responsive": []
+      },
+      {
+        "name": "BcGray100",
+        "property": "border-color: var(--color-gray-100);",
+        "responsive": []
+      },
+      {
+        "name": "BcGray300",
+        "property": "border-color: var(--color-gray-300);",
+        "responsive": []
+      },
+      {
+        "name": "BcGray500",
+        "property": "border-color: var(--color-gray-500);",
+        "responsive": []
+      },
+      {
+        "name": "BcGray700",
+        "property": "border-color: var(--color-gray-700);",
+        "responsive": []
+      },
+      {
+        "name": "BcGray900",
+        "property": "border-color: var(--color-gray-900);",
+        "responsive": []
+      },
+      {
+        "name": "BcRed50",
+        "property": "border-color: var(--color-red-50);",
+        "responsive": []
+      },
+      {
+        "name": "BcRed100",
+        "property": "border-color: var(--color-red-100);",
+        "responsive": []
+      },
+      {
+        "name": "BcRed300",
+        "property": "border-color: var(--color-red-300);",
+        "responsive": []
+      },
+      {
+        "name": "BcRed500",
+        "property": "border-color: var(--color-red-500);",
+        "responsive": []
+      },
+      {
+        "name": "BcRed700",
+        "property": "border-color: var(--color-red-700);",
+        "responsive": []
+      },
+      {
+        "name": "BcRed900",
+        "property": "border-color: var(--color-red-900);",
+        "responsive": []
+      },
+      {
+        "name": "BcOrange50",
+        "property": "border-color: var(--color-orange-50);",
+        "responsive": []
+      },
+      {
+        "name": "BcOrange100",
+        "property": "border-color: var(--color-orange-100);",
+        "responsive": []
+      },
+      {
+        "name": "BcOrange300",
+        "property": "border-color: var(--color-orange-300);",
+        "responsive": []
+      },
+      {
+        "name": "BcOrange500",
+        "property": "border-color: var(--color-orange-500);",
+        "responsive": []
+      },
+      {
+        "name": "BcOrange700",
+        "property": "border-color: var(--color-orange-700);",
+        "responsive": []
+      },
+      {
+        "name": "BcOrange900",
+        "property": "border-color: var(--color-orange-900);",
+        "responsive": []
+      },
+      {
+        "name": "BcYellow50",
+        "property": "border-color: var(--color-yellow-50);",
+        "responsive": []
+      },
+      {
+        "name": "BcYellow100",
+        "property": "border-color: var(--color-yellow-100);",
+        "responsive": []
+      },
+      {
+        "name": "BcYellow300",
+        "property": "border-color: var(--color-yellow-300);",
+        "responsive": []
+      },
+      {
+        "name": "BcYellow500",
+        "property": "border-color: var(--color-yellow-500);",
+        "responsive": []
+      },
+      {
+        "name": "BcYellow700",
+        "property": "border-color: var(--color-yellow-700);",
+        "responsive": []
+      },
+      {
+        "name": "BcYellow900",
+        "property": "border-color: var(--color-yellow-900);",
+        "responsive": []
+      },
+      {
+        "name": "BcGreen50",
+        "property": "border-color: var(--color-green-50);",
+        "responsive": []
+      },
+      {
+        "name": "BcGreen100",
+        "property": "border-color: var(--color-green-100);",
+        "responsive": []
+      },
+      {
+        "name": "BcGreen300",
+        "property": "border-color: var(--color-green-300);",
+        "responsive": []
+      },
+      {
+        "name": "BcGreen500",
+        "property": "border-color: var(--color-green-500);",
+        "responsive": []
+      },
+      {
+        "name": "BcGreen700",
+        "property": "border-color: var(--color-green-700);",
+        "responsive": []
+      },
+      {
+        "name": "BcGreen900",
+        "property": "border-color: var(--color-green-900);",
+        "responsive": []
+      },
+      {
+        "name": "BcTeal50",
+        "property": "border-color: var(--color-teal-50);",
+        "responsive": []
+      },
+      {
+        "name": "BcTeal100",
+        "property": "border-color: var(--color-teal-100);",
+        "responsive": []
+      },
+      {
+        "name": "BcTeal300",
+        "property": "border-color: var(--color-teal-300);",
+        "responsive": []
+      },
+      {
+        "name": "BcTeal500",
+        "property": "border-color: var(--color-teal-500);",
+        "responsive": []
+      },
+      {
+        "name": "BcTeal700",
+        "property": "border-color: var(--color-teal-700);",
+        "responsive": []
+      },
+      {
+        "name": "BcTeal900",
+        "property": "border-color: var(--color-teal-900);",
+        "responsive": []
+      },
+      {
+        "name": "BcCyan50",
+        "property": "border-color: var(--color-cyan-50);",
+        "responsive": []
+      },
+      {
+        "name": "BcCyan100",
+        "property": "border-color: var(--color-cyan-100);",
+        "responsive": []
+      },
+      {
+        "name": "BcCyan300",
+        "property": "border-color: var(--color-cyan-300);",
+        "responsive": []
+      },
+      {
+        "name": "BcCyan500",
+        "property": "border-color: var(--color-cyan-500);",
+        "responsive": []
+      },
+      {
+        "name": "BcCyan700",
+        "property": "border-color: var(--color-cyan-700);",
+        "responsive": []
+      },
+      {
+        "name": "BcCyan900",
+        "property": "border-color: var(--color-cyan-900);",
+        "responsive": []
+      },
+      {
+        "name": "BcBlue50",
+        "property": "border-color: var(--color-blue-50);",
+        "responsive": []
+      },
+      {
+        "name": "BcBlue100",
+        "property": "border-color: var(--color-blue-100);",
+        "responsive": []
+      },
+      {
+        "name": "BcBlue300",
+        "property": "border-color: var(--color-blue-300);",
+        "responsive": []
+      },
+      {
+        "name": "BcBlue500",
+        "property": "border-color: var(--color-blue-500);",
+        "responsive": []
+      },
+      {
+        "name": "BcBlue700",
+        "property": "border-color: var(--color-blue-700);",
+        "responsive": []
+      },
+      {
+        "name": "BcBlue900",
+        "property": "border-color: var(--color-blue-900);",
+        "responsive": []
+      },
+      {
+        "name": "BcPurple50",
+        "property": "border-color: var(--color-purple-50);",
+        "responsive": []
+      },
+      {
+        "name": "BcPurple100",
+        "property": "border-color: var(--color-purple-100);",
+        "responsive": []
+      },
+      {
+        "name": "BcPurple300",
+        "property": "border-color: var(--color-purple-300);",
+        "responsive": []
+      },
+      {
+        "name": "BcPurple500",
+        "property": "border-color: var(--color-purple-500);",
+        "responsive": []
+      },
+      {
+        "name": "BcPurple700",
+        "property": "border-color: var(--color-purple-700);",
+        "responsive": []
+      },
+      {
+        "name": "BcPurple900",
+        "property": "border-color: var(--color-purple-900);",
+        "responsive": []
+      },
+      {
+        "name": "BcPink50",
+        "property": "border-color: var(--color-pink-50);",
+        "responsive": []
+      },
+      {
+        "name": "BcPink100",
+        "property": "border-color: var(--color-pink-100);",
+        "responsive": []
+      },
+      {
+        "name": "BcPink300",
+        "property": "border-color: var(--color-pink-300);",
+        "responsive": []
+      },
+      {
+        "name": "BcPink500",
+        "property": "border-color: var(--color-pink-500);",
+        "responsive": []
+      },
+      {
+        "name": "BcPink700",
+        "property": "border-color: var(--color-pink-700);",
+        "responsive": []
+      },
+      {
+        "name": "BcPink900",
+        "property": "border-color: var(--color-pink-900);",
+        "responsive": []
+      },
+      {
+        "name": "BcPrimary",
+        "property": "border-color: var(--color-primary);",
+        "responsive": []
+      },
+      {
+        "name": "BcSuccess",
+        "property": "border-color: var(--color-success);",
+        "responsive": []
+      },
+      {
+        "name": "BcWarning",
+        "property": "border-color: var(--color-warning);",
+        "responsive": []
+      },
+      {
+        "name": "BcError",
+        "property": "border-color: var(--color-error);",
+        "responsive": []
+      },
+      {
+        "name": "BcInfo",
+        "property": "border-color: var(--color-info);",
+        "responsive": []
+      }
+    ]
+  },
+  {
+    "category": "BORDER WIDTH",
+    "utilities": [
+      {
+        "name": "BorderWidth01",
+        "property": "border-width: .1rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderWidth02",
+        "property": "border-width: .2rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderWidth05",
+        "property": "border-width: .5rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderWidth10",
+        "property": "border-width: 1rem;",
+        "responsive": []
+      },
+      {
+        "name": "BorderStyleSolid",
+        "property": "border-style: solid;",
+        "responsive": []
+      },
+      {
+        "name": "BorderStyleDashed",
+        "property": "border-style: dashed;",
+        "responsive": []
+      },
+      {
+        "name": "BorderStyleDotted",
+        "property": "border-style: dotted;",
+        "responsive": []
+      }
+    ]
+  },
+  {
+    "category": "OPACITY",
+    "utilities": [
+      {
+        "name": "Opacity00",
+        "property": "opacity: 0;",
+        "responsive": []
+      },
+      {
+        "name": "Opacity01",
+        "property": "opacity: .1;",
+        "responsive": []
+      },
+      {
+        "name": "Opacity02",
+        "property": "opacity: .2;",
+        "responsive": []
+      },
+      {
+        "name": "Opacity05",
+        "property": "opacity: .5;",
+        "responsive": []
+      },
+      {
+        "name": "Opacity75",
+        "property": "opacity: .75;",
+        "responsive": []
+      },
+      {
+        "name": "Opacity10",
+        "property": "opacity: 1;",
+        "responsive": []
+      }
+    ]
+  },
+  {
+    "category": "OVERFLOW",
+    "utilities": [
+      {
+        "name": "OverflowHidden",
+        "property": "overflow: hidden;",
+        "responsive": []
+      },
+      {
+        "name": "OverflowAuto",
+        "property": "overflow: auto;",
+        "responsive": []
+      },
+      {
+        "name": "OverflowScroll",
+        "property": "overflow: scroll;",
+        "responsive": []
+      }
+    ]
+  },
+  {
+    "category": "CURSOR",
+    "utilities": [
+      {
+        "name": "CursorPointer",
+        "property": "cursor: pointer;",
+        "responsive": []
+      },
+      {
+        "name": "CursorDefault",
+        "property": "cursor: default;",
+        "responsive": []
+      },
+      {
+        "name": "CursorMove",
+        "property": "cursor: move;",
+        "responsive": []
+      }
+    ]
+  },
+  {
+    "category": "USER SELECT",
+    "utilities": [
+      {
+        "name": "UserSelectNone",
+        "property": "-webkit-user-select: none; -moz-user-select: none; user-select: none;",
+        "responsive": []
+      },
+      {
+        "name": "UserSelectText",
+        "property": "-webkit-user-select: text; -moz-user-select: text; user-select: text;",
+        "responsive": []
+      }
+    ]
+  },
+  {
+    "category": "SHADOW",
+    "utilities": [
+      {
+        "name": "BoxShadowSmall",
+        "property": "box-shadow: 0 2px 6px rgba(0,0,0,.15);",
+        "responsive": []
+      },
+      {
+        "name": "BoxShadowMedium",
+        "property": "box-shadow: 0 4px 12px rgba(0,0,0,.2);",
+        "responsive": []
+      },
+      {
+        "name": "BoxShadowLarge",
+        "property": "box-shadow: 0 8px 20px rgba(0,0,0,.25);",
+        "responsive": []
+      }
+    ]
+  },
+  {
+    "category": "TRANSITION",
+    "utilities": [
+      {
+        "name": "TransitionFast",
+        "property": "transition: all .15s ease;",
+        "responsive": []
+      },
+      {
+        "name": "TransitionMedium",
+        "property": "transition: all .3s ease;",
+        "responsive": []
+      },
+      {
+        "name": "TransitionSlow",
+        "property": "transition: all .6s ease;",
+        "responsive": []
+      }
+    ]
+  },
+  {
+    "category": "Z INDEX",
+    "utilities": [
+      {
+        "name": "ZIndex0",
+        "property": "z-index: 0;",
+        "responsive": []
+      },
+      {
+        "name": "ZIndex10",
+        "property": "z-index: 10;",
+        "responsive": []
+      },
+      {
+        "name": "ZIndex50",
+        "property": "z-index: 50;",
+        "responsive": []
+      },
+      {
+        "name": "ZIndex100",
+        "property": "z-index: 100;",
+        "responsive": []
+      }
+    ]
+  },
+  {
+    "category": "OUTLINE",
+    "utilities": [
+      {
+        "name": "OutlineNone",
+        "property": "outline: none;",
+        "responsive": []
+      },
+      {
+        "name": "OutlineWidth01",
+        "property": "outline-width: .1rem;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "OutlineWidth02",
+        "property": "outline-width: .2rem;",
+        "responsive": []
+      },
+      {
+        "name": "OutlineWidth05",
+        "property": "outline-width: .5rem;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "OutlineWidth10",
+        "property": "outline-width: 1rem;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "OutlineStyleSolid",
+        "property": "outline-style: solid;",
+        "responsive": []
+      },
+      {
+        "name": "OutlineColorBlue",
+        "property": "outline-color: #1e88e5;",
+        "responsive": []
+      },
+      {
+        "name": "OutlineOffset02",
+        "property": "outline-offset: .2rem;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "OutlineOffset05",
+        "property": "outline-offset: .5rem;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "BACKGROUND SIZE & POSITION",
+    "utilities": [
+      {
+        "name": "BackgroundSizeCover",
+        "property": "background-size: cover;",
+        "responsive": []
+      },
+      {
+        "name": "BackgroundSizeContain",
+        "property": "background-size: contain;",
+        "responsive": []
+      },
+      {
+        "name": "BackgroundPositionCenter",
+        "property": "background-position: center;",
+        "responsive": []
+      },
+      {
+        "name": "BackgroundPositionTop",
+        "property": "background-position: top;",
+        "responsive": []
+      },
+      {
+        "name": "BackgroundPositionBottom",
+        "property": "background-position: bottom;",
+        "responsive": []
+      },
+      {
+        "name": "BackgroundRepeatNoRepeat",
+        "property": "background-repeat: no-repeat;",
+        "responsive": []
+      },
+      {
+        "name": "BackgroundRepeatRepeat",
+        "property": "background-repeat: repeat;",
+        "responsive": []
+      }
+    ]
+  },
+  {
+    "category": "OBJECT FIT",
+    "utilities": [
+      {
+        "name": "ObjectFitCover",
+        "property": "-o-object-fit: cover; object-fit: cover;",
+        "responsive": []
+      },
+      {
+        "name": "ObjectFitContain",
+        "property": "-o-object-fit: contain; object-fit: contain;",
+        "responsive": []
+      },
+      {
+        "name": "ObjectFitFill",
+        "property": "-o-object-fit: fill; object-fit: fill;",
+        "responsive": []
+      },
+      {
+        "name": "ObjectPositionCenter",
+        "property": "-o-object-position: center; object-position: center;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "ObjectPositionTop",
+        "property": "-o-object-position: top; object-position: top;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "ObjectPositionBottom",
+        "property": "-o-object-position: bottom; object-position: bottom;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "ObjectPositionLeft",
+        "property": "-o-object-position: left; object-position: left;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "ObjectPositionRight",
+        "property": "-o-object-position: right; object-position: right;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "ASPECT RATIO",
+    "utilities": [
+      {
+        "name": "AspectRatio1_1",
+        "property": "aspect-ratio: 1 / 1;",
+        "responsive": []
+      },
+      {
+        "name": "AspectRatio16_9",
+        "property": "aspect-ratio: 16 / 9;",
+        "responsive": []
+      },
+      {
+        "name": "AspectRatio4_3",
+        "property": "aspect-ratio: 4 / 3;",
+        "responsive": []
+      },
+      {
+        "name": "AspectRatio21_9",
+        "property": "aspect-ratio: 21 / 9;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "AspectRatio9_16",
+        "property": "aspect-ratio: 9 / 16;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "AspectRatio3_2",
+        "property": "aspect-ratio: 3 / 2;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "AspectRatio2_3",
+        "property": "aspect-ratio: 2 / 3;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "TRANSFORM",
+    "utilities": [
+      {
+        "name": "TransformScale90",
+        "property": "transform: scale(.9);",
+        "responsive": []
+      },
+      {
+        "name": "TransformScale100",
+        "property": "transform: scale(1);",
+        "responsive": []
+      },
+      {
+        "name": "TransformScale110",
+        "property": "transform: scale(1.1);",
+        "responsive": []
+      },
+      {
+        "name": "TransformRotate5",
+        "property": "transform: rotate(5deg);",
+        "responsive": []
+      },
+      {
+        "name": "TransformRotate10",
+        "property": "transform: rotate(10deg);",
+        "responsive": []
+      }
+    ]
+  },
+  {
+    "category": "POINTER EVENTS",
+    "utilities": [
+      {
+        "name": "PointerEventsNone",
+        "property": "pointer-events: none;",
+        "responsive": []
+      },
+      {
+        "name": "PointerEventsAuto",
+        "property": "pointer-events: auto;",
+        "responsive": []
+      }
+    ]
+  },
+  {
+    "category": "VISIBILITY",
+    "utilities": [
+      {
+        "name": "VisibilityHidden",
+        "property": "visibility: hidden;",
+        "responsive": []
+      },
+      {
+        "name": "VisibilityVisible",
+        "property": "visibility: visible;",
+        "responsive": []
+      }
+    ]
+  },
+  {
+    "category": "WHITE SPACE",
+    "utilities": [
+      {
+        "name": "WhiteSpaceNormal",
+        "property": "white-space: normal;",
+        "responsive": []
+      },
+      {
+        "name": "WhiteSpaceNoWrap",
+        "property": "white-space: nowrap;",
+        "responsive": []
+      },
+      {
+        "name": "WhiteSpacePre",
+        "property": "white-space: pre;",
+        "responsive": []
+      }
+    ]
+  },
+  {
+    "category": "TEXT OVERFLOW",
+    "utilities": [
+      {
+        "name": "TextOverflowEllipsis",
+        "property": "overflow: hidden; white-space: nowrap; text-overflow: ellipsis;",
+        "responsive": []
+      }
+    ]
+  },
+  {
+    "category": "TEXT WRAP, BREAK, CLAMP",
+    "utilities": [
+      {
+        "name": "TextWrapBalance",
+        "property": "text-wrap: balance;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "TextWrapPretty",
+        "property": "text-wrap: pretty;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "HyphensNone",
+        "property": "-webkit-hyphens: none; hyphens: none;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "HyphensManual",
+        "property": "-webkit-hyphens: manual; hyphens: manual;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "HyphensAuto",
+        "property": "-webkit-hyphens: auto; hyphens: auto;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "WordBreakNormal",
+        "property": "word-break: normal;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "WordBreakBreakAll",
+        "property": "word-break: break-all;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "WordBreakKeepAll",
+        "property": "word-break: keep-all;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "OverflowWrapNormal",
+        "property": "overflow-wrap: normal;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "OverflowWrapBreakWord",
+        "property": "overflow-wrap: break-word;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "OverflowWrapAnywhere",
+        "property": "overflow-wrap: anywhere;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "LineClamp1",
+        "property": "display: -webkit-box; -webkit-line-clamp: 1; line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "LineClamp2",
+        "property": "display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "LineClamp3",
+        "property": "display: -webkit-box; -webkit-line-clamp: 3; line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "LineClamp4",
+        "property": "display: -webkit-box; -webkit-line-clamp: 4; line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "LineClamp5",
+        "property": "display: -webkit-box; -webkit-line-clamp: 5; line-clamp: 5; -webkit-box-orient: vertical; overflow: hidden;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "ACCESSIBILITY",
+    "utilities": [
+      {
+        "name": "ScreenReaderOnly",
+        "property": "position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;",
+        "responsive": [
+          "Sm:",
+          "Md:",
+          "Lg:",
+          "Xl:"
+        ]
+      },
+      {
+        "name": "focus-visible",
+        "property": "outline: 2px solid var(--color-blue-500); outline-offset: .2rem;",
+        "responsive": [
+          "FocusVisibleRing:"
+        ]
+      },
+      {
+        "name": "ReduceMotion",
+        "property": "animation-duration: .01ms; animation-iteration-count: 1; transition-duration: .01ms; scroll-behavior: auto;",
+        "responsive": []
+      }
+    ]
+  },
+  {
+    "category": "LIST",
+    "utilities": [
+      {
+        "name": "ListStyleNone",
+        "property": "list-style: none;",
+        "responsive": []
+      },
+      {
+        "name": "ListStyleDisc",
+        "property": "list-style: disc;",
+        "responsive": []
+      },
+      {
+        "name": "ListStyleDecimal",
+        "property": "list-style: decimal;",
+        "responsive": []
+      }
+    ]
+  },
+  {
+    "category": "IMAGE",
+    "utilities": [
+      {
+        "name": "ImageResponsive",
+        "property": "max-width: 100%; height: auto;",
+        "responsive": []
+      }
+    ]
+  },
+  {
+    "category": "RESPONSIVE VISIBILITY",
+    "utilities": [
+      {
+        "name": "HiddenSm",
+        "property": "display: block; display: none;",
+        "responsive": []
+      },
+      {
+        "name": "HiddenMd",
+        "property": "display: block; display: none;",
+        "responsive": []
+      },
+      {
+        "name": "HiddenLg",
+        "property": "display: block; display: none;",
+        "responsive": []
+      },
+      {
+        "name": "HiddenXl",
+        "property": "display: block; display: none;",
+        "responsive": []
+      },
+      {
+        "name": "VisibleSm",
+        "property": "display: none; display: block;",
+        "responsive": []
+      },
+      {
+        "name": "VisibleMd",
+        "property": "display: none; display: block;",
+        "responsive": []
+      },
+      {
+        "name": "VisibleLg",
+        "property": "display: none; display: block;",
+        "responsive": []
+      },
+      {
+        "name": "VisibleXl",
+        "property": "display: none; display: block;",
+        "responsive": []
       }
     ]
   }

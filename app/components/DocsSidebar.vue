@@ -1,5 +1,5 @@
 <template>
-  <aside class="sticky top-24 h-fit">
+  <aside class="sticky top-24 max-h-[calc(100vh-6rem)] overflow-y-auto">
     <nav
       class="rounded-xl border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900"
     >
