@@ -5,5 +5,6 @@
       <slot />
     </main>
     <AppFooter />
+    <CookieControl locale="en" />
   </div>
 </template>
