@@ -79,13 +79,15 @@ export const useAnalytics = () => {
   onMounted(() => {
     const cookieControl = useCookieControl()
 
-    // Watch for changes in cookie settings
+    // 1. Always inject GoatCounter (privacy-first, no consent needed)
+    injectGoatCounterScript()
+
+    // 2. Watch for changes in cookie settings for GA4 only
     watch(
       () => cookieControl.cookiesEnabledIds.value,
       (enabledIds) => {
         if (enabledIds?.includes('google-analytics')) {
           injectGA4Script()
-          injectGoatCounterScript()
         }
       },
       { immediate: true }
