@@ -117,8 +117,26 @@
 </template>
 
 <script setup lang="ts">
+const {
+  public: { siteUrl },
+} = useRuntimeConfig()
+
 useSeoMeta({
   title: 'Terms of Service - PascalCSS',
   description: 'Terms of Service for PascalCSS framework and documentation site.',
 })
+
+useSchemaOrg([
+  {
+    '@type': 'WebPage',
+    name: 'Terms of Service - PascalCSS',
+    description: 'Terms of Service for PascalCSS framework and documentation site.',
+    url: `${siteUrl}/terms`,
+    isPartOf: {
+      '@type': 'WebSite',
+      name: 'PascalCSS',
+      url: siteUrl,
+    },
+  },
+])
 </script>

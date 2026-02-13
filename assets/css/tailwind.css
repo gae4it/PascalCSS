@@ -6,6 +6,28 @@
   body {
     @apply bg-white text-gray-900 transition-colors dark:bg-gray-950 dark:text-gray-100;
   }
+
+  /* Cookie Control Custom Styles */
+  .cl-consent-bar {
+    @apply text-sm;
+  }
+
+  .cl-consent-bar p {
+    @apply text-sm leading-relaxed;
+  }
+
+  .cl-consent-modal {
+    @apply text-base;
+  }
+
+  .cl-consent-modal h1,
+  .cl-consent-modal h2 {
+    @apply text-lg;
+  }
+
+  .cl-consent-modal p {
+    @apply text-sm;
+  }
 }
 
 @layer components {

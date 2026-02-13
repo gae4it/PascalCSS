@@ -67,6 +67,10 @@
 import type { CategoryData } from '~/types/classes'
 import Fuse from 'fuse.js'
 
+const {
+  public: { siteUrl },
+} = useRuntimeConfig()
+
 type ClassWithCategory = {
   name: string
   property: string
@@ -81,6 +85,21 @@ useSeoMeta({
     'Complete searchable reference for all PascalCSS utility classes. Find the perfect class for your needs.',
   ogTitle: 'PascalCSS Documentation',
 })
+
+useSchemaOrg([
+  {
+    '@type': 'WebPage',
+    name: 'Documentation - PascalCSS Class Reference',
+    description:
+      'Complete searchable reference for all PascalCSS utility classes. Find the perfect class for your needs.',
+    url: `${siteUrl}/docs`,
+    isPartOf: {
+      '@type': 'WebSite',
+      name: 'PascalCSS',
+      url: siteUrl,
+    },
+  },
+])
 
 const searchQuery = ref('')
 const activeCategory = ref<string | null>(null)
