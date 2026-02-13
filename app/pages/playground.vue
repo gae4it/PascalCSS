@@ -100,12 +100,31 @@
 import { useClipboard, useStorage, useDebounceFn } from '@vueuse/core'
 import DOMPurify from 'isomorphic-dompurify'
 
+const {
+  public: { siteUrl },
+} = useRuntimeConfig()
+
 useSeoMeta({
   title: 'Playground - Try PascalCSS Live',
   description:
     'Interactive playground to test PascalCSS utility classes in real-time. Write HTML and see live results.',
   ogTitle: 'PascalCSS Playground',
 })
+
+useSchemaOrg([
+  {
+    '@type': 'WebPage',
+    name: 'Playground - Try PascalCSS Live',
+    description:
+      'Interactive playground to test PascalCSS utility classes in real-time. Write HTML and see live results.',
+    url: `${siteUrl}/playground`,
+    isPartOf: {
+      '@type': 'WebSite',
+      name: 'PascalCSS',
+      url: siteUrl,
+    },
+  },
+])
 
 const defaultTemplate = `<div class="DisplayFlex JustifyContentCenter AlignItemsCenter" style="min-height: 300px;">
   <div class="Padding20 BgWhite BorderRadius10">

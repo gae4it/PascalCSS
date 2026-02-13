@@ -9,7 +9,7 @@ PascalCSS is a **static utility-first CSS framework** with **PascalCase naming**
 - ✅ Zero build tools required
 - ✅ Just one line to add to your HTML
 - ✅ 100% static CSS, no JavaScript
-- ✅ Component-style class names (e.g., `DisplayFlex`, `Padding20`, `ColorBlue700`)
+- ✅ Component-style class names (e.g., `DisplayFlex`, `Padding20`, `FcBlue700`)
 
 **Official Release v3.2.0**: [github.com/gae4it/pascal-css](https://github.com/gae4it/pascal-css)
 

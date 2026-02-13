@@ -28,6 +28,12 @@ export default defineNuxtConfig({
     isModalForced: false,
     isCssEnabled: true,
     locales: ['en'],
+    localeTexts: {
+      en: {
+        barDescription:
+          'We use our own cookies and third-party cookies so that we can display this website correctly and better understand how this website is used, with a view to improving the services we offer. A decision on cookie usage permissions can be changed anytime using the cookie button that will appear after a selection has been made on this banner.',
+      },
+    },
     colors: {
       barBackground: '#f8fafc',
       barButtonBackground: '#0369a1',
@@ -57,7 +63,16 @@ export default defineNuxtConfig({
       modalUnsavedColor: '#f59e0b',
     },
     cookies: {
-      necessary: [],
+      necessary: [
+        {
+          id: 'goat-counter',
+          name: 'GoatCounter Analytics',
+          description: 'Privacy-friendly analytics. No personal data or cookies used.',
+          links: {
+            'https://www.goatcounter.com': 'GoatCounter.com',
+          },
+        },
+      ],
       optional: [
         {
           id: 'google-analytics',
@@ -66,14 +81,6 @@ export default defineNuxtConfig({
             'Helps us understand how visitors interact with the site to improve your experience.',
           links: {
             'https://pascalcss.netlify.app/privacy': 'Privacy Policy',
-          },
-        },
-        {
-          id: 'goat-counter',
-          name: 'GoatCounter Analytics',
-          description: 'Privacy-friendly analytics. No personal data or cookies used.',
-          links: {
-            'https://www.goatcounter.com': 'GoatCounter',
           },
         },
       ],
@@ -98,6 +105,7 @@ export default defineNuxtConfig({
       gaId: process.env.NUXT_PUBLIC_GA_ID || 'G-JGLJRGEHL4',
       cronitorClientKey: process.env.NUXT_PUBLIC_CRONITOR_CLIENT_KEY || '',
       goatCounterCode: process.env.NUXT_PUBLIC_GOATCOUNTER_CODE || '',
+      siteUrl: 'https://pascalcss.netlify.app',
     },
   },
 
@@ -145,10 +153,16 @@ export default defineNuxtConfig({
     },
   },
 
+  sitemap: {
+    enabled: true,
+    sitemapName: 'sitemap.xml',
+    autoLastmod: true,
+  },
+
   nitro: {
     prerender: {
       crawlLinks: true,
-      routes: ['/'],
+      routes: ['/', '/docs', '/playground', '/privacy', '/terms'],
     },
     externals: {
       inline: ['unhead'],

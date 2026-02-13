@@ -111,8 +111,26 @@
 </template>
 
 <script setup lang="ts">
+const {
+  public: { siteUrl },
+} = useRuntimeConfig()
+
 useSeoMeta({
   title: 'Privacy Policy - PascalCSS',
   description: 'Privacy policy for PascalCSS. Learn how we protect your data.',
 })
+
+useSchemaOrg([
+  {
+    '@type': 'WebPage',
+    name: 'Privacy Policy - PascalCSS',
+    description: 'Privacy policy for PascalCSS. Learn how we protect your data.',
+    url: `${siteUrl}/privacy`,
+    isPartOf: {
+      '@type': 'WebSite',
+      name: 'PascalCSS',
+      url: siteUrl,
+    },
+  },
+])
 </script>

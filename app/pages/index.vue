@@ -12,7 +12,7 @@
             Zero-Build Utility CSS
           </h1>
           <p class="mb-8 text-xl leading-relaxed text-gray-700 dark:text-gray-300 md:text-2xl">
-            The simplest CSS library in the world!
+            Easy to learn, fast to use.
           </p>
           <p class="mx-auto mb-10 max-w-2xl text-lg text-gray-600 dark:text-gray-400">
             PascalCSS is a static utility-first CSS framework with
@@ -50,7 +50,7 @@
               <pre
                 class="overflow-x-auto text-sm md:text-base"
               ><code class="font-mono text-gray-800 dark:text-gray-200">&lt;div class="<span class="text-pascal-600">DisplayFlex JustifyContentCenter Padding20</span>"&gt;
-  &lt;h1 class="<span class="text-pascal-600">Fs20 ColorBlue700</span>"&gt;
+  &lt;h1 class="<span class="text-pascal-600">Fs20 FcBlue700</span>"&gt;
     Hello PascalCSS!
   &lt;/h1&gt;
 &lt;/div&gt;</code></pre>
@@ -363,14 +363,32 @@
 </template>
 
 <script setup lang="ts">
+const {
+  public: { siteUrl },
+} = useRuntimeConfig()
+
 useSeoMeta({
   title: 'PascalCSS - Zero-Build Utility CSS Framework',
   description:
-    'Static CSS library with PascalCase naming. No build step, no JavaScript runtime. Utility-first CSS framework for modern web development.',
+    'Static CSS library with PascalCase naming. No build step, no JavaScript runtime. Utility-first CSS framework for easy, modern and fast web development.',
   ogTitle: 'PascalCSS - Zero-Build Utility CSS',
-  ogDescription:
-    'Because your CSS classes should look like your Components. No-Deploy, No-Build advantage.',
+  ogDescription: 'Because your CSS classes should be simple! No-Deploy, No-Build advantage.',
   keywords:
     'PascalCSS, Static CSS library, Utility-first CSS, PascalCase CSS, Fastest CSS framework 2026, No build CSS, Zero-Build CSS',
 })
+
+useSchemaOrg([
+  {
+    '@type': 'WebPage',
+    name: 'PascalCSS - Zero-Build Utility CSS Framework',
+    description:
+      'Static CSS library with PascalCase naming. No build step, no JavaScript runtime. Utility-first CSS framework for modern web development.',
+    url: `${siteUrl}/`,
+    isPartOf: {
+      '@type': 'WebSite',
+      name: 'PascalCSS',
+      url: siteUrl,
+    },
+  },
+])
 </script>
