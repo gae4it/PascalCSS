@@ -128,10 +128,10 @@ useSchemaOrg([
 
 const defaultTemplate = `<div class="DisplayFlex JustifyContentCenter AlignItemsCenter" style="min-height: 300px;">
   <div class="Padding20 BgWhite BorderRadius10">
-    <h1 class="Fs20 FcBlue500  MarginBottom10">
+    <h1 class="Fs20 FcBlue500 MarginBot10">
       Hello PascalCSS! 👋
     </h1>
-    <p class="Fs8 ColorGray600">
+    <p class="Fs8 FcGrey500">
       Edit the HTML on the left to see changes here.
     </p>
   </div>
