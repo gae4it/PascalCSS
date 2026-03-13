@@ -6,6 +6,58 @@
         <p class="text-lg text-gray-600 dark:text-gray-400">
           Searchable documentation for all PascalCSS utility classes
         </p>
+        <div
+          class="mt-4 rounded-lg border border-pascal-200 bg-white p-4 dark:border-pascal-800 dark:bg-gray-900"
+        >
+          <p class="mb-2 text-sm font-medium text-gray-700 dark:text-gray-300">
+            PascalCSS v4.0.0 release integrated
+          </p>
+          <code
+            class="block overflow-x-auto rounded bg-gray-50 p-3 font-mono text-xs text-gray-800 dark:bg-gray-950 dark:text-gray-200"
+            >&lt;link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/gh/gae4it/pascal-css@4.0.0/pascal-css.css"&gt;</code
+          >
+        </div>
+
+        <div
+          class="mt-4 rounded-lg border border-blue-200 bg-blue-50 p-4 dark:border-blue-800 dark:bg-blue-950"
+        >
+          <p class="mb-2 text-sm font-semibold text-blue-800 dark:text-blue-200">
+            🖥️ Responsive Layout Engine
+          </p>
+          <p class="mb-3 text-sm text-blue-700 dark:text-blue-300">
+            Every utility class supports responsive variants via breakpoint prefixes. Apply any
+            class conditionally at a specific viewport width:
+          </p>
+          <div class="flex flex-wrap gap-2">
+            <span
+              v-for="bp in [
+                { prefix: 'Sm:', label: '≥ 640px' },
+                { prefix: 'Md:', label: '≥ 768px' },
+                { prefix: 'Lg:', label: '≥ 1024px' },
+                { prefix: 'Xl:', label: '≥ 1280px' },
+                { prefix: 'Xxl:', label: '≥ 1536px' },
+              ]"
+              :key="bp.prefix"
+              class="rounded bg-blue-100 px-2 py-1 font-mono text-xs font-bold text-blue-800 dark:bg-blue-900 dark:text-blue-200"
+            >
+              {{ bp.prefix }}
+              <span class="ml-1 font-normal text-blue-600 dark:text-blue-400">{{ bp.label }}</span>
+            </span>
+          </div>
+          <p class="mt-3 text-xs text-blue-600 dark:text-blue-400">
+            Example:
+            <code class="rounded bg-blue-100 px-1 py-0.5 dark:bg-blue-900">FlexDirectionRow</code>
+            →
+            <code class="rounded bg-blue-100 px-1 py-0.5 dark:bg-blue-900"
+              >Sm:FlexDirectionColumn</code
+            >
+            →
+            <code class="rounded bg-blue-100 px-1 py-0.5 dark:bg-blue-900"
+              >Lg:FlexDirectionRow</code
+            >
+          </p>
+        </div>
       </div>
 
       <SearchBar v-model="searchQuery" />
