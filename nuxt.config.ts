@@ -147,7 +147,7 @@ export default defineNuxtConfig({
         // PascalCSS stylesheet
         {
           rel: 'stylesheet',
-          href: 'https://cdn.jsdelivr.net/gh/gae4it/pascal-css@v3.2.0/dist/pascal-css.min.css',
+          href: 'https://cdn.jsdelivr.net/gh/gae4it/pascal-css@v4.0.0/dist/pascal-css.min.css',
         },
       ],
     },

@@ -1,6 +1,6 @@
 /**
  * Script to parse PascalCSS and generate classes.json
- * Uses the local v3.2.0 release file for stable, offline generation.
+ * Uses the local v4.0.0 release file for stable, offline generation.
  */
 
 import fs from 'fs'
@@ -10,7 +10,7 @@ import { fileURLToPath } from 'url'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
-const CSS_PATH = path.join(__dirname, '../release/pascal-css_v3.2.0.css')
+const CSS_PATH = path.join(__dirname, '../release/pascal-cssV4.0.0.css')
 const EXCLUDED_CATEGORIES = new Set([
   'CONTAINER QUERIES (Modern CSS - v3.0)',
   'RESPONSIVE LAYOUT ENGINE',
@@ -76,6 +76,50 @@ const findCategoryForIndex = (index, categories) => {
   return current
 }
 
+const inferCategoryFromClassName = (className) => {
+  if (
+    /^Fs\d+|^Fw\d+|^LineHeight|^Text|^FontStyle|^LetterSpacing|^LineClamp|^Hyphens|^WordBreak|^OverflowWrap|^VerticalAlign/.test(
+      className
+    )
+  ) {
+    return 'TYPOGRAPHY'
+  }
+  if (/^Padding|^Margin|^Gap|^ColumnGap|^RowGap/.test(className)) {
+    return 'SPACING'
+  }
+  if (/^Display|^Position|^Top|^Left|^Right|^Bottom|^Inset|^Overflow/.test(className)) {
+    return 'LAYOUT'
+  }
+  if (/^Flex|^Justify|^Align|^Place/.test(className)) {
+    return 'FLEXBOX'
+  }
+  if (/^Grid/.test(className)) {
+    return 'GRID'
+  }
+  if (
+    /^Width|^MinWidth|^MaxWidth|^Height|^MinHeight|^MaxHeight|^Size|^AspectRatio/.test(className)
+  ) {
+    return 'SIZING'
+  }
+  if (/^Bg|^Fc|^Bc|^Color|^BorderColor|^Outline/.test(className)) {
+    return 'COLORS & BORDERS'
+  }
+  if (/^Border|^Rounded|^Shadow|^Opacity|^ZIndex/.test(className)) {
+    return 'EFFECTS'
+  }
+  if (
+    /^Cursor|^PointerEvents|^Visibility|^UserSelect|^ObjectFit|^ObjectPosition|^ScreenReaderOnly|^FocusVisibleRing/.test(
+      className
+    )
+  ) {
+    return 'INTERACTION & ACCESSIBILITY'
+  }
+  if (/^Transform|^Translate|^Scale|^Rotate|^Skew|^Transition|^Animate/.test(className)) {
+    return 'TRANSFORMS & MOTION'
+  }
+  return 'MISC'
+}
+
 const generateClassesFromCss = (css) => {
   const categories = extractCategories(css)
   const classRegex = /\.([A-Za-z0-9\\:_-]+)\s*\{([\s\S]*?)\}/g
@@ -101,9 +145,11 @@ const generateClassesFromCss = (css) => {
     const rawName = match[1]
     const body = match[2]
     const classIndex = match.index ?? 0
-    const categoryName = findCategoryForIndex(classIndex, categories)
     const { baseName, prefix } = splitClassName(rawName)
     if (!baseName) continue
+    const categoryName = categories.length
+      ? findCategoryForIndex(classIndex, categories)
+      : inferCategoryFromClassName(baseName)
 
     const property = normalizeDeclarations(body)
 
@@ -151,14 +197,25 @@ const generateClassesFromCss = (css) => {
   }
 
   const output = []
-  for (const category of categories) {
-    if (EXCLUDED_CATEGORIES.has(category.name)) continue
-    const utilities = categoryMap.get(category.name)
-    if (!utilities || utilities.size === 0) continue
-    output.push({
-      category: category.name,
-      utilities: Array.from(utilities.values()),
-    })
+
+  if (categories.length) {
+    for (const category of categories) {
+      if (EXCLUDED_CATEGORIES.has(category.name)) continue
+      const utilities = categoryMap.get(category.name)
+      if (!utilities || utilities.size === 0) continue
+      output.push({
+        category: category.name,
+        utilities: Array.from(utilities.values()),
+      })
+    }
+  } else {
+    for (const [categoryName, utilities] of categoryMap.entries()) {
+      if (!utilities || utilities.size === 0) continue
+      output.push({
+        category: categoryName,
+        utilities: Array.from(utilities.values()),
+      })
+    }
   }
 
   return output
