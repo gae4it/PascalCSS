@@ -22,7 +22,7 @@
 
           <div class="flex flex-col items-center justify-center gap-4 sm:flex-row">
             <NuxtLink
-              to="/docs"
+              to="/get-started"
               class="rounded-lg bg-pascal-600 px-6 py-3 font-semibold text-white shadow-lg transition-colors hover:bg-pascal-700 hover:shadow-xl"
             >
               Get Started
@@ -244,7 +244,7 @@
             <pre
               class="overflow-x-auto rounded-lg border border-pascal-200 bg-white p-4 text-sm dark:border-pascal-800 dark:bg-gray-950"
             ><code class="font-mono text-gray-800 dark:text-gray-200">&lt;div class="<span class="text-pascal-600">DisplayFlex JustifyContentCenter Padding20</span>"&gt;
-  &lt;h1 class="<span class="text-pascal-600">Fs20 ColorBlue700</span>"&gt;
+  &lt;h1 class="<span class="text-pascal-600">Fs20 FcBlue700</span>"&gt;
     Content
   &lt;/h1&gt;
 &lt;/div&gt;</code></pre>

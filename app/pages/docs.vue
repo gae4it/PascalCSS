@@ -7,19 +7,6 @@
           Searchable documentation for all PascalCSS utility classes
         </p>
         <div
-          class="mt-4 rounded-lg border border-pascal-200 bg-white p-4 dark:border-pascal-800 dark:bg-gray-900"
-        >
-          <p class="mb-2 text-sm font-medium text-gray-700 dark:text-gray-300">
-            PascalCSS v4.0.0 release integrated
-          </p>
-          <code
-            class="block overflow-x-auto rounded bg-gray-50 p-3 font-mono text-xs text-gray-800 dark:bg-gray-950 dark:text-gray-200"
-            >&lt;link rel="stylesheet"
-            href="https://cdn.jsdelivr.net/gh/gae4it/pascal-css@4.0.0/pascal-css.css"&gt;</code
-          >
-        </div>
-
-        <div
           class="mt-4 rounded-lg border border-blue-200 bg-blue-50 p-4 dark:border-blue-800 dark:bg-blue-950"
         >
           <p class="mb-2 text-sm font-semibold text-blue-800 dark:text-blue-200">
@@ -27,11 +14,13 @@
           </p>
           <p class="mb-3 text-sm text-blue-700 dark:text-blue-300">
             Every utility class supports responsive variants via breakpoint prefixes. Apply any
-            class conditionally at a specific viewport width:
+            class conditionally at a specific viewport width. No Prefix means it applies to all
+            screen sizes:
           </p>
           <div class="flex flex-wrap gap-2">
             <span
               v-for="bp in [
+                { prefix: 'None', label: '≤ 640px' },
                 { prefix: 'Sm:', label: '≥ 640px' },
                 { prefix: 'Md:', label: '≥ 768px' },
                 { prefix: 'Lg:', label: '≥ 1024px' },
@@ -50,11 +39,11 @@
             <code class="rounded bg-blue-100 px-1 py-0.5 dark:bg-blue-900">FlexDirectionRow</code>
             →
             <code class="rounded bg-blue-100 px-1 py-0.5 dark:bg-blue-900"
-              >Sm:FlexDirectionColumn</code
+              ><span class="text-white">Sm:</span>FlexDirectionColumn</code
             >
             →
             <code class="rounded bg-blue-100 px-1 py-0.5 dark:bg-blue-900"
-              >Lg:FlexDirectionRow</code
+              ><span class="text-white">Lg:</span>FlexDirectionRow</code
             >
           </p>
         </div>
