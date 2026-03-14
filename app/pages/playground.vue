@@ -37,7 +37,7 @@
 
           <textarea
             v-model="htmlCode"
-            class="flex-1 resize-none rounded-xl border border-gray-300 bg-white p-4 font-mono text-sm text-gray-900 focus:border-pascal-500 focus:ring-2 focus:ring-pascal-500 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
+            class="min-h-[300px] flex-1 resize-none rounded-xl border border-gray-300 bg-white p-4 font-mono text-sm text-gray-900 focus:border-pascal-500 focus:ring-2 focus:ring-pascal-500 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
             placeholder="Write your HTML here..."
             spellcheck="false"
           ></textarea>

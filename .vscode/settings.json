@@ -41,5 +41,6 @@
     "editor.formatOnSave": true
   },
   "prettier.configPath": ".prettierrc",
-  "prettier.prettierPath": "node_modules/prettier"
+  "prettier.prettierPath": "node_modules/prettier",
+  "vue.format.enable": false
 }

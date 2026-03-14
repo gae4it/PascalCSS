@@ -162,7 +162,7 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       crawlLinks: true,
-      routes: ['/', '/docs', '/playground', '/privacy', '/terms'],
+      routes: ['/', '/get-started', '/docs', '/playground', '/privacy', '/terms'],
     },
     externals: {
       inline: ['unhead'],

@@ -23,6 +23,14 @@
           <ul class="space-y-2">
             <li>
               <NuxtLink
+                to="/get-started"
+                class="text-gray-600 transition-colors hover:text-pascal-600 dark:text-gray-400 dark:hover:text-pascal-400"
+              >
+                Get Started
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink
                 to="/docs"
                 class="text-gray-600 transition-colors hover:text-pascal-600 dark:text-gray-400 dark:hover:text-pascal-400"
               >

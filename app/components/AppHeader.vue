@@ -14,6 +14,12 @@
       <!-- Desktop Navigation -->
       <div class="hidden items-center space-x-6 md:flex">
         <NuxtLink
+          to="/get-started"
+          class="font-medium text-gray-700 transition-colors hover:text-pascal-600 dark:text-gray-300 dark:hover:text-pascal-400"
+        >
+          Get Started
+        </NuxtLink>
+        <NuxtLink
           to="/docs"
           class="font-medium text-gray-700 transition-colors hover:text-pascal-600 dark:text-gray-300 dark:hover:text-pascal-400"
         >
@@ -76,6 +82,13 @@
       class="border-t border-gray-200 bg-white dark:border-gray-800 dark:bg-gray-950 md:hidden"
     >
       <div class="container mx-auto flex flex-col space-y-4 p-4">
+        <NuxtLink
+          to="/get-started"
+          class="font-medium text-gray-700 transition-colors hover:text-pascal-600 dark:text-gray-300 dark:hover:text-pascal-400"
+          @click="mobileMenuOpen = false"
+        >
+          Get Started
+        </NuxtLink>
         <NuxtLink
           to="/docs"
           class="font-medium text-gray-700 transition-colors hover:text-pascal-600 dark:text-gray-300 dark:hover:text-pascal-400"
