@@ -1,0 +1,33 @@
+[33md907f48[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;33mtag: [m[1;33mbackup-before-email-rewrite-20260412-1044[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m feat: add "Get Started" page and update navigation links
+[33ma5b139f[m new release: PascalCSS V4.0.0
+[33mf1b9486[m fix: correct class names for consistency in default template
+[33mfc33d33[m Refactor code structure for improved readability and maintainability
+[33m612d199[m feat: update layout and styling, integrate GoatCounter for analytics
+[33m5599c31[m Refactor code structure for improved readability and maintainability
+[33m4e3a736[m Refactor code structure for improved readability and maintainability
+[33md4d6a56[m fix: update playground layout and improve template styling
+[33m86344f9[m Add release CSS files to repository
+[33mc9d72c5[m fix: Cookie Consent
+[33mb81ea78[m Fix ESLint configuration and update dependencies
+[33m5873762[m update: pascal-css v3.1.0
+[33m58780b4[m feat: implement inline cookie consent banner with options for acceptance and rejection
+[33m6fa01ed[m refactor: simplify Cookie Consent component structure and remove unnecessary ClientOnly wrapper
+[33m82c9191[m feat: enhance cookie consent management and integrate reset functionality
+[33ma122be9[m feat: update cookie consent logic and modify background color class to white
+[33m52e6662[m feat: add reset cookie consent button in footer
+[33m49e0125[m feat: update cookie consent options and analytics integration
+[33mca7d08e[m Implement cookie consent with three options and integrate Google Analytics 4 and GoatCounter
+[33md1530a8[m test: Goatcounter Script
+[33mcc7433f[m test: Ga4 Testing 2
+[33m9178c61[m test: GA4 Testing
+[33m29f1b8c[m fix: update playground template background color to white. GA4 implementation.
+[33mec2aee5[m fix: update eslint cache to reflect recent changes in component files
+[33m4c3d010[m fix: enable static preset for netlify deployment
+[33m0917702[m refactor: update pre-commit hook and change dev dependencies to devOptional in package-lock.json
+[33m4f27d3a[m fix: update netlify build command
+[33m6d48901[m chore: update Netlify build command and environment variables for consistency
+[33mf800cca[m Refactor code structure for improved readability and maintainability
+[33md98fc84[m fix: update import paths and improve type definitions in components and pages
+[33m4bed528[m chore: update package.json scripts and dependencies for improved linting and formatting
+[33m31512df[m Second commit
+[33m5a1ae47[m Initial commit
